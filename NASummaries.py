@@ -29,7 +29,7 @@ def latexHeader(f):
 """)
 
 def latexSection(f,lines):
-  f.write("\\setcounter{section}{%s}\\section[%s]{%s \\small{(%s)}}\n" % (lines[0],latexEscape(lines[2]),latexEscape(lines[2]),lines[1]))
+  f.write("\\setcounter{section}{%d}\\section[%s]{%s \\small{(%s)}}\n" % (int(lines[0])-1,latexEscape(lines[2]),latexEscape(lines[2]),lines[1]))
   f.write("\\begin{itemize}\n")
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0:
