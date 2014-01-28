@@ -17,6 +17,12 @@ def latexHeader(f):
 \addtolength{\textwidth}{1.2in}
 \setlength{\parindent}{0pt}
 
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
 \usepackage{titlesec}
 %\titleformat{\section}[display]{\large}{\thetitle}{1em}{#1\space\xrfill[0.6ex]{0.4pt}}
 \renewcommand*\thesection{\arabic{section}}
@@ -34,7 +40,7 @@ def latexSection(f,lines):
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0:
       parts = lines[i].split(None, 1)
-      f.write("\\item[\\mono{%s}] %s\n" % (parts[0],latexEscape(parts[1])))
+      f.write("\\item[\\mono{%s}]\\begin{absolutelynopagebreak}%s\\end{absolutelynopagebreak}\n" % (parts[0],latexEscape(parts[1])))
   f.write("\\end{itemize}\n")
 
 # Educate quotes and format stuff
