@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os,sys
-import re,getopt,codecs,cgi,datetime
+import re,getopt,codecs,cgi,time
 
 def latexHeader(f):
   title = "No Agenda"
@@ -147,8 +147,7 @@ if __name__ == '__main__':
     latexHeader(latexout)
   with codecs.open('NASummaries.txt', 'r', "utf-8") as x: f = x.read()
   summs = re.split("\n\n+", f)
-  now = datetime.datetime.utcnow().isoformat()
-  now = re.sub(r'\.\d+$', r'', now)
+  now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time()))
   if html:
     try: os.mkdir("na");
     except Exception as e: pass
