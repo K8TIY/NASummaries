@@ -142,6 +142,7 @@ if __name__ == '__main__':
   with codecs.open('NASummaries.txt', 'r', "utf-8") as x: f = x.read()
   summs = re.split("\n\n+", f)
   now = datetime.datetime.utcnow().isoformat()
+  now = re.sub(r'\.\d+$', r'', now)
   if html:
     try: os.mkdir("na");
     except Exception as e: pass
