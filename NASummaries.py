@@ -56,6 +56,7 @@ def latexEscape(s):
       else: oq = False
     news = news + c
   s = news
+  s = re.sub(r'\s\s+', r'\\\\', s)
   s = re.sub(r'&', r'\&', s)
   s = re.sub(r'#', r'\#', s)
   s = re.sub(r'%', r'\%', s)
@@ -75,6 +76,7 @@ def HTMLPage(f,lines):
     if len(lines[i]) > 0:
       parts = lines[i].split(None, 1)
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', cgi.escape(parts[1]))
+      s = re.sub(r'\s\s+', r'<br/>', s)
       s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
       s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
