@@ -1,6 +1,8 @@
 NASummaries
 ===========
 
+Hosted at [www.blugs.com/na](http://www.blugs.com/na)
+
 Summaries of No Agenda podcasts, and formatting tools for them
 
 Unfortunately, the No Agenda transcript project ran out of steam.
