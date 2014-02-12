@@ -143,6 +143,7 @@ if __name__ == '__main__':
     latexHeader(latexout)
   with codecs.open('NASummaries.txt', 'r', "utf-8") as x: f = x.read()
   summs = re.split("\n\n+", f)
+  summs.reverse()
   now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time()))
   if html:
     try: os.mkdir("na");
