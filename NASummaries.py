@@ -149,7 +149,7 @@ if __name__ == '__main__':
     except Exception as e: pass
     htmlmain = codecs.open("na/index.html", "w", "utf-8")
     HTMLHeader(htmlmain,"No Agenda summaries")
-    htmlmain.write("<h3>No Agenda summaries</h3>")
+    htmlmain.write("<h3><a href='http://noagendashow.com'>No Agenda</a> summaries</h3>")
     htmlmain.write("<p>PDF of all show summaries <a href='NASummaries.pdf'>here</a></p>")
     htmlmain.write("<p>Original source files and tools on <a href='https://github.com/K8TIY/NASummaries'>GitHub</a></p>")
     sitemap = codecs.open("na/sitemap.xml", "w", "utf-8")
