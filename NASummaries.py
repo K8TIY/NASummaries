@@ -76,7 +76,7 @@ def HTMLPage(f,lines):
       s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
       s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
-      f.write("<tr><td style='padding-right:5px;'><code>%s</code><td>%s</td></tr>\n" % (parts[0],s))
+      f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code><td>%s</td></tr>\n" % (parts[0],s))
   f.write("</table></body></html>\n")
 
 
@@ -90,7 +90,7 @@ def HTMLHeader(f,title):
 </head>
 <body>
 <div>
-<script>
+<script type="text/javascript">
   (function() {
     var cx = '000307461187542395848:qdygkg6ssbo';
     var gcse = document.createElement('script');
@@ -102,7 +102,7 @@ def HTMLHeader(f,title):
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<div class="gcse-search"></div>
 </div>
 """ % (title))
 
