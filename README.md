@@ -1,7 +1,7 @@
 NASummaries
 ===========
 
-Hosted at [www.blugs.com/na](http://www.blugs.com/na)
+Hosted at [callclooney.org](http://www.callclooney.org)
 
 Summaries of No Agenda podcasts, and formatting tools for them
 
