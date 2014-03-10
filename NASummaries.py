@@ -20,6 +20,7 @@ def latexHeader(f):
 \usepackage{titlesec}
 %\titleformat{\section}[display]{\large}{\thetitle}{1em}{#1\space\xrfill[0.6ex]{0.4pt}}
 \renewcommand*\thesection{\arabic{section}}
+\newcommand{\doulos}[1]{{\fontspec{Doulos SIL}#1}}
 
 \begin{document}
 \title{{\Huge \mono{""" + title + r"""}}}
@@ -48,6 +49,8 @@ def latexEscape(s):
   s = re.sub(r'\*(.+?)\*', r'\\textit{\1}', s)
   s = re.sub(r'(\d:\d\d:\d\d)', r'\\texttt{\1}', s)
   s = re.sub(r'`(.+?)`', r'\\texttt{\1}', s)
+  s = re.sub(r'(/.+?/)', r'\\doulos{\1}', s)
+  s = re.sub(r'\[\]', r'\\ ', s)
   news = ''
   oq = False
   for i in xrange(0,len(s)):
@@ -76,6 +79,7 @@ def HTMLPage(f,lines):
       s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
       s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
+      s = re.sub(r'\[\]', r' ', s)
       f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code><td>%s</td></tr>\n" % (parts[0],s))
   f.write("</table></body></html>\n")
 
