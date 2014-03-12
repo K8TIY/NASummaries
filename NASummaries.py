@@ -49,7 +49,7 @@ def latexEscape(s):
   s = re.sub(r'\*(.+?)\*', r'\\textit{\1}', s)
   s = re.sub(r'(\d:\d\d:\d\d)', r'\\texttt{\1}', s)
   s = re.sub(r'`(.+?)`', r'\\texttt{\1}', s)
-  s = re.sub(r'(/.+?/)', r'\\doulos{\1}', s)
+  s = re.sub(r'\[\[(.+?)\]\]', r'\\doulos{[\1]}', s)
   s = re.sub(r'\[\]', r'\\ ', s)
   news = ''
   oq = False
@@ -80,6 +80,7 @@ def HTMLPage(f,lines):
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
       s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
       s = re.sub(r'\[\]', r' ', s)
+      s = re.sub(r'\[\[(.+?)\]\]', r'[\1]', s)
       f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code><td>%s</td></tr>\n" % (parts[0],s))
   f.write("</table></body></html>\n")
 
