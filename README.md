@@ -18,7 +18,7 @@ will of course be welcomed.
 Philosophy
 --------
  
-I play be a few loose rules, and am not particularly dogmatic about
+I play by a few loose rules, and am not particularly dogmatic about
 enforcing them. They are:
 
 1. The one I am fairly strict on is to keep my voice out of the summary.
