@@ -50,3 +50,13 @@ When I am on vacation (May, September, Thanksgiving, Christmas) I do
 pen-and paper summaries, so it may seem that I have fallen behind.
 Not so! I just don't have devices available that make that kind of
 keyboard entry straightforward.
+
+Thanks To:
+----------
+
+* Adam Curry & John C. Dvorak for creating the
+[Best Podcast in the Universe](http://noagendashow.com)
+* Ramsey Cain of [No Agenda CD.com](http://noagendacd.com) for being the first
+to stumble on the site before I registered
+[callclooney.org](http://callclooney.org)
+* Mark Pugner for all his helpful comments
