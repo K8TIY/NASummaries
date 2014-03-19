@@ -126,7 +126,7 @@ if __name__ == '__main__':
   latex = False
   latexout = None
   htmlout = None
-  htmlmain = None
+  ind = None
   sitemap = None
   HTML = False
   url = None
@@ -155,11 +155,13 @@ if __name__ == '__main__':
   if html:
     try: os.mkdir("na");
     except Exception as e: pass
-    htmlmain = codecs.open("na/index.html", "w", "utf-8")
-    HTMLHeader(htmlmain,"No Agenda summaries")
-    htmlmain.write("<h3><a href='http://noagendashow.com'>No Agenda</a> summaries</h3>")
-    htmlmain.write("<p>PDF of all show summaries <a href='NASummaries.pdf'>here</a></p>")
-    htmlmain.write("<p>Original source files and tools on <a href='https://github.com/K8TIY/NASummaries'>GitHub</a></p>")
+    ind = codecs.open("na/index.html", "w", "utf-8")
+    HTMLHeader(ind,"No Agenda summaries")
+    ind.write("<h3><a href='http://noagendashow.com'>No Agenda</a> summaries</h3>")
+    ind.write("<p>PDF of all show summaries <a href='NASummaries.pdf'>here</a></p>")
+    ind.write("""<p>Original source files and tools, plus notes on philosophy
+              and schedule, are on
+              <a href='https://github.com/K8TIY/NASummaries'>GitHub</a></p>""")
     sitemap = codecs.open("na/sitemap.xml", "w", "utf-8")
     sitemap.write('''<?xml version="1.0" encoding="UTF-8"?>
 <urlset
@@ -186,7 +188,8 @@ if __name__ == '__main__':
       url = "http://www.blugs.com/na/" + htmlname
       htmlout = codecs.open('na/' + htmlname, "w", "utf-8")
       HTMLPage(htmlout,lines)
-      htmlmain.write("<a href='%s'>%s %s \"%s\"</a><br/>\n" % (htmlname, lines[0], lines[1], lines[2]))
+      ind.write("<a href='%s'>%s %s \"%s\"</a><br/>\n" %
+                (htmlname, lines[0], lines[1], lines[2]))
       htmlout.close()
       sitemap.write('''  <url>
     <loc>%s</loc>
@@ -199,9 +202,9 @@ if __name__ == '__main__':
     os.system('xelatex -output-directory=na NASummaries.tex')
     os.unlink('na/NASummaries.aux')
     os.unlink('na/NASummaries.log')
-  if htmlmain is not None:
-    htmlmain.write("</body></html>\n")
-    htmlmain.close()
+  if ind is not None:
+    ind.write("</body></html>\n")
+    ind.close()
   if sitemap is not None:
     sitemap.write("</urlset>")
     sitemap.close()
