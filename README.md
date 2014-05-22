@@ -5,11 +5,18 @@ Hosted at [callclooney.org](http://callclooney.org)
 
 Summaries of No Agenda podcasts, and formatting tools for them
 
-Unfortunately, the No Agenda transcript project ran out of steam.
-Transcripts would, naturally, be better than summaries, but the
-effort required to do them accurately and completely would be
-far more than I could manage alone. This effort, then, is a
-compromise. I hope it will be useful to No Agenda fans.
+This project is "competing" with two other related-but-different
+projects: [No Agenda Player](https://www.noagendaplayer.com/) and
+the resurrection of [Read No Agenda](http://readnoagenda.com) at
+[Fanscribed](https://www.fanscribed.com/podcasts/3-no-agenda/).
+Both are excellent projects, and I hope to contribute to the
+latter. In fact, I considered doing my own series of transcripts
+as a way of exploring the history of No Agenda. But then I tried
+to do it, and found out that's *real* work!
+
+This project aims to be a resource that primarily answers the
+question: "When did John and Adam play that great clip about
+*[insert topic here]*?"
 
 I will attempt to keep these current with new shows, and eventually
 to do summaries back to the first one. Suggestions and corrections
