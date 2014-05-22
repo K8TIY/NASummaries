@@ -48,7 +48,7 @@ Schedule
 --------
 
 I generally finish the Thursday show over the weekend and get it
-online Monday. Typically the Sunday show does up Wednesday. (I do
+online Monday. Typically the Sunday show goes up Wednesday. (I do
 my first listen of new shows for enjoyment and to get the structure
 in mind, so I almost never start summarizing new shows the first time
 round.)
