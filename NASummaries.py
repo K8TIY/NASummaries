@@ -4,7 +4,7 @@ import os,sys
 import re,getopt,codecs,cgi,time
 
 def latexHeader(f):
-  title = "No Agenda"
+  title = "No Agenda Summaries"
   f.write(r"""\documentclass{report}
 \usepackage{fontspec}
 \usepackage{fancyvrb}
@@ -30,7 +30,9 @@ def latexHeader(f):
 """)
 
 def latexSection(f,lines):
-  f.write("\\setcounter{section}{%d}\\section[%s]{%s \\small{(%s)}}\n" % (int(lines[0])-1,latexEscape(lines[2]),latexEscape(lines[2]),lines[1]))
+  shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+  f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
+  f.write("\\section[%s]{%s \\small{(%s)}}\n" % (latexEscape(lines[2]),latexEscape(lines[2]),lines[1]))
   f.write("\\begin{itemize}\n")
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0:
@@ -187,7 +189,8 @@ if __name__ == '__main__':
     lines = summ.split("\n")
     if latex: latexSection(latexout,lines)
     if html:
-      htmlname = "%s_NASummary.html" % (lines[0])
+      shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+      htmlname = "%s_NASummary.html" % (shownum)
       url = "http://www.blugs.com/na/" + htmlname
       htmlout = codecs.open('na/' + htmlname, "w", "utf-8")
       HTMLPage(htmlout,lines)
