@@ -16,7 +16,6 @@ def latexHeader(f):
 \addtolength{\evensidemargin}{-.6in}
 \addtolength{\textwidth}{1.2in}
 \setlength{\parindent}{0pt}
-
 \usepackage{titlesec}
 %\titleformat{\section}[display]{\large}{\thetitle}{1em}{#1\space\xrfill[0.6ex]{0.4pt}}
 \renewcommand*\thesection{\arabic{section}}
@@ -124,11 +123,13 @@ if __name__ == '__main__':
   Read NASummaries.txt, produce derivative HTML and/or LaTeX files,
   and optionally upload them to a webserver.
 
+    -d, --delete        Delete the LaTeX file after rendering PDF.
     -h, --help          Print this summary and exit.
     -H, --HTML          Create HTML.
     -l, --latex         Create LaTeX.
     -u, --upload URL    Upload by scp to SITE.
   """
+  delLtx = False
   latex = False
   latexout = None
   htmlout = None
@@ -136,8 +137,8 @@ if __name__ == '__main__':
   sitemap = None
   HTML = False
   url = None
-  shortopts = "hHlu:"
-  longopts = ["help","HTML","latex","upload"]
+  shortopts = "dhHlu:"
+  longopts = ["delete","help","HTML","latex","upload"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -145,7 +146,8 @@ if __name__ == '__main__':
     usage()
     sys.exit(-1)
   for [o,a] in opts:
-    if o == '-h' or o == '--help':
+    if o == '-d' or o == '--delete': delLtx = True
+    elif o == '-h' or o == '--help':
       usage()
       sys.exit(0)
     elif o == "-H" or o == "--HTML": html = True
@@ -206,9 +208,12 @@ if __name__ == '__main__':
   if latexout is not None:
     latexout.write("\end{document}\n")
     latexout.close()
-    os.system('xelatex -output-directory=na NASummaries.tex')
-    os.unlink('na/NASummaries.aux')
-    os.unlink('na/NASummaries.log')
+    res = os.system('xelatex -output-directory=na NASummaries.tex')
+    try:
+      os.unlink('na/NASummaries.aux')
+      os.unlink('na/NASummaries.log')
+      if delLtx and res==0: os.unlink('NASummaries.tex')
+    except Exception as e: pass
   if ind is not None:
     ind.write("</body></html>\n")
     ind.close()
