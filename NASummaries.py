@@ -130,8 +130,9 @@ if __name__ == '__main__':
     -d, --delete        Delete the LaTeX file after rendering PDF.
     -h, --help          Print this summary and exit.
     -H, --HTML          Create HTML.
+    -i, --input         Read from argument instead of NASummaries.txt
     -l, --latex         Create LaTeX.
-    -u, --upload URL    Upload by scp to SITE.
+    -u, --upload URL    Upload by scp to URL. (not implemented)
   """
   delLtx = False
   latex = False
@@ -141,8 +142,9 @@ if __name__ == '__main__':
   sitemap = None
   HTML = False
   url = None
-  shortopts = "dhHlu:"
-  longopts = ["delete","help","HTML","latex","upload"]
+  infile = None
+  shortopts = "dhHi:lu:"
+  longopts = ["delete","help","HTML","input=","latex","upload="]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -155,12 +157,15 @@ if __name__ == '__main__':
       usage()
       sys.exit(0)
     elif o == "-H" or o == "--HTML": html = True
+    elif o == "-i" or o == "--input": infile = a
     elif o == "-l" or o == "--latex": latex = True
     elif o == "-u" or o == "--upload": url = a
   if latex:
     latexout = codecs.open("NASummaries.tex", "w", "utf-8")
     latexHeader(latexout)
-  with codecs.open('NASummaries.txt', 'r', "utf-8") as x: f = x.read()
+  
+  if infile is None: infile = 'NASummaries.txt'
+  with codecs.open(infile, 'r', "utf-8") as x: f = x.read()
   summs = re.split("\n\n+", f)
   summs.reverse()
   now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time()))
