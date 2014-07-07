@@ -200,7 +200,7 @@ Heteroflexible Previvor
 0:43:51 Correction on the etymology of *strijkstok blijven hangen*
 0:45:22 A plea for less bogus e-mail; "read more here" game of telephone chains; "hat tip" WTF
 0:50:15 Adam C Curry's Pet Peeve of the Day: dismissing dialogue boxes without reading message
-0:52:04 ACC: "Bit torrent sync is the future"; emacs org mode
+0:52:04 ACC: "BitTorrent Sync is the future"; emacs org mode
 0:55:30 Climate-gate: Amy Goodman in Warsaw; "cough for coal"; "climate justice"; ACC "Another great chant!"; "climate debt"
 1:03:55 "Peacemakers"; Prem Rawat on Free Speech TV
 1:04:48 Amy Goodman back-announcing Chopin; climate change flag; Sir Jeans Netatmo setup; 90 companies produce 2/3 of emissions, Jesse Jackson style shakedown
@@ -1872,3 +1872,31 @@ Italian Lightning
 3:06:56 Ebola out of control in Guinea; experimental vaccine; Gardasil now approved for anal cancer
 3:11:39 Sen.[]Tom Carper at dirty bomb hearing; Chicago street lamp sensors; Google Skybox acquisition, sub-50cm resolution
 3:21:58 U.K.[]cashless weekend experiment; JCD: "Don't do business with Chase."
+
+629
+2014-06-26
+Passport Terrorists!
+0:00:00 JCD: "Give in, citizen, give in."
+0:00:32 D-STAR adventures, ACC: "It's easier to register for the U.S.[]Customs Global Entry System", "You think that's bad, you should try the Yaesu interface", reflector `033C`
+0:06:20 BitTorrent Sync deprecated, µTorrent the future
+0:13:57 Peculiar Australian holidays for donation themes
+0:18:05 Anwar al-Awlaqi drone memo on public safety exception overseas, not a word on 16-year-old son, Eric the Constitutional lawyah: "This troubles you, citizen? Stop thinking"
+0:30:26 Boehner's Obama lawsuit; EPA's lost Pebble Mine e-mails; Eleanor Norton apology to "Mr.[]Cool" Koskinen, "without a scintilla… of evidence", "conspiracy hunting", Chaffetz questioning Jennifer O'Connor: "a dude named Ben"; Issa: "`C:` drive", 6K e-mail limit, $1.8bn IT budget
+0:52:25 Trey Gowdy on "spoliation of evidence", "instead of the criminal code, you want to rely on common sense?"; why is Sonasoft not being questioned?
+1:00:06 Hillary in San Francisco at Fleur de Lis, ordered vegetarian; Biden pandering to Manufacturer's Association, "We're the only non-xenophobic nation in the world as a major economy."
+1:06:13 Supreme Court cell phone search ruling: Faraday bags, exigent circumstances
+1:13:14 Donation segment #1
+1:30:12 Google I/O: "slave jewelry" wearables; Gmail API possibly killing IMAP like RSS
+1:35:50 Late night chopper/dicer Obamacare consulting ad; Hyundai Bluelink kill switch
+1:40:04 Google+ for ham radio; Yahoo groups now require profile; Marissa Mayer's notorious tardiness
+1:45:01 Telegraph on "fiddled global warming data"; Obama progress report: hundreds of billions cost by 2100, Obama on everyone but Congress all in on global warming
+1:50:08 Mike Rogers on ISIS "al Qaeda minded", "an unfair assessment of what we knew and how we watched it develop" accidental truth, "they want Lebanon", Iraq foreknowledge self-contradiction; Rogers to become DJ, not high-paid consultant: blackmail?
+1:59:29 Diane Sawyer leaving *World News Tonight* replaced by David Muir, Red Book: big coming-out
+2:03:14 Helmetless Kerry in Baghdad; "Obama's Spartan number" *300* sequel; Kagan ISW ISIS chart: Ceyhan pipeline gateways; Human Rights Watch on child soldiers; Executive Order on NDAA 2014 section 1206 "flexible funding mechanism", classified Presidential Directive 23 "security sector assistance" clearing NGOs to use force, JCD: "We've deputized Greenpeace!"; Feinstein: "they've cut off heads", "a brutal bunch", "they do want to develop the caliphate"; why didn't we drone these guys in jihadi Disneyland? Feinstein & Rogers on recruiting in Germany, "passport fighters", coming German & EU visa restrictions; Muqtada al-Sadr's Mahdi Army back, "get outstanding tax receipts"
+2:33:02 Donation segment #2; JCD: "Home winemakers occasionally make world-class wine"
+2:47:12 Polish Ministers on U.S.[]blowjob; Albania considered for membership in ~~Russia blockade~~ EU
+2:50:18 Angry Pakistani actor in U.K., ACC: "It's like a bad radio play", Liam Fox on "greater powers of surveillance to monitor extremists from ISIS"
+2:54:23 Junker to replace Barroso; colony collapse disorder pinned on German pesticides, Friends of the Earth vs Germany and big box stores, FoE advisor Ian Illuminato
+3:03:17 Mike Rogers on no-fly list: "the training camps have been unabetted for years"
+3:05:35 World Cup: Macau $645M betting ring breakup, Ghana's plane full of money for players, FIFA corruption, ACC: "you guys throw the game or we kill Merkel"
+3:12:47 German parliament ends Verizon contract over spying
