@@ -13,6 +13,7 @@ def latexHeader(f):
 \setlist{nolistsep}
 \setlist{noitemsep}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
+\newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
 \addtolength{\oddsidemargin}{-.6in}
 \addtolength{\evensidemargin}{-.6in}
 \addtolength{\textwidth}{1.2in}
@@ -24,7 +25,7 @@ def latexHeader(f):
 
 \begin{document}
 \title{{\Huge \mono{""" + title + r"""}}}
-\author{Sir Ludark Babark Fudgefountain, \mono{K8TIY}\\\small{and, eventually, a cast of thousands, or so I hope}}
+\author{Sir Ludark Babark Fudgefountain, \scmono{K8TIY}\\\small{and, eventually, a cast of thousands, or so I hope}}
 \maketitle
 %\mainmatter
 """)
@@ -51,6 +52,7 @@ def latexEscape(s):
   s = re.sub(r'\*(.+?)\*', r'\\textit{\1}', s)
   s = re.sub(r'~~(.+?)~~', r'\\sout{\1}', s)
   s = re.sub(r'(\d:\d\d:\d\d)', r'\\texttt{\1}', s)
+  s = re.sub(r'``(.+?)``', r'\\scmono{\1}', s)
   s = re.sub(r'`(.+?)`', r'\\texttt{\1}', s)
   s = re.sub(r'\[\[(.+?)\]\]', r'\\doulos{[\1]}', s)
   s = re.sub(r'\[\]', r'\\ ', s)
@@ -85,6 +87,7 @@ def HTMLPage(f,lines):
       s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
       s = re.sub(r'~~(.+?)~~', r'<s>\1</s>', s)
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
+      s = re.sub(r'``(.+?)``', r'<code>\1</code>', s)
       s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
       s = re.sub(r'\[\]', r' ', s)
       s = re.sub(r'\[\[(.+?)\]\]', r'[\1]', s)
