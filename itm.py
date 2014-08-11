@@ -70,6 +70,7 @@ def latexEscape(s):
       else: oq = False
     news = news + c
   s = news
+  s = re.sub(r'\\(\'+)', r'$\1$', s)
   return s
 
 
@@ -95,6 +96,7 @@ def HTMLPage(f,lines):
       s = re.sub(r'_(\S*)', r'<sub>\1</sub>', s)
       s = re.sub(r'\\{', r'{', s)
       s = re.sub(r'\\}', r'}', s)
+      s = re.sub(r'\\(\'+)', r'\1', s)
       f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code><td>%s</td></tr>\n" % (parts[0],s))
   f.write("</table></body></html>\n")
 
