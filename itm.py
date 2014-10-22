@@ -3,7 +3,7 @@
 import os,sys
 import re,getopt,codecs,cgi,time
 
-def latexHeader(f):
+def latexHeader(f,dotitle):
   title = "No Agenda Summaries"
   f.write(r"""\documentclass{report}
 \usepackage{fontspec}
@@ -25,10 +25,10 @@ def latexHeader(f):
 
 \begin{document}
 \title{{\Huge \mono{""" + title + r"""}}}
-\author{Sir Ludark Babark Fudgefountain, \scmono{K8TIY}\\\small{and, eventually, a cast of thousands, or so I hope}}
-\maketitle
-%\mainmatter
+\author{Sir Ludark Babark Fudgefountain, \scmono{K8TIY}}
 """)
+  if dotitle:
+    f.write('\maketitle\n')
 
 def latexSection(f,lines):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
@@ -139,6 +139,7 @@ if __name__ == '__main__':
     -H, --HTML          Create HTML.
     -i, --input         Read from argument instead of NASummaries.txt
     -l, --latex         Create LaTeX.
+    -t, --title         Suppress the title page
     -u, --upload URL    Upload by scp to URL. (not implemented)
   """
   delLtx = False
@@ -148,10 +149,11 @@ if __name__ == '__main__':
   ind = None
   sitemap = None
   HTML = False
+  title = True
   url = None
   infile = None
-  shortopts = "dhHi:lu:"
-  longopts = ["delete","help","HTML","input=","latex","upload="]
+  shortopts = "dhHi:ltu:"
+  longopts = ["delete","help","HTML","input=","latex","title","upload="]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -166,10 +168,11 @@ if __name__ == '__main__':
     elif o == "-H" or o == "--HTML": html = True
     elif o == "-i" or o == "--input": infile = a
     elif o == "-l" or o == "--latex": latex = True
+    elif o == "-t" or o == "--title": title = False
     elif o == "-u" or o == "--upload": url = a
   if latex:
     latexout = codecs.open("NASummaries.tex", "w", "utf-8")
-    latexHeader(latexout)
+    latexHeader(latexout, title)
   
   if infile is None: infile = 'NASummaries.txt'
   with codecs.open(infile, 'r', "utf-8") as x: f = x.read()
