@@ -134,13 +134,13 @@ if __name__ == '__main__':
   Read NASummaries.txt, produce derivative HTML and/or LaTeX files,
   and optionally upload them to a webserver.
 
-    -d, --delete        Delete the LaTeX file after rendering PDF.
-    -h, --help          Print this summary and exit.
-    -H, --HTML          Create HTML.
-    -i, --input         Read from argument instead of NASummaries.txt
-    -l, --latex         Create LaTeX.
-    -t, --title         Suppress the title page
-    -u, --upload URL    Upload by scp to URL. (not implemented)
+    -d, --delete     Delete the LaTeX file after rendering PDF.
+    -h, --help       Print this summary and exit.
+    -H, --HTML       Create HTML.
+    -i, --input      Read from argument instead of NASummaries.txt
+    -l, --latex      Create LaTeX.
+    -t, --title      Suppress the title page
+    -u, --upload     Upload by rsync to URL
   """
   delLtx = False
   latex = False
@@ -148,12 +148,12 @@ if __name__ == '__main__':
   htmlout = None
   ind = None
   sitemap = None
-  HTML = False
+  html = False
   title = True
-  url = None
+  upload = False
   infile = None
-  shortopts = "dhHi:ltu:"
-  longopts = ["delete","help","HTML","input=","latex","title","upload="]
+  shortopts = "dhHi:ltu"
+  longopts = ["delete","help","HTML","input=","latex","title","upload"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -169,7 +169,7 @@ if __name__ == '__main__':
     elif o == "-i" or o == "--input": infile = a
     elif o == "-l" or o == "--latex": latex = True
     elif o == "-t" or o == "--title": title = False
-    elif o == "-u" or o == "--upload": url = a
+    elif o == "-u" or o == "--upload": upload = True
   if latex:
     latexout = codecs.open("NASummaries.tex", "w", "utf-8")
     latexHeader(latexout, title)
@@ -239,4 +239,5 @@ if __name__ == '__main__':
   if sitemap is not None:
     sitemap.write("</urlset>")
     sitemap.close()
-
+  if upload is True:
+    os.system('rsync -azrlv -e ssh na/ blugs@blugs.com:blugs.com/na')
