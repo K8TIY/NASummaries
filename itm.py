@@ -140,7 +140,7 @@ if __name__ == '__main__':
     -i, --input      Read from argument instead of NASummaries.txt
     -l, --latex      Create LaTeX.
     -t, --title      Suppress the title page
-    -u, --upload     Upload by rsync to URL
+    -u, --upload     rsync to callclooney.org
   """
   delLtx = False
   latex = False
@@ -240,4 +240,4 @@ if __name__ == '__main__':
     sitemap.write("</urlset>")
     sitemap.close()
   if upload is True:
-    os.system('rsync -azrlv -e ssh na/ blugs@blugs.com:blugs.com/na')
+    os.system("rsync -azrlv --exclude='.DS_Store' -e ssh na/ blugs@blugs.com:blugs.com/na")
