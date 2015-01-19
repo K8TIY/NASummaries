@@ -65,7 +65,7 @@ Understanding No Agenda
 0:00:41 **First** JCD "hit it"; ACC getting married; explanation of the episode
 0:03:27 Episode 200.5, first half
 1:02:26 New jingles, link to them in show notes, ACC height of 5' 17"
-1:05:31 Choice of dvorak.org/na, jingle made it immutable; ACC's day job, move from CA to TX; Hot Pockets Tour
+1:05:31 Choice of `dvorak.org/na`, jingle made it immutable; ACC's day job, move from CA to TX; Hot Pockets Tour
 1:08:34 Dramatic show prep change, more listener-supplied information worldwide, show length; Skype delay and timing
 1:12:20 ACC and JCD no longer in physical proximity, met perhaps twice in the last two years; longer shows instead of more shows; production values; artist credits; JCD: "Get kicked out of my own chatroom"; Red Book is new
 1:18:31 Consider a tech podcast like Cranky Geeks?
@@ -3399,3 +3399,27 @@ Aristocrats!
 2:39:16 NPR: 70% of parents would take kid out of daycare if 25% unvaccinated; JCD on indemnification like gamma irradiation promoting negligence; federal fund for vaccine victims
 2:47:07 Benjamin Edelman vs Szechuan Garden over four dollars; leaked Sony e-mails
 2:51:48 Brennan: no useful information from torture; why do it if it doesn't work meme, JCD: sadists
+
+678
+2014-12-14
+Sir London Foley Presents "Lustration"
+0:00:00 ACC: "You're an automatic chick magnet." (1:56:53)
+0:00:32 JCD "slippin' and slidin'", Greenpeace signs
+0:01:10 H 4681 Intelligence Authorization Act section 309, Procedures for the Retention of Incidentally Acquired Communications, including "electronic storage", "not otherwise authorized by court order", five year limit extendable under "imminent" threat, 30 day reporting limit; 31% govtrack prognosis; author Mike Rogers
+0:10:35 Hayden to Tapper on rectal rehydration: "stop, stop, that was a medical procedure", "Jake, I'm not a doctor and neither are you"; Shields, Brooks on *News Hour*: "it wasn't just CIA, it was the whole country", Woolsey: "I think it would be ridiculous of them not to inform the Congress of some major step like this"; CIA throwing Feinstein under the bus; Rockafeller: "we couldn't talk to each other on the way back from one of those meetings"; NSA retaliation against CIA; Don Gregg letter to NYT on CIA as jailkeeper and interrogator, implicating Bush & Cheney; RT on 66 countries with secret prisons
+0:32:13 Obama's required yearly report to Congress on use of War Powers Resolution
+0:38:43 Donation segment #1; Pseudonymous Order of Pugner knighthoods
+1:13:46 London NATS flight plan filing "glitch", Richard Deacon: "we're going to be moving more towards internet-based systems which are … much more resilient"; National Cybersecurity and Critical Infrastructure Protection Act cyber-sharing information and analysis centers; section 205 prohibition on collection for "the purpose of tracking an individual's personally identifiable information"; JCD on do-nothing Congress: "nothing could be better"
+1:30:11 "Gilen's flatline" on Jon Stewart; Legislative Reorganization Act of 1970, House Committee of the Whole, electronic voting machines, emergence of lobbying groups; secret ballot debate
+1:49:17 Toys R Us anonymous layaway payoff native ad; Massachusetts $20k mass payoff
+1:56:56 Sony Pascal & Rudin e-mail apologies; ACC: "this is Sony being taken *down*"
+2:01:21 Ex-banker over drinks to ACC on Dodd-Frank derivatives analysis
+2:05:08 India/Russia $100bn oil, gas, nuclear, military deal; RT on South Stream alternative with Turkey; Ukraine purge of former regime "lustration", Interior Minister: "don't behave like savages, Ukraine is a European country"; Erdoğan's alternative media shutdown; Ukrainian French Ambassador on censorship: "it's the matter of making this message more efficient", NATO "the best collective security organization in the world"; Turkey not playing ball vs ISIL; is there an Archduke Ferdinand type trigger? ACC: Erdoğan assassination
+2:18:56 Donation segment #2
+2:27:49 ISIL rape and sex slave manual found on "jihadi web site" distilled into slick animation, "window into the ISIS organization", blurry voiceover, "the living hell that these female slaves are living through"; Kobani footage with sweetened audio loop with ricochets; TRAC/Quilliam Kassig video analysis: $200k budget, continuity errors, ACC: "yeah, it's for the director's cut"; `trackingterrorism.org` promotional video, Beecham Group connections
+2:46:32 Elizabeth "big talker" Warren "the liberal wing's newest star"
+2:48:02 Italian anti-austerity protests; Spanish protest restrictions; Hungarian PM on drug testing
+2:51:27 TOR blog post anti-harassment statement: "we don't endorse online or offline abuse"
+2:54:54 Greenpeace Peruvian hummingbird defacement scandal; Sony hackers promise Christmas gift
+2:57:09 Millennial drone operators: "you drink a lot and that's pretty much how you deal with it"
+3:01:52 Candy Crush playing member of British Parliament, photographer to be investigated
