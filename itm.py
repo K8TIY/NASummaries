@@ -37,8 +37,11 @@ def latexSection(f,lines):
   f.write("\\begin{itemize}\n")
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0:
-      parts = lines[i].split(None, 1)
-      f.write("\\item[\\mono{%s}]%s\n" % (parts[0],latexEscape(parts[1])))
+      if lines[i] == '~~~~':
+        f.write("\\newpage \n")
+      else:
+        parts = lines[i].split(None, 1)
+        f.write("\\item[\\mono{%s}]%s\n" % (parts[0],latexEscape(parts[1])))
   f.write("\\end{itemize}\n")
 
 # Educate quotes and format stuff
@@ -80,7 +83,7 @@ def HTMLPage(f,lines):
   f.write('<h5><a href="http://%s.nashownotes.com" target="_blank">Show Notes</a></h5>' % (lines[0]))
   f.write("<table>")
   for i in xrange(3,len(lines)):
-    if len(lines[i]) > 0:
+    if len(lines[i]) > 0 and lines[i] != '~~~~':
       parts = lines[i].split(None, 1)
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', cgi.escape(parts[1]))
       s = re.sub(r'\s\s+', r'<br/>', s)
