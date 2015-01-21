@@ -10,6 +10,7 @@ def latexHeader(f,dotitle):
 \usepackage{fancyvrb}
 \usepackage{enumitem}
 \usepackage[normalem]{ulem}
+\usepackage{censor}
 \setlist{nolistsep}
 \setlist{noitemsep}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
@@ -53,6 +54,7 @@ def latexEscape(s):
   s = re.sub(r'\$', r'\$', s)
   s = re.sub(r'\*\*(.+?)\*\*', r'\\textbf{\1}', s)
   s = re.sub(r'\*(.+?)\*', r'\\textit{\1}', s)
+  s = re.sub(r'~~~(.+?)~~~', r'\\censor{abcdefg}', s)
   s = re.sub(r'~~(.+?)~~', r'\\sout{\1}', s)
   s = re.sub(r'(\d:\d\d:\d\d)', r'\\texttt{\1}', s)
   s = re.sub(r'``(.+?)``', r'\\scmono{\1}', s)
@@ -89,6 +91,7 @@ def HTMLPage(f,lines):
       s = re.sub(r'\s\s+', r'<br/>', s)
       s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
       s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
+      s = re.sub(r'~~~(.+?)~~~', r'<span style="background:black">&nbsp;&nbsp;&nbsp;&nbsp;</span>', s)
       s = re.sub(r'~~(.+?)~~', r'<s>\1</s>', s)
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
       s = re.sub(r'``(.+?)``', r'<code>\1</code>', s)
