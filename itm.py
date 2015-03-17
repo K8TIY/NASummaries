@@ -141,6 +141,7 @@ if __name__ == '__main__':
   and optionally upload them to a webserver.
 
     -d, --delete     Delete the LaTeX file after rendering PDF.
+    -g, --git        Commit and push to repo.
     -h, --help       Print this summary and exit.
     -H, --HTML       Create HTML.
     -i, --input      Read from argument instead of NASummaries.txt
@@ -149,6 +150,7 @@ if __name__ == '__main__':
     -u, --upload     rsync to callclooney.org
   """
   delLtx = False
+  git = False
   latex = False
   latexout = None
   htmlout = None
@@ -158,8 +160,8 @@ if __name__ == '__main__':
   title = True
   upload = False
   infile = None
-  shortopts = "dhHi:ltu"
-  longopts = ["delete","help","HTML","input=","latex","title","upload"]
+  shortopts = "dhgHi:ltu"
+  longopts = ["delete","git","help","HTML","input=","latex","title","upload"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -168,6 +170,7 @@ if __name__ == '__main__':
     sys.exit(-1)
   for [o,a] in opts:
     if o == '-d' or o == '--delete': delLtx = True
+    if o == '-g' or o == '--git': git = True
     elif o == '-h' or o == '--help':
       usage()
       sys.exit(0)
@@ -179,7 +182,7 @@ if __name__ == '__main__':
   if latex:
     latexout = codecs.open("NASummaries.tex", "w", "utf-8")
     latexHeader(latexout, title)
-  
+  maxshow = 0
   if infile is None: infile = 'NASummaries.txt'
   with codecs.open(infile, 'r', "utf-8") as x: f = x.read()
   summs = re.split("\n\n+", f)
@@ -218,6 +221,7 @@ if __name__ == '__main__':
     if latex: latexSection(latexout,lines)
     if html:
       shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+      if shownum > maxshow: maxshow = shownum
       htmlname = "%s_NASummary.html" % (shownum)
       url = "http://www.blugs.com/na/" + htmlname
       htmlout = codecs.open('na/' + htmlname, "w", "utf-8")
@@ -246,4 +250,10 @@ if __name__ == '__main__':
     sitemap.write("</urlset>")
     sitemap.close()
   if upload is True:
-    os.system("rsync -azrlv --exclude='.DS_Store' -e ssh na/ blugs@blugs.com:blugs.com/na")
+    cmd = "rsync -azrlv --exclude='.DS_Store' -e ssh na/ blugs@blugs.com:blugs.com/na"
+    os.system(cmd)
+  if git is True:
+    cmd = "git commit -m 'Show %s' NASummaries.txt" % (maxshow)
+    os.system(cmd)
+    cmd = "git push origin master"
+    os.system(cmd)
