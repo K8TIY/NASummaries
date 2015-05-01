@@ -11,6 +11,7 @@ def latexHeader(f,dotitle):
 \usepackage{enumitem}
 \usepackage[normalem]{ulem}
 \usepackage{censor}
+\usepackage[colorlinks=true]{hyperref}
 \setlist{nolistsep}
 \setlist{noitemsep}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
@@ -31,7 +32,7 @@ def latexHeader(f,dotitle):
   if dotitle:
     f.write('\maketitle\n')
 
-def latexSection(f,lines):
+def latexSection(f,lines,shownum):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
   f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
   f.write("\\section[%s]{%s \\small{(%s)}}\n" % (latexEscape(lines[2]),latexEscape(lines[2]),lines[1]))
@@ -42,7 +43,11 @@ def latexSection(f,lines):
         f.write("\\newpage \n")
       else:
         parts = lines[i].split(None, 1)
-        f.write("\\item[\\mono{%s}]%s\n" % (parts[0],latexEscape(parts[1])))
+        label = "\\mono{%s}" % (parts[0])
+        if float(shownum) >= 559:
+          urltime = re.sub(':', '-', parts[0])
+          label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, parts[0])
+        f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
   f.write("\\end{itemize}\n")
 
 # Educate quotes and format stuff
@@ -79,7 +84,7 @@ def latexEscape(s):
   return s
 
 
-def HTMLPage(f,lines):
+def HTMLPage(f,lines,shownum):
   HTMLHeader(f,cgi.escape('%s %s "%s"' % (lines[0],lines[1],lines[2])))
   f.write('<h3>%s %s "%s"</h3>' % (lines[0],lines[1],lines[2]))
   f.write('<h5><a href="http://%s.nashownotes.com" target="_blank">Show Notes</a></h5>' % (lines[0]))
@@ -103,7 +108,11 @@ def HTMLPage(f,lines):
       s = re.sub(r'\\{', r'{', s)
       s = re.sub(r'\\}', r'}', s)
       s = re.sub(r'\\(\'+)', r'\1', s)
-      f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code><td>%s</td></tr>\n" % (parts[0],s))
+      label = "<code>%s</code>" % (parts[0])
+      if float(shownum) >= 559:
+        urltime = re.sub(':', '-', parts[0])
+        label = "<a href='https://www.noagendaplayer.com/listen/%s/%s'><code>%s</code></a>" % (shownum, urltime, parts[0])
+      f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code><td>%s</td></tr>\n" % (label,s))
   f.write("</table></body></html>\n")
 
 
@@ -218,14 +227,14 @@ if __name__ == '__main__':
   for summ in summs:
     if len(summ) == 0: continue
     lines = summ.split("\n")
-    if latex: latexSection(latexout,lines)
+    shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+    if shownum > maxshow: maxshow = shownum
+    if latex: latexSection(latexout,lines,shownum)
     if html:
-      shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
-      if shownum > maxshow: maxshow = shownum
       htmlname = "%s_NASummary.html" % (shownum)
       url = "http://www.blugs.com/na/" + htmlname
       htmlout = codecs.open('na/' + htmlname, "w", "utf-8")
-      HTMLPage(htmlout,lines)
+      HTMLPage(htmlout,lines,shownum)
       ind.write("<a href='%s'>%s %s \"%s\"</a><br/>\n" %
                 (htmlname, lines[0], lines[1], lines[2]))
       htmlout.close()
