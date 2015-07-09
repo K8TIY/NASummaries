@@ -101,6 +101,7 @@ def HTMLPage(f,lines,shownum,player):
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
       s = re.sub(r'``(.+?)``', r'<code>\1</code>', s)
       s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
+      s = re.sub(r'`', r'&lsquo;', s)
       s = re.sub(r'\[\]', r' ', s)
       s = re.sub(r'\[\[(\[*.+?\]*)\]\]', r'\1', s)
       s = re.sub(r'{{(.+?)}}', r'\1', s)
