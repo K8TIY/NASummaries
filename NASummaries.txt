@@ -58,12 +58,12 @@ No Agenda 200.5
 1:38:26 "A glut of talent"; prefer new format
 1:39:40 What's the future? Media's getting worse, Obama administration getting worse; longevity by independence from advertisers; no conspiracy theory tax; Alex Jones as canary in the coal mine; no guests, JCD: "This is n0t the Larry King Show."
 
-200.6/425
+425
 2012-07-12
-Understanding No Agenda
+Understanding No Agenda (a.k.a.[]200.6)
 0:00:00 ACC: "So…"  JCD: "Roll tape, roll."  ACC: "Yeah and then, but y'know we still have to start, y'know the way what people never hear on the show."  JCD: "Oh yeah."  ACC: "Yeah."  JCD: "Whatever that means, hit it."
 0:00:41 **First** JCD "hit it"; ACC getting married; explanation of the episode
-0:03:27 Episode 200.5, first half
+0:03:27 Show 200.5, first half
 1:02:26 New jingles, link to them in show notes, ACC height of 5' 17"
 1:05:31 Choice of `dvorak.org/na`, jingle made it immutable; ACC's day job, move from CA to TX; Hot Pockets Tour
 1:08:34 Dramatic show prep change, more listener-supplied information worldwide, show length; Skype delay and timing
@@ -75,7 +75,7 @@ Understanding No Agenda
 1:26:23 JCD listening without headphones; studios: JCD's light, ACC's dark
 1:28:13 JCD changed position on crackpot theories? WTC 7; 2nd half of the show is now the whole show
 1:31:27 Would a donor at the $100K gain any influence? Two reasons: "it's not gonna happen and it's not gonna happen"; TWiT invite
-1:35:02 Episode 200.5, second half
+1:35:02 Show 200.5, second half
 2:04:35 JCD: "Why do you think it's so weird that I don't use headphones?"; teleprompter training, the point at which a read becomes natural; JCD annoyed by his stammering
 2:06:09 General decline in real news reporting, more deep reading, JCD watching foreign media
 
@@ -4806,7 +4806,7 @@ Peak Oil II
 2:19:26 International Energy Statistics: nearing peak oil; anonymous Pacific Northwest National Laboratory insider: noncommittal COO, "global climate change caused by anthropogenic drivers of emission scenarios"; `populartechnology.net` 1350 skeptic papers
 2:25:29 Trains Good Planes Bad: trains of the future to be fueled by sewage
 2:26:38 Tech News: IRS erased two years worth of Lois Lerner e-mail backup tapes; JCD on the demise or nonmigration of public relations agency databases; JCD on Seagate 200GB OneDrive offer; `surge.sh` CDN; whois data to be de-anonymized in ICANN internationalization; Chrome out-of-band "OK Google" microphone activation; leap second of doom
-2:41:27 San Francisco probation officer in hat water for leaving a handgun and cocaine in hotel room
+2:41:27 San Francisco probation officer in hot water for leaving a handgun and cocaine in hotel room
 
 735
 2015-07-02
