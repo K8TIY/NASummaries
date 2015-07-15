@@ -56,7 +56,7 @@ No Agenda 200.5
 1:35:31 ACC uses SoundByte by Black Cat Software
 1:36:58 Instructions for Nokia E71 app creation; BlackBerry getting on podcasts
 1:38:26 "A glut of talent"; prefer new format
-1:39:40 What's the future? Media's getting worse, Obama administration getting worse; longevity by independence from advertisers; no conspiracy theory tax; Alex Jones as canary in the coal mine; no guests, JCD: "This is n0t the Larry King Show."
+1:39:40 What's the future? Media's getting worse, Obama administration getting worse; longevity by independence from advertisers; no conspiracy theory tax; Alex Jones as canary in the coal mine; no guests, JCD: "This is not the Larry King Show."
 
 425
 2012-07-12
@@ -4827,3 +4827,27 @@ Zucchini Emoji
 2:29:35 Tech News: SpaceX Falcon 9 explosion, odd warning not to use cell phone near debris, Russian RD-180 rocket motor, secrets of tungsten welding; Chicago 9% "cloud tax"; Neil deGrasse Tyson claims Millenium Hotel is tallest in Eastern Seaboard
 2:40:53 No headway on nuclear deal with Iran; humanitarian crisis in Yemen
 2:44:38 Producer Derek's NPR climate change negotiation report compilation; U.S.-Brazil renewable energy agreement, President Rousseff cut in NSA spying; Ban Ki-moon: "it's like snail's… moving snail's pace", Morgan Freeman *What's Possible* film voiceover (end of show clip)
+
+736
+2015-07-05
+Show 200.7 Redux
+0:00:00 JCD: *harmonica* "How long does it last?"  ACC: "As long as there's mold."  JCD: "There's *always* mold!"  ACC: "Right, but it's…"
+0:00:40 JCD sounding different *sans* audience; history of 200.5 and 425/200.6; future deconstruction show will be done from scratch; "end of the day" and "essentially" proliferation; JCD Skype dropouts, improvements due to Universal Audio, headphone-less JCD, "*turn down your speakers!*" clip, JCD's M-Audio box; ACC now able to listen more closely to JCD; JCD not replaying clips
+0:15:20 Show 200.5, first half
+1:13:45 JCD putting up with ACC's bullcrap; ACC's show prep now revolves around Freedom Controller, evening before clip-gathering, morning before organizing; JCD on hard breaks, writing to a word count; ideal show length and show count; top artist turnover, high jingle quality
+1:32:02 ACC's dark studio, moving blanket; JCD's Chinese CAD mike, noise gate on/off demo; "abyss" room-deadening velvet, change in ACC's sound on Crackpot Condo move; VoidZero running the infrastructure; Wikipedia page, seven pages of Google supremacy
+1:41:50 ACC's Sound Byte software, segmented beds, three-element opening; medley of short clips; producer-driven evolution; upcoming Sculley, Heil interview show
+1:49:39 Show 200.5, second half
+2:19:07 Show 425, last words
+2:23:19 ACC on geting in contact: tweet one of us and watch for "favorite", timestamps; e-mail quantity comparison, JCD FIFO and e-mail printing; pre-show clip review and scheduling
+2:31:33 Thanks and shout-outs; the vast No Agenda demographic; plans for the next year; pre-stream
+~~~~
+
+737
+2015-07-09
+Sculley and Heil
+0:00:00 JCD intro
+0:01:23 John Sculley interview
+1:01:49 JCD `dvorak.org/na` plug, Bob Heil intro
+1:02:35 Bob Heil interview
+2:09:46 JCD outro
