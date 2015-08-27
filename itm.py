@@ -16,6 +16,7 @@ def latexHeader(f,dotitle):
 \setlist{noitemsep}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
+\newcommand{\cjk}[1]{{\fontspec[Scale=0.9]{Hiragino Mincho Pro}#1}}
 \addtolength{\oddsidemargin}{-.6in}
 \addtolength{\evensidemargin}{-.6in}
 \addtolength{\textwidth}{1.2in}
@@ -69,6 +70,7 @@ def latexEscape(s):
   s = re.sub(r'{{(.+?)}}', r'$\mathrm{\1}$', s)
   s = re.sub(u'([\u0400-\u052F]+)', r'\\doulos{\1}', s)
   s = re.sub(u'([\u0370-\u03FF]+)', r'\\doulos{\1}', s)
+  s = re.sub(r'\(\((.+?)\)\)', r'\\cjk{\1}', s)
   news = ''
   oq = False
   for i in xrange(0,len(s)):
@@ -109,6 +111,7 @@ def HTMLPage(f,lines,shownum,player):
       s = re.sub(r'\\{', r'{', s)
       s = re.sub(r'\\}', r'}', s)
       s = re.sub(r'\\(\'+)', r'\1', s)
+      s = re.sub(r'\(\((.+?)\)\)', r'\1', s)
       label = "<code>%s</code>" % (parts[0])
       if player and float(shownum) >= 559:
         urltime = re.sub(':', '-', parts[0])
