@@ -153,12 +153,14 @@ if __name__ == '__main__':
   Read NASummaries.txt, produce derivative HTML and/or LaTeX files,
   and optionally upload them to a webserver.
 
-    -d, --delete     Delete the LaTeX file after rendering PDF.
-    -g, --git        Commit and push to repo.
-    -h, --help       Print this summary and exit.
-    -H, --HTML       Create HTML.
+    -d, --delete     Delete the LaTeX file after rendering PDF
+    -g, --git        Commit and push to repo
+    -h, --help       Print this summary and exit
+    -H, --HTML       Create HTML
     -i, --input      Read from argument instead of NASummaries.txt
-    -l, --latex      Create LaTeX.
+    -l, --latex      Create LaTeX
+    -n, --number     Use this number as the Show number in the git commit
+    -N, --noop       Do not execute rsync or git that would touch a remote site
     -p, --player     Link to noagendaplayer.com
     -t, --title      Suppress the title page
     -u, --upload     rsync to callclooney.org
@@ -171,12 +173,15 @@ if __name__ == '__main__':
   ind = None
   sitemap = None
   html = False
+  shownum = None
+  noop = False
   player = False
   title = True
   upload = False
   infile = None
-  shortopts = "dhgHi:lptu"
-  longopts = ["delete","git","help","HTML","input=","latex","player","title","upload"]
+  shortopts = "dghHi:n:Nlptu"
+  longopts = ["delete","git","help","HTML","input=","latex","number=","noop",
+              "player","title","upload"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -192,6 +197,8 @@ if __name__ == '__main__':
     elif o == "-H" or o == "--HTML": html = True
     elif o == "-i" or o == "--input": infile = a
     elif o == "-l" or o == "--latex": latex = True
+    elif o == "-n" or o == "--number": shownum = a
+    elif o == "-N" or o == "--noop": noop = True
     elif o == "-p" or o == "--player": player = True
     elif o == "-t" or o == "--title": title = False
     elif o == "-u" or o == "--upload": upload = True
@@ -234,8 +241,8 @@ if __name__ == '__main__':
   for summ in summs:
     if len(summ) == 0: continue
     lines = summ.split("\n")
-    shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
-    if shownum > maxshow: maxshow = shownum
+    n = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+    if n > maxshow: maxshow = n
     if latex: latexSection(latexout,lines,shownum,player)
     if html:
       htmlname = "%s_NASummary.html" % (shownum)
@@ -267,9 +274,16 @@ if __name__ == '__main__':
     sitemap.close()
   if upload is True:
     cmd = "rsync -azrlv --exclude='.DS_Store' -e ssh na/ blugs@blugs.com:blugs.com/na"
-    os.system(cmd)
+    if noop:
+      print "noop set; not executing '%s'" % (cmd)
+    else:
+      os.system(cmd)
   if git is True:
+    if shownum is not None: maxshow = shownum
     cmd = "git commit -m 'Show %s' NASummaries.txt" % (maxshow)
-    os.system(cmd)
-    cmd = "git push origin master"
-    os.system(cmd)
+    cmd2 = "git push origin master"
+    if noop:
+      print "noop set; not executing '%s' for %s, %s" % (cmd, shownum, maxshow)
+    else:
+      os.system(cmd)
+      os.system(cmd2)
