@@ -35,7 +35,7 @@ enforcing them. They are:
      because I feel it's up to the reader to listen to Adam & John and
      draw conclusions based on what they're saying. I'm not here to
      give you the punch line, I'm here to tickle your memory.
-     Corollary: this is not a substitute for the Real Thing.
+     Corollary: this is not a substitute for The Real Thing.
 2. I try to keep one timestamp per broad topic, but when there is
    a long-running discussion, or a clip of significance, I may
    give that a second timestamp.
@@ -43,6 +43,9 @@ enforcing them. They are:
    respectively.
 4. I try to separate related but distinct sections with a semicolon,
    within a timestamp section.
+5. Compilation and interview shows will tend to show only macroscopic structure.
+6. I try to keep these to exactly one page in general, with exceptions
+   for oddball outliers and older, shorter shows.
 
 Schedule
 --------
@@ -57,6 +60,13 @@ When I am on vacation (May, September, Thanksgiving, Christmas) I do
 pen-and paper summaries, so it may seem that I have fallen behind.
 Not so! I just don't have devices available that make that kind of
 keyboard entry straightforward.
+
+I recently changed my policy on squeezing in old shows by doing them
+in reverse order. This is hard to do as context is lost. So I decided
+to start with approximately the first show I ever heard (I subscribed
+somewtime between Newtown and Boston) and work forward. When (and if)
+I catch up, I'll possibly pick up at 200 and work forward, then (if I
+have not died of old age, gone insane, or both) start from Show 1.
 
 Thanks To:
 ----------
