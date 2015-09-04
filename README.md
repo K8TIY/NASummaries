@@ -64,7 +64,7 @@ keyboard entry straightforward.
 I recently changed my policy on squeezing in old shows by doing them
 in reverse order. This is hard to do as context is lost. So I decided
 to start with approximately the first show I ever heard (I subscribed
-somewtime between Newtown and Boston) and work forward. When (and if)
+sometime between Newtown and Boston) and work forward. When (and if)
 I catch up, I'll possibly pick up at 200 and work forward, then (if I
 have not died of old age, gone insane, or both) start from Show 1.
 
