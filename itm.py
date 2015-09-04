@@ -33,7 +33,7 @@ def latexHeader(f,dotitle):
   if dotitle:
     f.write('\maketitle\n')
 
-def latexSection(f,lines,shownum,player):
+def latexSection(f,lines,shownum):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
   f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
   f.write("\\section[%s]{%s \\small{(%s)}}\n" % (latexEscape(lines[2]),latexEscape(lines[2]),lines[1]))
@@ -45,7 +45,7 @@ def latexSection(f,lines,shownum,player):
       else:
         parts = lines[i].split(None, 1)
         label = "\\scmono{%s}" % (parts[0])
-        if player and float(shownum) >= 559:
+        if float(shownum) >= 559:
           urltime = re.sub(':', '-', parts[0])
           label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
         f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
@@ -86,7 +86,7 @@ def latexEscape(s):
   return s
 
 
-def HTMLPage(f,lines,shownum,player):
+def HTMLPage(f,lines,shownum):
   HTMLHeader(f,cgi.escape('%s %s "%s"' % (lines[0],lines[1],lines[2])))
   f.write('<h3>%s %s "%s"</h3>' % (lines[0],lines[1],lines[2]))
   f.write('<h5><a href="http://%s.nashownotes.com" target="_blank">Show Notes</a></h5>' % (lines[0]))
@@ -113,7 +113,7 @@ def HTMLPage(f,lines,shownum,player):
       s = re.sub(r'\\(\'+)', r'\1', s)
       s = re.sub(r'\(\((.+?)\)\)', r'\1', s)
       label = "<code>%s</code>" % (parts[0])
-      if player and float(shownum) >= 559:
+      if float(shownum) >= 559:
         urltime = re.sub(':', '-', parts[0])
         label = "<a href='https://www.noagendaplayer.com/listen/%s/%s'><code>%s</code></a>" % (shownum, urltime, parts[0])
       f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code><td>%s</td></tr>\n" % (label,s))
@@ -161,7 +161,6 @@ if __name__ == '__main__':
     -l, --latex      Create LaTeX
     -n, --number     Use this number as the Show number in the git commit
     -N, --noop       Do not execute rsync or git that would touch a remote site
-    -p, --player     Link to noagendaplayer.com
     -t, --title      Suppress the title page
     -u, --upload     rsync to callclooney.org
   """
@@ -175,13 +174,12 @@ if __name__ == '__main__':
   html = False
   shownum = None
   noop = False
-  player = False
   title = True
   upload = False
   infile = None
-  shortopts = "dghHi:n:Nlptu"
+  shortopts = "dghHi:n:Nltu"
   longopts = ["delete","git","help","HTML","input=","latex","number=","noop",
-              "player","title","upload"]
+              "title","upload"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -199,7 +197,6 @@ if __name__ == '__main__':
     elif o == "-l" or o == "--latex": latex = True
     elif o == "-n" or o == "--number": shownum = a
     elif o == "-N" or o == "--noop": noop = True
-    elif o == "-p" or o == "--player": player = True
     elif o == "-t" or o == "--title": title = False
     elif o == "-u" or o == "--upload": upload = True
   if latex:
@@ -243,12 +240,12 @@ if __name__ == '__main__':
     lines = summ.split("\n")
     n = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
     if n > maxshow: maxshow = n
-    if latex: latexSection(latexout,lines,shownum,player)
+    if latex: latexSection(latexout,lines,shownum)
     if html:
       htmlname = "%s_NASummary.html" % (shownum)
       url = "http://www.blugs.com/na/" + htmlname
       htmlout = codecs.open('na/' + htmlname, "w", "utf-8")
-      HTMLPage(htmlout,lines,shownum,player)
+      HTMLPage(htmlout,lines,shownum)
       ind.write("<a href='%s'>%s %s \"%s\"</a><br/>\n" %
                 (htmlname, lines[0], lines[1], lines[2]))
       htmlout.close()
