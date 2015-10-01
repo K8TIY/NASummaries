@@ -240,12 +240,12 @@ if __name__ == '__main__':
     lines = summ.split("\n")
     n = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
     if n > maxshow: maxshow = n
-    if latex: latexSection(latexout,lines,shownum)
+    if latex: latexSection(latexout,lines,n)
     if html:
-      htmlname = "%s_NASummary.html" % (shownum)
+      htmlname = "%s_NASummary.html" % (n)
       url = "http://www.blugs.com/na/" + htmlname
       htmlout = codecs.open('na/' + htmlname, "w", "utf-8")
-      HTMLPage(htmlout,lines,shownum)
+      HTMLPage(htmlout,lines,n)
       ind.write("<a href='%s'>%s %s \"%s\"</a><br/>\n" %
                 (htmlname, lines[0], lines[1], lines[2]))
       htmlout.close()
