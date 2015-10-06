@@ -261,6 +261,7 @@ if __name__ == '__main__':
     try:
       os.unlink('na/NASummaries.aux')
       os.unlink('na/NASummaries.log')
+      os.unlink('na/NASummaries.out')
       if delLtx and res==0: os.unlink('NASummaries.tex')
     except Exception as e: pass
   if ind is not None:
