@@ -278,7 +278,7 @@ if __name__ == '__main__':
       os.system(cmd)
   if git is True:
     if shownum is not None: maxshow = shownum
-    cmd = "git commit -m 'Show %s' NASummaries.txt" % (maxshow)
+    cmd = "git commit -m 'Show %s.' NASummaries.txt" % (maxshow)
     cmd2 = "git push origin master"
     if noop:
       print "noop set; not executing '%s' for %s, %s" % (cmd, shownum, maxshow)
