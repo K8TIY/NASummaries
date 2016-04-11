@@ -35,8 +35,10 @@ def latexHeader(f,dotitle):
 
 def latexSection(f,lines,shownum):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+  showdate = lines[1]
+  showdate = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\2-\1', showdate)
   f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
-  f.write("\\section[%s]{%s \\small{(%s)}}\n" % (latexEscape(lines[2]),latexEscape(lines[2]),lines[1]))
+  f.write("\\section[%s]{%s \\small{(%s)}}\n" % (latexEscape(lines[2]),latexEscape(lines[2]),showdate))
   f.write("\\begin{itemize}\n")
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0:
