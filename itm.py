@@ -33,10 +33,8 @@ def latexHeader(f,dotitle):
   if dotitle:
     f.write('\maketitle\n')
 
-def latexSection(f,lines,shownum):
+def latexSection(f,lines,shownum,showdate):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
-  showdate = lines[1]
-  showdate = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', showdate)
   f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
   f.write("\\section[%s]{%s \\small{(%s)}}\n" % (latexEscape(lines[2]),latexEscape(lines[2]),showdate))
   f.write("\\begin{itemize}\n")
@@ -88,9 +86,9 @@ def latexEscape(s):
   return s
 
 
-def HTMLPage(f,lines,shownum):
-  HTMLHeader(f,cgi.escape('%s %s "%s"' % (lines[0],lines[1],lines[2])))
-  f.write('<h3>%s %s "%s"</h3>' % (lines[0],lines[1],lines[2]))
+def HTMLPage(f,lines,shownum,showdate):
+  HTMLHeader(f,cgi.escape('%s %s "%s"' % (lines[0],showdate,lines[2])))
+  f.write('<h3>%s %s "%s"</h3>' % (lines[0],showdate,lines[2]))
   f.write('<h5><a href="http://%s.nashownotes.com" target="_blank">Show Notes</a></h5>' % (lines[0]))
   f.write("<table>")
   for i in xrange(3,len(lines)):
@@ -241,15 +239,17 @@ if __name__ == '__main__':
     if len(summ) == 0: continue
     lines = summ.split("\n")
     n = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+    showdate = lines[1]
+    showdate = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', showdate)
     if n > maxshow: maxshow = n
-    if latex: latexSection(latexout,lines,n)
+    if latex: latexSection(latexout,lines,n,showdate)
     if html:
       htmlname = "%s_NASummary.html" % (n)
       url = "http://www.blugs.com/na/" + htmlname
       htmlout = codecs.open('na/' + htmlname, "w", "utf-8")
-      HTMLPage(htmlout,lines,n)
+      HTMLPage(htmlout,lines,n,showdate)
       ind.write("<a href='%s'>%s %s \"%s\"</a><br/>\n" %
-                (htmlname, lines[0], lines[1], lines[2]))
+                (htmlname, lines[0], showdate, lines[2]))
       htmlout.close()
       sitemap.write('''  <url>
     <loc>%s</loc>
