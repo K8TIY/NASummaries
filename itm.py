@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os,sys
-import re,getopt,codecs,cgi,time
+import re,getopt,codecs,cgi,time,shutil
 
 def latexHeader(f,dotitle):
   title = "No Agenda Summaries"
@@ -87,9 +87,8 @@ def latexEscape(s):
 
 
 def HTMLPage(f,lines,shownum,showdate):
-  HTMLHeader(f,cgi.escape('%s %s "%s"' % (lines[0],showdate,lines[2])))
-  f.write('<h3>%s %s "%s"</h3>' % (lines[0],showdate,lines[2]))
-  f.write('<h5><a href="http://%s.nashownotes.com" target="_blank">Show Notes</a></h5>' % (lines[0]))
+  HTMLHeader(f,'No Agenda %s' % (lines[0]),shownum)
+  f.write('<h3>%s <i>%s</i> <span style="font-size:.6em;">(%s)</span></h3>' % (shownum,lines[2],showdate))
   f.write("<table>")
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0 and lines[i] != '~~~~':
@@ -104,6 +103,7 @@ def HTMLPage(f,lines,shownum,showdate):
       s = re.sub(r'``(.+?)``', r'<code>\1</code>', s)
       s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
       s = re.sub(r'`', r'&lsquo;', s)
+      s = re.sub(r"'", r'&rsquo;', s)
       s = re.sub(r'\[\]', r' ', s)
       s = re.sub(r'\[\[(\[*.+?\]*)\]\]', r'\1', s)
       s = re.sub(r'{{(.+?)}}', r'\1', s)
@@ -113,38 +113,72 @@ def HTMLPage(f,lines,shownum,showdate):
       s = re.sub(r'\\(\'+)', r'\1', s)
       s = re.sub(r'\(\((.+?)\)\)', r'\1', s)
       label = "<code>%s</code>" % (parts[0])
+      news = ''
+      oq = False
+      for i in xrange(0,len(s)):
+        c = s[i]
+        if c == '"':
+          if not oq:
+            c = '&ldquo;'
+            oq = True
+          else:
+            c = '&rdquo;'
+            oq = False
+        news = news + c
+      s = news
       if float(shownum) >= 559:
         urltime = re.sub(':', '-', parts[0])
         label = "<a href='https://www.noagendaplayer.com/listen/%s/%s'><code>%s</code></a>" % (shownum, urltime, parts[0])
-      f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code><td>%s</td></tr>\n" % (label,s))
-  f.write("</table></body></html>\n")
+      f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code></td><td>%s</td></tr>\n" % (label,s))
+  f.write("</table></div></div></div></body></html>\n")
 
 
-def HTMLHeader(f,title):
+def HTMLHeader(f,title,shownum=None):
+  snLink = ''
+  homeLink = ''
+  if shownum is not None:
+    homeLink = '<li><a href="index.html">Home</a></li>'
+    snLink = '<li><a href="http://%s.nashownotes.com" target="_blank">Show Notes</a></li>' % shownum
   f.write("""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" type="text/css" media="all" href="na.css"/>
   <title>%s</title>
 </head>
 <body>
 <div>
-<script type="text/javascript">
-  (function() {
-    var cx = '000307461187542395848:qdygkg6ssbo';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
+  <script type="text/javascript">
+    (function() {
+      var cx = '000307461187542395848:qdygkg6ssbo';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
 <div class="gcse-search"></div>
 </div>
-""" % (title))
+<div class="container">
+  <div class="header">
+    <h1 class="header-heading">Call Clooney!</h1>
+  </div>
+  <div class="nav-bar">
+    <ul class="nav">
+      %s
+      %s
+      <li><a href="http://noagendashow.com">No Agenda Show</a></li>
+      <li><a href='https://github.com/K8TIY/NASummaries'>Github</a></li>
+      <li><a href="NASummaries.pdf">PDF of All Summaries</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="main">
+""" % (title,homeLink,snLink))
 
 
 if __name__ == '__main__':
@@ -205,19 +239,17 @@ if __name__ == '__main__':
   maxshow = 0
   if infile is None: infile = 'NASummaries.txt'
   with codecs.open(infile, 'r', "utf-8") as x: f = x.read()
+  try: os.mkdir("na");
+  except Exception as e: pass
   summs = re.split("\n\n+", f)
   summs.reverse()
   now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time()))
   if html:
-    try: os.mkdir("na");
-    except Exception as e: pass
+    shutil.copy2('na.css', 'na/na.css')
     ind = codecs.open("na/index.html", "w", "utf-8")
-    HTMLHeader(ind,"No Agenda summaries")
-    ind.write("<h3><a href='http://noagendashow.com'>No Agenda</a> summaries</h3>")
-    ind.write("<p>PDF of all show summaries <a href='NASummaries.pdf'>here</a></p>")
-    ind.write("""<p>Original source files and tools, plus notes on philosophy
-              and schedule, are on
-              <a href='https://github.com/K8TIY/NASummaries'>GitHub</a></p>""")
+    HTMLHeader(ind,"No Agenda Show Summaries")
+    
+    ind.write("<h1>No Agenda Show Summaries</h1><h5>Shut up, slave!</h5>")
     sitemap = codecs.open("na/sitemap.xml", "w", "utf-8")
     sitemap.write('''<?xml version="1.0" encoding="UTF-8"?>
 <urlset
@@ -248,8 +280,8 @@ if __name__ == '__main__':
       url = "http://www.blugs.com/na/" + htmlname
       htmlout = codecs.open('na/' + htmlname, "w", "utf-8")
       HTMLPage(htmlout,lines,n,showdate)
-      ind.write("<a href='%s'>%s %s \"%s\"</a><br/>\n" %
-                (htmlname, lines[0], showdate, lines[2]))
+      ind.write("<a href='%s'><strong>%s</strong> (%s) <i>%s</i></a><br/>\n" %
+                (htmlname, lines[0], showdate, cgi.escape(lines[2])))
       htmlout.close()
       sitemap.write('''  <url>
     <loc>%s</loc>
@@ -267,7 +299,7 @@ if __name__ == '__main__':
       if delLtx and res==0: os.unlink('NASummaries.tex')
     except Exception as e: pass
   if ind is not None:
-    ind.write("</body></html>\n")
+    ind.write("</div></div></div></body></html>\n")
     ind.close()
   if sitemap is not None:
     sitemap.write("</urlset>")
