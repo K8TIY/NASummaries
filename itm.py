@@ -128,12 +128,29 @@ def HTMLPage(f,lines,shownum,showdate):
       s = news
       if float(shownum) >= 559:
         urltime = re.sub(':', '-', parts[0])
-        label = "<a href='https://www.noagendaplayer.com/listen/%s/%s'><code>%s</code></a>" % (shownum, urltime, parts[0])
+        label = "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'>%s</a>" % (shownum, urltime, parts[0])
       f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code></td><td>%s</td></tr>\n" % (label,s))
   f.write("</table></div></div></div></body></html>\n")
 
 
 def HTMLHeader(f,title,shownum=None):
+  google = """<div>
+  <script type="text/javascript">
+    (function() {
+      var cx = '000307461187542395848:qdygkg6ssbo';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <div class="gcse-search"></div>
+</div>"""
+  if shownum is not None:
+    google = ''
   snLink = ''
   homeLink = ''
   if shownum is not None:
@@ -148,21 +165,7 @@ def HTMLHeader(f,title,shownum=None):
   <title>%s</title>
 </head>
 <body>
-<div>
-  <script type="text/javascript">
-    (function() {
-      var cx = '000307461187542395848:qdygkg6ssbo';
-      var gcse = document.createElement('script');
-      gcse.type = 'text/javascript';
-      gcse.async = true;
-      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-          '//www.google.com/cse/cse.js?cx=' + cx;
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(gcse, s);
-    })();
-  </script>
-<div class="gcse-search"></div>
-</div>
+%s
 <div class="container">
   <div class="header">
     <h1 class="header-heading">Call Clooney!</h1>
@@ -173,12 +176,12 @@ def HTMLHeader(f,title,shownum=None):
       %s
       <li><a href="http://noagendashow.com">No Agenda Show</a></li>
       <li><a href='https://github.com/K8TIY/NASummaries'>Github</a></li>
-      <li><a href="NASummaries.pdf">PDF of All Summaries</a></li>
+      <li><a href="NASummaries.pdf"><img alt="PDF" src="pdf-icon.png" width="20" height="20"/>   Full PDF</a></li>
     </ul>
   </div>
   <div class="content">
     <div class="main">
-""" % (title,homeLink,snLink))
+""" % (title,google,homeLink,snLink))
 
 
 if __name__ == '__main__':
@@ -246,10 +249,11 @@ if __name__ == '__main__':
   now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time()))
   if html:
     shutil.copy2('na.css', 'na/na.css')
+    shutil.copy2('pdf-icon.png', 'na/pdf-icon.png')
     ind = codecs.open("na/index.html", "w", "utf-8")
     HTMLHeader(ind,"No Agenda Show Summaries")
     
-    ind.write("<h1>No Agenda Show Summaries</h1><h5>Shut up, slave!</h5>")
+    ind.write("<h1>No Agenda Show Summaries</h1><h4>Shut up, slave!</h4><hr/>")
     sitemap = codecs.open("na/sitemap.xml", "w", "utf-8")
     sitemap.write('''<?xml version="1.0" encoding="UTF-8"?>
 <urlset
@@ -302,7 +306,11 @@ if __name__ == '__main__':
     ind.write("</div></div></div></body></html>\n")
     ind.close()
   if sitemap is not None:
-    sitemap.write("</urlset>")
+    sitemap.write('''  <url>
+    <loc>"http://www.blugs.com/na/NASummaries.pdf"</loc>
+    <lastmod>%s</lastmod>
+    <changefreq>daily</changefreq>
+  </url>\n</urlset>\n''' % (now))
     sitemap.close()
   if upload is True:
     cmd = "rsync -azrlv --exclude='.DS_Store' -e ssh na/ blugs@blugs.com:blugs.com/na"
