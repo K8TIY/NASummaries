@@ -40,16 +40,13 @@ def latexSection(f,lines,shownum,showdate):
   f.write("\\begin{itemize}\n")
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0:
-      if lines[i] == '~~~~':
-        f.write("\\newpage \n")
-      else:
-        parts = lines[i].split(None, 1)
-        label = "\\scmono{%s}" % (parts[0])
-        if float(shownum) >= 559:
-          urltime = re.sub(':', '-', parts[0])
-          label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
-        f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
-  f.write("\\end{itemize}\n")
+      parts = lines[i].split(None, 1)
+      label = "\\scmono{%s}" % (parts[0])
+      if float(shownum) >= 559:
+        urltime = re.sub(':', '-', parts[0])
+        label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
+      f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
+  f.write("\\end{itemize}\\newpage\n")
 
 # Educate quotes and format stuff
 def latexEscape(s):
