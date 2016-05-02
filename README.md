@@ -22,6 +22,11 @@ I will attempt to keep these current with new shows, and eventually
 to do summaries back to the first one. Suggestions and corrections
 will of course be welcomed.
 
+Licensing
+--------
+
+*I hereby place the source code, data, and all derivatives in the public domain.*
+
 Philosophy
 --------
  

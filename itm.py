@@ -29,6 +29,10 @@ def latexHeader(f,dotitle):
 \begin{document}
 \title{{\Huge \mono{""" + title + r"""}}}
 \author{Sir Ludark Babark Fudgefountain, \scmono{K8TIY}}
+\date{\parbox{\linewidth}{\centering%
+  \today\endgraf\bigskip
+  \textit{This document and all associated media and software\\are hereby placed in
+  the public domain.}}}
 """)
   if dotitle:
     f.write('\maketitle\n')
