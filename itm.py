@@ -253,8 +253,12 @@ if __name__ == '__main__':
     shutil.copy2('pdf-icon.png', 'na/pdf-icon.png')
     ind = codecs.open("na/index.html", "w", "utf-8")
     HTMLHeader(ind,"No Agenda Show Summaries")
-    
-    ind.write("<h1>No Agenda Show Summaries</h1><h4>Shut up, slave!</h4><hr/>")
+    ind.write('''<h1>No Agenda Show Summaries
+  <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+</h1>
+<h4>Shut up, slave!</h4><hr/>''')
     sitemap = codecs.open("na/sitemap.xml", "w", "utf-8")
     sitemap.write('''<?xml version="1.0" encoding="UTF-8"?>
 <urlset
