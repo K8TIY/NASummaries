@@ -2,6 +2,12 @@
 # -*- coding: utf-8 -*-
 import os,sys
 import re,getopt,codecs,cgi,time,shutil
+try:
+  from HTMLParser import HTMLParser
+except ImportError:
+  from html.parser import HTMLParser
+hp = HTMLParser()
+
 
 def latexHeader(f,dotitle):
   title = "No Agenda Summaries"
@@ -17,6 +23,7 @@ def latexHeader(f,dotitle):
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
 \newcommand{\cjk}[1]{{\fontspec[Scale=0.9]{Hiragino Mincho Pro}#1}}
+\newcommand{\asymbol}[1]{{\fontspec[Scale=0.9]{Apple Symbols}#1}}
 \addtolength{\oddsidemargin}{-.6in}
 \addtolength{\evensidemargin}{-.6in}
 \addtolength{\textwidth}{1.2in}
@@ -71,7 +78,10 @@ def latexEscape(s):
   s = re.sub(r'{{(.+?)}}', r'$\mathrm{\1}$', s)
   s = re.sub(u'([\u0400-\u052F]+)', r'\\doulos{\1}', s)
   s = re.sub(u'([\u0370-\u03FF]+)', r'\\doulos{\1}', s)
+  s = re.sub(u'([\u16A0-\u16FF]+)', r'\\asymbol{\1}', s)
   s = re.sub(r'__(.+?)__', r'\\cjk{\1}', s)
+  s = re.sub(r'\\&ast;', '*', s)
+  s = hp.unescape(s)
   news = ''
   oq = False
   for i in xrange(0,len(s)):
@@ -98,6 +108,7 @@ def HTMLPage(f,lines,shownum,showdate):
       s = re.sub(r'\s\s+', r'<br/>', s)
       s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
       s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
+      s = re.sub(r'&amp;ast;', '*', s)
       s = re.sub(r'~~~(.+?)~~~', r'<span style="background:black">&nbsp;&nbsp;&nbsp;&nbsp;</span>', s)
       s = re.sub(r'~~(.+?)~~', r'<s>\1</s>', s)
       s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
