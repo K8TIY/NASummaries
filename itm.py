@@ -82,6 +82,7 @@ def latexEscape(s):
   s = re.sub(r'__(.+?)__', r'\\cjk{\1}', s)
   s = re.sub(r'\\&ast;', '*', s)
   s = re.sub(r'\(CotD\)', '({\\color{red}CotD})', s)
+  s = re.sub(r'\(TCS\)', '({\\color{red}TCS})', s)
   s = hp.unescape(s)
   news = ''
   oq = False
@@ -140,6 +141,7 @@ def HTMLPage(f,lines,shownum,showdate):
         news = news + c
       s = news
       s = re.sub(r'\(CotD\)', '(<span style="color:red;">CotD</span>)', s)
+      s = re.sub(r'\(TCS\)', '(<span style="color:red;">TCS</span>)', s)
       if float(shownum) >= 559:
         urltime = re.sub(':', '-', parts[0])
         label = "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'>%s</a>" % (shownum, urltime, parts[0])
