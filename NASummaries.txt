@@ -7141,7 +7141,7 @@ Party Boat
 0:00:00 JCD: "Ooh, oh, oh, I didn't know this was gonna happen!"
 0:00:33 ACC's new low-latency and better-sounding setup
 0:02:01 Democrat town hall with scripted questions, Sanders on college degrees now vs then, JCD on higher education as "moneymaking scam", new buildings galore; second-guessing Hillary supporter meme, Hillary questioned about dishonesty, "I have had many, many millions of dollars spent against me" by drug companies; "Secretary Sand… er, Clinton … I can see why they have you this question", ACC: "get some real actors!"; O'Malley "climate *change*" accent, "greatest business opportunity", "clean Iowa wind"
-0:17:54 Trump to ditch Fox debate, NBC "petulant" meme, Chuck Todd: "debates haven't been Trump's best moments"; Glenn Beck: "Donald Trump is a progressive", Ann Coulter: Fox "not always our network", Roger Alies' arrogance, CNN on "hostile takeover" of party
+0:17:54 Trump to ditch Fox debate, NBC "petulant" meme, Chuck Todd: "debates haven't been Trump's best moments"; Glenn Beck: "Donald Trump is a progressive", Ann Coulter: Fox "not always our network", Roger Ailes' arrogance, CNN on "hostile takeover" of party
 0:28:45 CBS on Wounded Warrior Project's "out of control" spending, "alcohol" meme, Form 990 deconstruction, 11-minute package already in the can, CEO Steven Nardizzi's grand entrances
 0:41:55 Trump on evolution of Reagan's conservatism; on ISIS: "wouldn't it be nice if we could surprise them and knock the hell out of them?", Tom Marino: "we have to kill them all"; Mitchell & Matthews on Bernie Sanders "chaos", what Hillary has "been through"; Susan Sarandon's tearful "I give you Bernie Sanders" (CotD), JCD "great analysis" iso; Carson misrepresents history of journalistic objectivity (JCDPPotD)
 0:52:10 Grand jury indicts Planned Parenthood video producers, "tampering with a governmental record" felony, *CBS This Morning* "I don't know any journalists that use fake IDs"
@@ -9000,3 +9000,29 @@ Yeezy Squeezy
 2:25:16 *The Advocate* declares Peter Thiel non-gay; Colorado school's white privilege survey for staff; *RT* NatWest bank account shut down, *The Economist* editor declares *RT* writers unemployable
 2:33:11 Trump promises Polish visa waiver; San Leandro naked woman "Truth is Beauty" sculpture
 2:37:16 Justin Trudeau's mother Margaret a former Studio 54 girl; ABC Charlie Brown *Great Pumpkin* corn maze native ad; YouTube podcaster takes issue with Michelle Obama's mother's pension
+
+871
+10/23/2016
+New World Hackers
+0:00:00 JCD: "*I've seen a smart stove at Best Buy!*" (2:42:12)
+0:00:34 No Confucius say; CVC visit funded by Dutch reality show, trip to the gun range, ACC: "I'm sure the Dutch will be appropriately horrified"; ACC deletes his clips
+0:07:12 Kirkuk funeral bombing only covered by *RT*; Assad blamed for chlorine barrel bombs, "crimes of historic proportions"; PBS on Ash Carter's Iraq visit, help from Kurds declined, Aleppo bombardment resumes; 101st Airborne on front lines, Hillary e-mail spelling out who's getting what weaponry, intel community expects Chris Stevens e-mail, "Chris Smith" subject line
+0:16:32 David Goodfriend on leaked e-mail "discrepancies", "I can't talk about it here on Fox", "say on the air, Bill, that you don't like Russia trying to interfere with our election!", odd whimper
+0:23:21 Two Obamas theory revisited; JCD on secret laws; Obama mother-in-law pension story called into question; half-brother Malik Obama: "he's changed", "sucked into that matrix"
+0:31:20 NBC asks why Trump "bombed so badly" at Smith Dinner; CNN: "singe but don't burn"
+0:37:23 Maria Bartiromo grills Zeke Emanuel on Obamacare failure, "look, I agree, the fact of the matter is…", "when you go into a new market, every business expects to lose some money at the start", blames Republicans, Bartiromo having none of it
+0:42:03 ACC cyber sounds for ABC DDoS report, "extremely sophisticated and complex"; Josh Earnest: "the rules of the road when it comes to cybersecurity … are not well-established" non-answer; migration of vulnerabilities to "smart tech" like "refrigerators, stoves, security systems", chatroom all-in on smart stoves; KTVU explanation fail, "malware code"; PBS on New World Hackers and DVRs; JCD on microservice architecture; Kodi Fire TV Stick hack
+0:59:37 Donation segment #1; Duke Nussbaum provides his own jingle
+1:14:49 Belgian Wallonia region blocking CETA ratification; Soros on Nazi occupation of Hungary: "happiest year of my life"; Jill Stein tweets two pipelines article; Podesta e-mail proposing Kirkuk Ceyhan pipeline reversal and laundering the money through the Federal Reserve
+1:34:37 Jeff Greenfield on "turning point" first debate vs Trump "looking forward" to it (JCDPPotD); Ash Carter refuses to respond on Hillary's four minutes to nuclear launch, another missed opportunity for Trump, JCD: "I think she just made it up"
+1:41:12 Carl Bernstein on "neofascist sociopath" Trump's "neofascist media empire", JCD Red Book: Roger Ailes deal; ABC rewrites history a bit with Al Gore's 2000 "gracious concession speech", "thank you Al Gore" chant, Stephanopoulos: “a real act of patriotism by Al Gore"; election crisis could make Joe Biden president; Biden wants to take Trump "behind the gym"
+1:55:23 EPA report finds agency acted seven months late on Flint lead contamination
+1:57:02 Department of Defense orders 10k+ veterans to repay reenlistment bonuses
+2:01:33 Josh Earnest on Rodrigo Duterte causing "unnecessary certainty" in relations
+2:03:43 NYT taking up podcasting, "audio is part of the future because it attracts young people"
+2:10:37 Donation segment #2; Harf eggs with Lee sauce
+2:22:02 Chicago police corruption story from *The Intercept*; JCD on Jon Zilber's pun headlines
+2:27:25 "Sister Spring": "acme" caused by "what little boys do in the bedroom at night" (CotD)
+2:28:41 Feedback on Evan McMullin and LDS refusal to endorse candidates; NA numerology origin
+2:34:09 3300 migrants rescued in Italy, attack by Libyan Coast Guard; Wonder Woman licensed by EU, Lynda Carter to Gayle King: "it's about fighting for freedom"
+2:42:38 "Aaargh, thanks Obama!", "a lot of hysteria" over premiums; U.S.[]ship warned off Paracel Islands; psoriasis medication Taltz can cause inflammatory bowel disease
