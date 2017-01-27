@@ -53,9 +53,8 @@ def latexSection(f,lines,shownum,showdate):
     if len(lines[i]) > 0:
       parts = lines[i].split(None, 1)
       label = "\\scmono{%s}" % (parts[0])
-      if float(shownum) >= 559:
-        urltime = re.sub(':', '-', parts[0])
-        label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
+      urltime = re.sub(':', '-', parts[0])
+      label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
       f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
   f.write("\\end{itemize}\\newpage\n")
 
@@ -70,6 +69,7 @@ def latexEscape(s):
   s = re.sub(r'\*(.+?)\*', r'\\textit{\1}', s)
   s = re.sub(r'~~~(.+?)~~~', r'\\censor{abcdefg}', s)
   s = re.sub(r'~~(.+?)~~', r'\\sout{\1}', s)
+  s = re.sub(r'\d+@\d:\d\d:\d\d', lambda m: playerURL(m.group(),'latex'), s)
   s = re.sub(r'(\d:\d\d:\d\d)', r'\\scmono{\1}', s)
   s = re.sub(r'``(.+?)``', r'\\scmono{\1}', s)
   s = re.sub(r'`(.+?)`', r'\\texttt{\1}', s)
@@ -81,9 +81,8 @@ def latexEscape(s):
   s = re.sub(u'([\u16A0-\u16FF]+)', r'\\asymbol{\1}', s)
   s = re.sub(r'__(.+?)__', r'\\cjk{\1}', s)
   s = re.sub(r'\\&ast;', '*', s)
-  s = re.sub(r'\(CotD\)', '({\\color{red}CotD})', s)
-  s = re.sub(r'\(TCS\)', '({\\color{red}TCS})', s)
-  s = hp.unescape(s)
+  s = re.sub(r'\((B?CotD)\)', r'({\\color{red}\1})', s)
+  s = re.sub(r'\(TCS\)', r'({\\color{red}TCS})', s)
   news = ''
   oq = False
   for i in xrange(0,len(s)):
@@ -98,6 +97,18 @@ def latexEscape(s):
   s = re.sub(r'\\(\'+)', r'$\1$', s)
   return s
 
+def playerURL(s,fmt):
+  label = s
+  parts = re.split(r'\s*@\s*', s, 1)
+  shownum = parts[0]
+  urltime = re.sub(':', '-', parts[1])
+  if fmt == 'latex':
+    label = "\\scmono{%s}" % (s)
+    label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
+  else:
+    label = "<code>%s</code>" % (s)
+    label = "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'>%s</a>" % (shownum, urltime, label)
+  return label
 
 def HTMLPage(f,lines,shownum,showdate):
   HTMLHeader(f,'No Agenda %s' % (lines[0]),shownum)
@@ -106,14 +117,12 @@ def HTMLPage(f,lines,shownum,showdate):
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0 and lines[i] != '~~~~':
       parts = lines[i].split(None, 1)
-      s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', cgi.escape(parts[1]))
-      s = re.sub(r'\s\s+', r'<br/>', s)
+      s = re.sub(r'\s\s+', r'<br/>', parts[1])
       s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
       s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
       s = re.sub(r'&amp;ast;', '*', s)
       s = re.sub(r'~~~(.+?)~~~', r'<span style="background:black">&nbsp;&nbsp;&nbsp;&nbsp;</span>', s)
       s = re.sub(r'~~(.+?)~~', r'<s>\1</s>', s)
-      s = re.sub(r'(\d:\d\d:\d\d)', r'<code>\1</code>', s)
       s = re.sub(r'``(.+?)``', r'<code>\1</code>', s)
       s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
       s = re.sub(r'`', r'&lsquo;', s)
@@ -126,6 +135,8 @@ def HTMLPage(f,lines,shownum,showdate):
       s = re.sub(r'\\}', r'}', s)
       s = re.sub(r'\\(\'+)', r'\1', s)
       s = re.sub(r'__(.+?)__', r'\1', s)
+      s = re.sub(r'\d+@\d:\d\d:\d\d', lambda m: playerURL(m.group(),'html'), s)
+      s = re.sub(r'\((\d:\d\d:\d\d)\)', r'(<code>\1</code>)', s)
       label = "<code>%s</code>" % (parts[0])
       news = ''
       oq = False
@@ -142,9 +153,8 @@ def HTMLPage(f,lines,shownum,showdate):
       s = news
       s = re.sub(r'\(CotD\)', '(<span style="color:red;">CotD</span>)', s)
       s = re.sub(r'\(TCS\)', '(<span style="color:red;">TCS</span>)', s)
-      if float(shownum) >= 559:
-        urltime = re.sub(':', '-', parts[0])
-        label = "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'>%s</a>" % (shownum, urltime, parts[0])
+      urltime = re.sub(':', '-', parts[0])
+      label = "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'>%s</a>" % (shownum, urltime, parts[0])
       f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code></td><td>%s</td></tr>\n" % (label,s))
   f.write("</table></div></div></div></body></html>\n")
 
