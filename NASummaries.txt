@@ -16,7 +16,7 @@ The Deuce!
 1:15:20 Two to the head stories: "intellectual property address" Stephen Timms stabbing; Khattiya Sawatdiphol/Seh Daeng shooting; Goldman Sachs barricaded
 1:20:19 Glenn Beck on Elena Kagan writing on government "unskewing" media, Cass Sunstein on conspiracy theory tax
 1:27:33 Schwarzenegger commencement speech
-1:28:34 BP oil spill: CSPAN voice-over "This is where the oil executives are pointing the finger at each other."; Obama: "falling over each other to point the finger of blame at somebody else"; foreign companies expanding operations in the Gulf; BP America CEO/Cantwell back-and-forth: "legitimate claims"; oil inventory pump and dump cycle; JCD's bacterial oil production theory; Mikhail Prokhorov, Pincus Green, Iran's huge oil refinery (ACC's PPotD)
+1:28:34 BP oil spill: C-SPAN voice-over "This is where the oil executives are pointing the finger at each other."; Obama: "falling over each other to point the finger of blame at somebody else"; foreign companies expanding operations in the Gulf; BP America CEO/Cantwell back-and-forth: "legitimate claims"; oil inventory pump and dump cycle; JCD's bacterial oil production theory; Mikhail Prokhorov, Pincus Green, Iran's huge oil refinery (ACC's PPotD)
 1:49:23 Law & Order off the air after turning on global warming; Sharon Stone bad acting; "Well, a guy named Miranda ruined that for both of us."
 1:52:19 Showtime's *Darker Me*; *Tyra Banks*: "I call him my cousband"; Juan-Carlos Cruz murder for hire arrest
 1:56:31 Australian parents being paid for vaccine trials; pregnant woman ear disease vaccine in Aboriginals
@@ -34,7 +34,7 @@ No Agenda 200.5
 0:12:54 Decision to go to two shows per week; radio backgrounds; sound quality, ACC: "Silence is beautiful."
 0:19:07 Who's the star of the show?
 0:20:11 How *Family Guy* changed "no jingles, no sound effects, no agenda", *Weenie and the Butt*; ACC: "zero content, all filler!"; Geoff Smith's jingles, "in the morning" rimshot and segue
-0:26:22 Evolution of the show; complementary clips; no plan; transition to more media assassination; ACC's mail labeling system, CSPAN, transcript system; JCD on Book TV; move away from anecdote format listener-driven
+0:26:22 Evolution of the show; complementary clips; no plan; transition to more media assassination; ACC's mail labeling system, C-SPAN, transcript system; JCD on Book TV; move away from anecdote format listener-driven
 0:35:03 Donations introduced in late 2008 or 2009, public broadcasting model, NPR: "sponsorship, underwriting, advertising, call it whatever you want"; psychological hurdle to fund raising
 0:43:53 Instant feedback via live streaming, fixed schedule
 0:45:28 ACC: "We don't work for tips."
@@ -201,7 +201,7 @@ Mongolian Hat
 2013-01-03
 Tsunami Bomb
 0:00:00 JCD: "Yeah, you just get it out of the air, the energy's around you, man, it's around you!" (2:20:35)
-0:00:36 National Stalking Awareness Month; no food vendors or public toilets for Times Square, ACC: "poop on the floor, slave!"; Dutch *Nationale Postcode Loterij*, ACC: "its the most unbelievable peer pressure Gitmo Nation thing I've ever seen"; JCD's adventures with the German Slingbox
+0:00:36 National Stalking Awareness Month; no food vendors or public toilets for Times Square, ACC: "poop on the floor, slave!"; Dutch *Nationale Postcode Loterij*, ACC: "it's the most unbelievable peer pressure Gitmo Nation thing I've ever seen"; JCD's adventures with the German Slingbox
 0:14:17 Red Book prediction wrap-up; oversimplified CBS Benghazi retrospective, Steve Israel: conspiracy theorists "same people who said that the moon landing was staged in a Hollywood set"; facelift "smoking gun": Harkness Eye Institute, huge sunglasses, no wheelchair
 0:23:32 Donation segment #1 (part 1)
 0:26:31 ACC watching fiscal cliff C-SPAN stream at 3am, "fudged deal"; Obama campaign "making sure this country remains a place where you can make it if you try", "we can't not pay bills that we've already incurred"; CBS on special interest tax breaks, Indian employment tax credit, asparagus deal, IRS prison disclosure provision, film and TV breaks, "clinical data registries"
@@ -1607,7 +1607,7 @@ New World Odor
 0:00:46 *Sinterklaas* and his Black Petes; wooden shoes
 0:01:28 William Bratton re-hired as NYC police chief, stop-and-frisk "with respect"; Obama pardoned 10 turkeys, 39 humans, JCD: "He's a mean bastard"
 0:05:40 Black Pete controversy: Joachim Stroink apology; Martin Bashir resignation over Sarah Palin slavery rant
-0:20:34 Representative Duncan Hunter on CSPAN: WTC 7 caller, "Did you read the 9/11 investigation by the committees?"; Hunter on Iranian liars
+0:20:34 Representative Duncan Hunter on C-SPAN: WTC 7 caller, "Did you read the 9/11 investigation by the committees?"; Hunter on Iranian liars
 0:28:28 Dinner with the O-bots: "Twitter of our genome" line greeted by wall of silence; Professor switching to Linux: "iOSification of OS X"
 0:34:34 `betterthancash.org` founders: Gates Foundation, Citigroup, USAID, UNCDF, Omidyar Network, Visa, Ford Foundation
 0:41:58 Former chief of Dutch Central Bank likens Bitcoin to tulip-mania; Greenspan: "Currencies, to be exchangeable, have to be backed by something."; mBTC
@@ -1949,7 +1949,7 @@ Message from the Future
 2014-01-12
 Eradicate Misery
 0:00:00 JCD: "Ap, noop, ah, I'm always confused!"
-0:00:53 Six-week cycle in 2 weeks; JCD predicts Indianapolis; producer Matt calls in to CSPAN
+0:00:53 Six-week cycle in 2 weeks; JCD predicts Indianapolis; producer Matt calls in to C-SPAN
 0:06:53 "ITM" to JCD from San Francisco cabbie; JCD's 21-year-old Lexus has never blown a lightbulb; 1000 hours
 0:09:20 More on the six-week cycle; Indianapolis on CBS News (show 581) and on PBS/BBC America
 0:12:03 Turkish Parliament fisticuffs; organized protests; Gülen schools; ACC: "Rubble is coming."; Cosmos Foundation; let the country rubble-ize itself then bring in the contractors
@@ -2319,7 +2319,7 @@ Tears Will Come
 1:46:07 Dana Bash with Ted Cruz; Michael Savage ballistic on native advertising (Tea Party Express?)
 1:51:21 Apple's `goto fail` code released four weeks before PRISM documents indicated Apple was on board
 1:56:12 Thom Hartmann RadCast update
-1:57:26 *The Great Global Warming Swindle* on IPCC; Bill Nye the Science Guy talks evolution on CSPAN; ACC: belief in global warming incompatible with belief in God; JCD on genetics "cascade effect", dogs, cats and *Toxoplasma gondii*
+1:57:26 *The Great Global Warming Swindle* on IPCC; Bill Nye the Science Guy talks evolution on C-SPAN; ACC: belief in global warming incompatible with belief in God; JCD on genetics "cascade effect", dogs, cats and *Toxoplasma gondii*
 2:12:14 Donation segment #2
 2:20:37 New meme alert: Josh Earnest the new spokeshole on the "wealthy and well-connected"
 2:28:50 Michelle Obama on Jimmy Fallon promoting ACA: "Young people are knuckleheads."; Mac & Cheese, kale chips, portobello mushrooms
@@ -2562,7 +2562,7 @@ Dead Jellyfish
 0:01:09 Club 33 has burned to the ground
 0:01:54 Turkey: false flag YouTube post, "first Twitter, now YouTube, what's next, Facebook?"; tomb of Süleyman Shah, NATO, ACC: "YouTube has become the leaker's paradise."
 0:12:35 Obama on CBS, Putin Soviet Union tragedy meme, "We have interest in encircling Russia…" ACC: "Why are we doing it then?"
-0:16:53 CSPAN's crummy new interface with missing videos; HR 4278 "Ukraine Support Act" funding Radio Free Europe, Radio Liberty, and Voice of America; Ed Royce on exporting natural gas to Ukraine, JCD: "You can't ban flaring, it's a relief valve", "self-imposed sanctions"; Overseas Private Investment Corporation to invest in Ukraine
+0:16:53 C-SPAN's crummy new interface with missing videos; HR 4278 "Ukraine Support Act" funding Radio Free Europe, Radio Liberty, and Voice of America; Ed Royce on exporting natural gas to Ukraine, JCD: "You can't ban flaring, it's a relief valve", "self-imposed sanctions"; Overseas Private Investment Corporation to invest in Ukraine
 0:33:36 IMF reforms not in HR 4278; IMF 2010 Quota and Governance Reform, "multilateralism", Dominique Strauss-Kahn framed and replaced by Chicagoan Christine Lagarde; SDR (special drawing rights) bonds to possibly replace petrodollar with NWO currency, Bretton Woods Committee all-in, SDR exchange rate based in part on GDP
 0:49:51 Lagarde on 1914, 1944; JCD and ACC disagree on where this is going and China's role in it, debate whether the Fed can print our way out of another crisis
 1:05:08 Venetian and Sardinian separatism movement, "the system itself", countries like Spain joining EU and borrowing money with no intent to pay back and subsequent enslavement; JCD: "Jack Lew saw one too many PowerPoint presentations", compare to Michio Kaku publishing outside his expertise; Fed = banks
@@ -3323,7 +3323,7 @@ The Weed Mobile
 2:28:23 Most of Niagara Falls diverted into hydroelectrics
 2:31:45 Obama: "a new effort, to fix as much of our immigration system as I can, without Congress"; executive pastry chef, Michelle: "There is no crack in our pies."
 2:34:20 `whatthefuckismywearablestrategy.com`; stop The JerkTech
-2:38:15 CSPAN call-in from stoner on marijuana diesel, hemp American flag
+2:38:15 C-SPAN call-in from stoner on marijuana diesel, hemp American flag
 2:44:06 Outro: John Cleese explains soccer to Americans
 
 633
@@ -3338,7 +3338,7 @@ Reverse the Curse
 1:13:22 Donation segment #1; new e-mail template 35% open rate
 1:42:27 JCD got a QSL card from ``KE0AMZ``, ACC getting QSL cards by Ms.[]Micky
 1:45:28 Afghanistan election: Abdullah Abdullah favored over our guy Ashraf Ghani *Zana-e Bush* (wife of Bush), Psaki on "serious allegations of fraud", Ghani TED talk
-1:56:26 CSPAN intro for discussion of internet freedom with Bruce Schneier; Michael Cops missing own irony on internet deregulation; ALEC, Council of Mayors behind State municipal broadband bans; Cops on political ad spending, Section 317, "so than when you saw those ads, you'd know who was trying to buy your vote", JCD: "This is idealistic bullcrap."
+1:56:26 C-SPAN intro for discussion of internet freedom with Bruce Schneier; Michael Cops missing own irony on internet deregulation; ALEC, Council of Mayors behind State municipal broadband bans; Cops on political ad spending, Section 317, "so than when you saw those ads, you'd know who was trying to buy your vote", JCD: "This is idealistic bullcrap."
 2:09:41 War on men: Harry Reid on Hobby Lobby ruling by "five white men"
 2:11:02 Corker's Nuland call-out on nonexistent Russia sanctions: "wake up in the mornings and look in the mirror and practice talking tough…"; RT journalist to Psaki on citizens killed in air strikes, "Russian-backed separatists"
 2:18:31 Obama on immigration in 2011: "…change the law myself, but that's not how democracy works", 2014: "to fix as much of our immigration system as I can, on my own"
@@ -4372,7 +4372,7 @@ Aristocrats!
 0:52:13 Donation segment #1; *In Flight* UTC watch
 1:07:13 Putin's State of the Union: "even in a situation when certain governments are trying to erect something like a new iron curtain around Russia"; new Ukrainian Finance Minister Natalie Jaresko a U.S.[]citizen, USUBC's USAID connection; South Stream pipeline to run straight into Turkey & Greece, Erdoğan's joke about joining Shanghai five; Murmansk prostitute price hike; Turkish over-9% inflation rate
 1:30:11 Ashton Carter Secretary of Defense candidate instead of Lieberman; A-10 Warthogs to go to Middle East; NATO meeting on ISIL strategy, Iranian airstrikes, "aging F-4 Phantom jets"; new ISIL warnings to service-members, "no indication of a specific threat or target" as usual, JCD: "this is an insult to the American soldier"; Khorasan Group theories; World Food Program out of money, no support for Syrians, WFP debit cards, Safeway in Jordan, JCD: "how can we make money off of refugees? wow"; Red Cross $2.2bn blood shenanigans
-1:44:11 Toyota to sell hydrogen-powered cars, $4.3M refueling stations; Transatomic Power "waste-annihilating molten salt reactor", "WAMSR"; gasoline tax increase douchebaggery; *60 Minutes* Chernobyl propaganda vs *Pandora's Promise*
+1:44:11 Toyota to sell hydrogen-powered cars, $4.3M refueling stations; Transatomic Power "waste-annihilating molten salt reactor" WAMSR; gasoline tax increase douchebaggery; *60 Minutes* Chernobyl propaganda vs *Pandora's Promise*
 1:52:54 Donation segment #2; JCD on EnerGel pens; 12/13/14 "Insta-Knight Presents" title proposal
 2:04:54 Second Half of Show: Orion launch scrubbed until tomorrow, NASA video: Van Allen belts "an area of dangerous radiation", "we must solve these challenges before we send people through this region of space", 3600 vs 238k miles, loss of tapes and blueprints
 2:11:59 Obama at NIH: virus cloning "gel electro… uh… phoresis"; BRAIN Initiative, Adam Voorhes University of Texas brain book *Malformed*, connection to stolen brains hoax, powerHouse publisher of *Vice Photo Book*; Shane Smith, Jeff Jarvis on buying "distressed media assets"
@@ -4593,7 +4593,7 @@ Polymorphic Analysis
 0:04:46 Show 682 Tourette's catalog feedback; Taylor Swift's butt and lips
 0:10:09 National \{Mentoring, Slavery & Human Trafficking Prevention, Stalking Awareness\} Month; getting off JCD's Twitter, e-mail block list; *USA Today* Facebook sign-in for comments; net neutrality action coming up, secret "Title X"
 0:25:14 Obama Executive Order slapping more sanctions on North Korea, "provocative, destabilizing, and repressive actions and policies of the government of North Korea"; KOMID weapon manufacturing and sales, Middle East sales offices; Park Sang-hak's *The Interview* DVD airdrop; *Blackhat* trailer; Red Book: security failure at airport right before DHS re-funding; "broken" immigration meme; Rumsfeld's 9/10 unaccounted-for $2T
-0:40:11 NPR Obama interview: "yeah, well, I I I d… here's what I do think is true … I have spent, six years now in this office"; CSPAN call-in rant; Obama calling only on female reporters; millennial on Youtube: "without the President's help we would not be free right now"
+0:40:11 NPR Obama interview: "yeah, well, I I I d… here's what I do think is true … I have spent, six years now in this office"; C-SPAN call-in rant; Obama calling only on female reporters; millennial on Youtube: "without the President's help we would not be free right now"
 0:48:27 *Drunk History*; *Legally Drunk*; *Win Lose or Drone*; Chinese Wing Loong drone; *Kill Decision*
 0:54:19 Guess the Country: Japanese tourist gang-raped in India
 0:56:36 Donation segment #1
@@ -5094,7 +5094,7 @@ Lying Weasels
 0:49:59 Producer notes on ~~CCRAP~~ PARCC test "glitches"; ISIS recruiting in sign language
 0:52:57 Donation segment #1; Boston's 108.6 inches of snow, Vanuatu cyclone, *State of Fear* setting
 1:07:55 Washed-up towlette possibly from MH370
-1:09:00 Goofy Ashton Carter introduction; *Fresh Prince of Bel-Air* lyrics on CSPAN call-in
+1:09:00 Goofy Ashton Carter introduction; *Fresh Prince of Bel-Air* lyrics on C-SPAN call-in
 1:13:15 American Association for the Advancement of Science signups, Gulf of Mexico survey
 1:14:53 Netanyahu election victory after media's standard "too close to call" run-up, "Gallup-NBC" poll, Vegas bookie model; Obama mandatory voting comment; Office of Administration now FOIA-proof, JCD on journalists: "we're not Hemingway"
 1:27:08 First Look tl/dr story on FBI agents' taped comments from Christopher Lee Cornell episode; editor needed for Greenwald's overly-verbose style; Snowden at SxSW
@@ -5148,7 +5148,7 @@ Bandwich
 0:54:35 Maddow "these nude tails"/"these new details", Crystal Gayle "newest tits"/"newest hits"
 0:58:03 Donation segment #1; JCD on useless DisplayPort FAQ
 1:06:41 Bowe Bergdahl's attorney a massive "I can't tell you" dud on *News Hour* 
-1:10:51 Monsanto consultant Patrick Moore declines to drink "not dangerous to humans" Roundup, "you're a complete jerk"; tough interview stories; Bill Maher to mother of five children: "they'll be takers of water", Kissinger's "useless eaters"; "biotech fruits and vegetables" approved by FDA, WHO study linking Roundup to cancer; Cartagena Protocol vs USAID; suicides in India
+1:10:51 Monsanto consultant Patrick Moore declines to drink "not dangerous to humans" glyphosate, "you're a complete jerk"; tough interview stories; Bill Maher to mother of five children: "they'll be takers of water", Kissinger's "useless eaters"; "biotech fruits and vegetables" approved by FDA, WHO study linking Roundup to cancer; Cartagena Protocol vs USAID; suicides in India
 1:26:04 Caliphate: Carter Ham on "corrupted" social media information; NCIS military social media episode; expanding military budgets; new AUMF with three-year sunset clause, Dempsey: "derived from the fact that we will have a new President"; MIT pre-ISIS Twitter analysis
 1:40:50 Lawrence Ferlinghetti on Silicon Valley types: "bags full of money and no manners", "fogeys gonna foge" comment; Norman Lear's 15 Central Park West condo; Facebook positioning itself as news site: full circle to AOL, MTV's AOL keyword
 1:49:31 Proposed Irish water bill garnishment, fees, penalties
@@ -5778,7 +5778,7 @@ Fusion Cell
 1:55:23 Greece to kick can down the road, Larry Summers on loans flowing back to creditor banks, Varoufakis a game theory expert; Queen Elizabeth in Germany, Belgian Waterloo coin kerfuffle
 2:06:07 Kale on *Orange is the New Black*; fastest train in the world: 127.1 mph in 1905
 2:08:43 Donation segment #2; JCD recommends "stunning" 2011 Renaissance Bordeaux
-2:19:34 Obama epic "nah nah nah nah no no no no" to heckler a "smackdown" according to CBS, "you're in my house"; JCD: ditch iPhone video, mug for the CSPAN camera; "shame on ya", crowd chanting "Obama", "or we'll have to take ya out" (CotD); NPR Obamacare segment underwritten by Athena Health Group
+2:19:34 Obama epic "nah nah nah nah no no no no" to heckler a "smackdown" according to CBS, "you're in my house"; JCD: ditch iPhone video, mug for the C-SPAN camera; "shame on ya", crowd chanting "Obama", "or we'll have to take ya out" (CotD); NPR Obamacare segment underwritten by Athena Health Group
 2:30:51 Tsarnaev "awkward" post-sentencing apology asserting no one else involved
 2:34:24 "Podcast history" with Marc Maron Obama *WTF* interview, "saying" vs "using" the word; Obama "it's just a podcast" comment
 2:37:44 UN sexual abuse in CAR's capital "Bangui" (CotD), whistleblower suspended
@@ -6694,7 +6694,7 @@ Fear is the Product
 1:46:25 Air France bomb threats, J'Johnson's "you will obey" voice, ask Adam: where's the NSA?
 1:49:58 Anonymous ISIS Twitter "takedowns"; CNN's definition of encryption: "conversations chopped up into a jumble by mathematical algorithms", Telegram messages that "self-destruct", "use Tor, which is of course the dark net"; WSJ on "tech tutorials" ranking app security courtesy of SITE; ISIS security via Gameboy, Benghazi Eve Online‍‍ communications; "on your knees, show me your back" in English; ACC: Oslo next up, JCD: Eiffel tower left lit up
 2:09:56 Producer e-mail on odd nationwide electrical grid drill; *South Park* on native advertising
-2:16:07 Donation segment #2; No Agenda Funnies 776.5 for Thanksgiving
+2:16:07 Donation segment #2
 2:25:35 Second Half of Show: ACC & TtK investigate the Marfa Lights
 2:29:40 Brennan blames climate change for refugees; Oren Cass testifies about the $2.5T India claims it needs; Thom Hartmann on Exxon investigation, bogus cigarette company analogy
 2:46:26 FCC wants CALEA authority to shut down web sites
@@ -7461,7 +7461,7 @@ Happy Countries
 0:48:24 Trump on "professional disruptors", Bernie double standard, Kennedy the cheerleader; Michelle Fields witness meme, Breitbart resignations, JCD Red Book: they'll end up with Omidyar's outfit; "I think you'd have riots" if blocked at convention, Hillary: "people remember mob violence that led to lynching", CBS interviews children: "are you tired of them being mean to each other" (CotD), "~~not~~ all Muslims are bad" NLP meme
 1:01:57 Donation segment #1
 1:14:03 CNN news model's head explodes over 2008 Hillary campaign as origin of birther movement; Hillary ~~lies~~ "walks back" claim about Nancy Reagan's AIDS advocacy, JCD on AIDS timeline, "at most seven years" for vaccine; Hillary lies about Sanders' lack of involvement in 1993 healthcare push; Hillary: "we didn't lose a single person" in Libya (bombing)
-1:27:17 Millennials screaming over Bernie's rail replacing trucks; Cruz: media putting Trump in spotlight so Hillary will win, "two billion dollars in free media" meme, "I kept expecting Jerry Lewis to come out and make an ask for money"; Les Moonves: "we're anticipating a record-breaking year" with political advertising, media snubbing Bernie because he's all-in on campaign finance reform; SiriusXM 127 all-in on Hillary, CSPAN call-ins; Anonymous April 1 Trump DDoS
+1:27:17 Millennials screaming over Bernie's rail replacing trucks; Cruz: media putting Trump in spotlight so Hillary will win, "two billion dollars in free media" meme, "I kept expecting Jerry Lewis to come out and make an ask for money"; Les Moonves: "we're anticipating a record-breaking year" with political advertising, media snubbing Bernie because he's all-in on campaign finance reform; SiriusXM 127 all-in on Hillary, C-SPAN call-ins; Anonymous April 1 Trump DDoS
 1:37:39 Monica Mehta to Bill Maher on insurance companies exempt from antitrust laws since 1945
 1:41:06 Kimmel *Lie Witness News*: L.[]Ron Hubbard Supreme Court nomination
 1:43:17 Refugees stuck in Greece; EU-Turkey deal up to $6bn, expedited addition to "safe countries of origin" list, Martin Schulz on compatibility with Geneva Convention; Angelina Jolie visits Athens; Wes Clark on Erdoğan and Gülen, `killingedfilm.com`
@@ -9216,7 +9216,7 @@ Pet a Pony
 1:51:25 Swedish prosecutor questions Assange; EU whistleblower oversight; ACC on doomed Twitter
 2:01:26 Donation segment #2
 2:13:45 Mike Rogers: WikiLeaks "conscious effort by a nation-state"; Chichakyan pesters Kirby for list of hospitals hit by Russia, "once again, you're just wrong", Matt to the rescue, "state-owned outlet" like BBC; Kerry-prompted withdrawal of Russian jets disaster for Aleppo
-2:25:58 Leaked British memo: six months for Brexit strategy, JCD on poorly-named Labour, raucous Corbin vs May in Parliament session; Merkel Obama op-ed: "whole-world community"
+2:25:58 Leaked British memo: six months for Brexit strategy, JCD on poorly-named Labour, raucous Corbyn vs May in Parliament session; Merkel Obama op-ed: "whole-world community"
 2:33:56 66% of Trump protest arrestees didn't vote; Iowa "Suck it Up Buttercup" bill author: in real life "you don't get to go to a cry zone, you don't get to pet a pony", "spoiled brat" blockades
 2:38:18 Prescient *Kids in the Hall* art class sketch: "naked fat black crippled dykes are hard to find"
 2:41:43 *Federalist No.[]68* on Electoral College; Hillary intro as "*our* president"; Cook & Los Angeles counties; *RT* & Ed Schultz on Newsweek & *South Park* misfires, "*what have you done?!*" iso
@@ -9740,7 +9740,7 @@ Chain of Lies
 Loyalty Test
 0:00:00 JCD: "No, it's not an O-O, it's an O."
 0:00:34 ACC guitar-buying with nephew Matteo, "pinched off a few rounds" at the range, adult soccer infatuation, migrant housing business model, Chinese buying everything
-0:05:58 Amanpour: "I operate in the truth and the fact-based universe"; Fr.[]Robert Ballecer "best podcast in the universe"; JCD "Twitter police" run-in with Jay Rosen; man overboard notes
+0:05:58 Amanpour: "I operate in the truth and the fact-based universe"; Fr.[]Robert Ballecer "best podcast in the universe"; JCD Twitter run-in with Jay Rosen; man overboard Scott M.[]note
 0:16:43 Orwell's *1984* "sold out on Amazon", JCD: "*bullshit!*", Poppy Harlow: "Ayn Rand doing better?"; Doomsday Clock moved to 2.5 minutes to midnight due to "pressing global challenges"
 0:24:30 Refugee ban and International Holocaust Remembrance Day, Anne Frank meme; airport protests; order dated January 30, coordinated ACLU campaign, ACC on green card probation; "you build a wall, we tear it down" and ACLU chants, Occupy Wall Street "mic check!"; CAIR "Muslim ban" vs Indonesia, Obama temporary Iraqi ban on, 8 U.S.C.[]§1187; Silicon Valley worried about H-1Bs, Iranian director Asghar Farhadi possibly barred from Oscars
 0:47:48 Mexican wall Executive Order based on 2006 Secure Fence Act
@@ -9758,3 +9758,49 @@ Loyalty Test
 2:29:26 Donation segment #2
 2:37:59 CBS News fact check segment on Trump job losses and trade deficits; Ira Glass on origin of Obama birth certificate stories, "the excellent and exemplary Jack Tapper", "I am a fact-based person", JCD on Ross Perot's charts and employment numbers, Glass all-in on podcasting
 2:55:19 Cancer warning for glyphosate, odd "Monsanto" pronunciation; Trump: "Alibaba, who's a great guy by the way"; Zuckerberg douchebaggery in Hawaii
+
+900
+02/02/2017
+900
+0:00:00 JCD: "And ah-ah-ag, you'll see."
+0:00:34 ACC's boiler room ACLU phone scammer on the live stream; Show 900 party horn; CNN on Berkeley Milo Yiannopoulos riot, "he's an internet troll", "they wanted to stop him from speaking by any means"; JCD live on the scene: "Milo's dead"; JCD live on the scene: "protest against the gay community has been begun"; Antwerp cafes refusing to sell Coca-Cola
+0:10:23 Chris Matthews on Trump's "campaign of shock and awe" to "grab control" of Supreme Court; EMILY's List President Stephanie Schriock: "Trump made it clear that he was going to appoint a judge … that was going to dismantle Roe v Wade", Matthews revisits "punished" trap from Show 813, "everybody in America probably saw that comment by him!", Schriock: "look at what we're dealing with: a Muslim ban!"; Trump: "I would have preferred states' rights", "at this moment the laws are set"
+0:18:57 "Nuclear option" meme in Neil Gorsuch confirmation; ACC tip for "sweaty Sean Spicer": ditch the shutter noises; 2013 origin with Obama administration; red state Democrats vs Schumer; NPR's *On Point* on Gorsuch not kowtowing to Executive on immigration rule change and due process; Sen.[]Ben Sass to *On the Media* on Schumer preemptively "preparing talking points to say the guy kicks puppies and … heckles piano recitals", protestors' fill-in-the-blank sign stories cut off; C-SPAN caller on Scalia's sleep apnea, Podesta vineyard "wet works" e-mail
+0:36:21 Thomas Friedman: "Islam has issues with pluralism; trade has cost some jobs"; World Hijab Day in Bosnia; Chloe Smith's baby "extra vote" in British Parliament; Boris Johnson clarifies that British passport holders "remain welcome to travel to the U.S.", Jared Kushner question from joker, British aid workers similarly exempt; Theresa May's new "save joke until end" strategy vs Jeremy Corbyn: "he can lead a protest, I'm leading a country!"; Donald Tusk on Trump's threat to "transatlantic bond"; Federica Mogherini on EU exemption to "travel ban"; Nigel Farage on "the true nature of the European project, which is genuine anti-Americanism"
+0:52:09 No Agenda Time Machine: 1996 Clinton State of the Union "crackdown", "deporting twice the number of criminal aliens as ever before", Barbara Jordan's role
+0:55:10 EU ambassador Ted Malloch on USSR work: "maybe there’s another union that needs a little taming"; *Washington Post*'s Howard Fineman: "we are the crusaders officially in the eyes of Islam … this is the reaction that Osama bin Laden himself would have prayed for"; ACC's Schengen debacle revisited
+1:01:13 UN Secretary General Antonio Guterres predicts travel ban ineffectiveness; Morell & Schumer "less safe" meme; Alan Dershowitz: "we have a hobby … if you don't like something you assume it's unconstitutional", "*Congress shall make no law*"; Executive Order excerpts, USRAP admissions, 8 U.S.C.[]§1182(f) authority, 50k refugee cap, biometric entry & exit system, visa interview waiver program; Sebastian Gorka buttslams Jake Tapper: "my parents were vetted for weeks in a refugee camp"; Dennis Kucinich on cost of interventionism; Chuck Schumer quotes scripture and tears up over Pope Francis and *Mean Girls Don't Cry* Executive Order
+1:16:53 Donation segment #1; Dan Benjamin plug; man overboard Scott M.[]Memorial Fund
+1:40:55 ACC's Google Ads scam calls turn out to be Google extortion scam, JCD: "where's Elizabeth Warren when you need her?"; Amazon Prime routinely overpromising two-day deliveries
+1:45:27 New meme: February 17 "worldwide general strike against Trumpism" three-day weekend; `#googlersunite`; *Washington Post* on hacked police cameras and inauguration attendance numbers, JCD on Warren "thin-skinned" meme
+1:50:09 Doomsday Clock only used for grave nuclear threats until being appropriated by warmists
+1:51:47 JCD's Miss Universe Report: fewer white girls, "plus-sized" Miss Canada debate; winner Miss ~~France~~ Globalism: "the countries should have the right to open or close their borders", "in France we want to have to the most globalization that we can", "having open borders allows us to travel more through the world and to find out more about what's out there in the world"
+2:06:06 Canadian producer buttslams man overboard Scott M.
+2:08:41 Boy Scouts of America: gender identity trumps birth certificate; professor Michael Eric Dyson on *The View*: "your white body is a safe space"; Seattle SJW: "white people: give your fuckin' money, your fuckin' house, your fuckin' property, we need it fuckin' all", "I am a preschool teacher", JCD on Russia vs old-school Communism
+2:22:07 Amy Goodman edits Steve Bannon's call for media to "keep its mouth shut ~~and just listen for a while~~"; Nancy Pelosi's malfunctioning microphone, "is someone going to deal with this?"
+2:26:12 Donation segment #2; Dude Named Muhammad: Obama's a Muslim
+2:43:43 Australian TV's "abrasive" list of Trump's first-week accomplishments, "removed the Spanish version of the White House website"; CNN on Trumps "blowup" with Australian Prime Minister; Obama "strongest allies", "punches above its weight" medley; PM refuses to elaborate
+2:56:18 Trump to reporter: "this was your choice of a question?"; germophobia & climacophobia
+2:59:33 Gayane Chichakyan on Senate bickering, "Putin rules", White House vs "anti-Trump" media; Al Franken voted in by convicted felons
+
+901
+02/05/2017
+Men in Skirts
+0:00:00 JCD: "Soylent Green is people!" (1:24:11)
+0:00:34 Super Bowl predictions
+0:04:59 Erin Burnett: temporary restraining order a "stunning blow" to Trump travel ban, "this now is the law of the land"; Judge James Robart's bow tie, lawyer asserts religious discrimination based on tweets, "the order applies to infants, it applies to senior citizens", ACC: "why don't you tell that to the TSA, okay?"; Rudy Giuliani shoots off his mouth about Muslim ban: "he said … *show me the right way to do it legally*"; State of Washington *parens patriae*
+0:23:35 Janet Napolitano named in lawsuit against Berkeley for replacing 97 IT workers with H-1B workers from India; John Legend on left-leaning Hollywood, "most creative people are liberal"
+0:30:12 "Full-on retard" CNN on Berkeley riot, Don Lemon calls Yiannopoulos a white supremacist, Robert Reich: rioters were "right wingers", "I wouldn't bet against it"; Congresswoman Val Demings calls riot a "beautiful sight"; Marc Lamont Hill fails to cite example of conservative riot; Drew Carey's fire-starting son; outraged Tom Brokaw: "rage is not a policy"; horse racing origin of "vetting"; Pelosi on "white supremacist" Bannon on National Security Council
+0:46:59 Self-proclaimed professor berates NYPD for not beating "Neo-Nazis" at Gavin McInnes event
+0:50:15 JCD on political dirty tricksters Dick Tuck & Donald Segretti; leftist Fascism origins; "Theresa the appeaser" London protests, "bombed and occupied by American troops" meme; Sally Kohn on "countries that *we* have helped to destroy through our creation of ISIS"; Delaware prison riot blamed on Trump; 2014 Executive Order protecting LGBT rights to remain in force; Texas ACLU up in arms over LGBT rights; running over protesters blocking highway; NABJ upset over Tamron Hall & Al Roker being replaced with Megyn Kelly
+1:13:03 Donation segment #1
+1:32:19 Failed raid in Yemen planned by Obama White House; bomb-making video online for years; Kellyanne Conway dithers about Trump thumbs-up at dinner; Amy Goodman on Sean Spicer's "false claim" that Huthi attack was by Iran; pundit: Trump staff is leaking information to get it on TV, "it is making Donald Trump mental"; JCD White House bugging theory
+1:46:58 MSNBC suggests FTC oversight over "fraud news"; Berkeley fake news expert panel; Clock Boy's defamation lawsuit against Ben Shapiro thrown out; "have more kale" for Ruth Bader Ginsburg; CPAP expert: Scalia probably not killed by button-push; Trump calls "fake news" on reports of him hanging up on Australian Prime Minnister
+1:55:28 Donald Tusk proposes "Rome declaration" at Malta meeting; EU calls for 60M migrants by 2050, chilly Federica Mogherini; Ted Malloch on improving Russia relations; *The Independent*: Merkel replaces Trump as leader of free world; Puerto Rico to make another statehood bid
+2:05:15 Jesse Watters interviewee's "peccadillo" [[/puʔɨn/]]; journalism licensing bill in Thailand
+2:12:28 Donation segment #2
+2:25:39 Netflix vs Amazon 4K, TtK "don't taint my algo" over Netflix login
+2:28:54 Project Veritas finds Planned Parenthood only offers ultrasound for abortions; "faaactually challenged" iso; Mike Pence: "Leonard Leo, everybody, is in the house"; ACC tries Hater app
+2:41:34 War on Men: Dutch men wearing skirts in solidarity with marchers, Danish journalist Iben Thranholm to *RT*: "we have no masculine power in our society to fight back"
+2:46:58 CFR's Richard Haass head to Bill Maher on Middle East: "they're also not doing so well when they have very little of us", JCD: "*we rubblized the place!*"; TtK reading William Engdahl
+2:50:59 No Agenda Tip: shop for 4K TV at a pawn shop
