@@ -2,16 +2,14 @@
 # -*- coding: utf-8 -*-
 import os,sys
 import re,getopt,codecs,cgi,time,shutil
-try:
-  from HTMLParser import HTMLParser
-except ImportError:
-  from html.parser import HTMLParser
-hp = HTMLParser()
+import urllib2
 
 
 def latexHeader(f,dotitle):
   title = "No Agenda Summaries"
   f.write(r"""\documentclass{report}
+\usepackage{tikz}
+\usepackage{graphicx}
 \usepackage{fontspec}
 \usepackage{fancyvrb}
 \usepackage{enumitem}
@@ -38,8 +36,8 @@ def latexHeader(f,dotitle):
 \author{Sir Ludark Babark Fudgefountain, \scmono{K8TIY}}
 \date{\parbox{\linewidth}{\centering%
   \today\endgraf\bigskip
-  \textit{This document and all associated media and software\\are hereby placed in
-  the public domain.}}}
+  \textit{The text of this document and associated software are hereby placed in
+  the public domain. All image copyrights belong to their respective owners.}}}
 """)
   if dotitle:
     f.write('\maketitle\n')
@@ -47,16 +45,31 @@ def latexHeader(f,dotitle):
 def latexSection(f,lines,shownum,showdate):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
   f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
-  f.write("\\section[%s]{%s \\small{(%s)}}\n" % (latexEscape(lines[2]),latexEscape(lines[2]),showdate))
+  pic = "na/art/" + shownum + ".png"
+  if not os.path.isfile(pic): pic = None
+  filler = None
+  f.write("\\section[%s]{%s \\small{(%s)}" % (latexEscape(lines[2]),latexEscape(lines[2]),showdate))
+  if art == True and pic is not None:
+    if lines[3] == 'Artwork':
+      filler = pic
+    else:
+      f.write("\\begin{tikzpicture}[remember picture,overlay]"+
+                  "\\node[xshift=4cm,yshift=-2.3cm] at (current page.north west)"+
+                  "{\\includegraphics[width=3cm]{"+pic+"}};"+
+                  "\\end{tikzpicture}\n")
+  f.write("}\n")
   f.write("\\begin{itemize}\n")
   for i in xrange(3,len(lines)):
-    if len(lines[i]) > 0:
+    if len(lines[i]) > 0 and lines[i] != "Artwork":
       parts = lines[i].split(None, 1)
       label = "\\scmono{%s}" % (parts[0])
       urltime = re.sub(':', '-', parts[0])
       label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
       f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
-  f.write("\\end{itemize}\\newpage\n")
+  f.write("\\end{itemize}\n")
+  if filler is not None:
+    f.write("\\vspace{5em}\\begin{center}\\includegraphics[width=.75 \\textwidth]{"+pic+"}\\end{center}")
+  f.write("\\newpage\n")
 
 # Educate quotes and format stuff
 def latexEscape(s):
@@ -113,9 +126,14 @@ def playerURL(s,fmt):
 def HTMLPage(f,lines,shownum,showdate):
   HTMLHeader(f,'No Agenda %s' % (lines[0]),shownum)
   f.write('<h3>%s <i>%s</i> <span style="font-size:.6em;">(%s)</span></h3>' % (shownum,lines[2],showdate))
+  pic = "na/art/" + shownum + ".png"
+  if not os.path.isfile(pic): pic = None
+  if pic is not None:
+    url = AlbumArtURL(shownum)
+    f.write('<div style="text-align:center;"><img alt="Show ' + shownum + ' album art" src="' + url + '"/></div>')
   f.write("<table>")
   for i in xrange(3,len(lines)):
-    if len(lines[i]) > 0 and lines[i] != '~~~~':
+    if len(lines[i]) > 0 and lines[i] != '~~~~' and lines[i] != "Artwork":
       parts = lines[i].split(None, 1)
       s = re.sub(r'\s\s+', r'<br/>', parts[1])
       s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
@@ -151,7 +169,7 @@ def HTMLPage(f,lines,shownum,showdate):
             oq = False
         news = news + c
       s = news
-      s = re.sub(r'\(CotD\)', '(<span style="color:red;">CotD</span>)', s)
+      s = re.sub(r'\((B?CotD)\)', '(<span style="color:red;">\1</span>)', s)
       s = re.sub(r'\(TCS\)', '(<span style="color:red;">TCS</span>)', s)
       urltime = re.sub(':', '-', parts[0])
       label = "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'>%s</a>" % (shownum, urltime, parts[0])
@@ -209,6 +227,47 @@ def HTMLHeader(f,title,shownum=None):
     <div class="main">
 """ % (title,google,homeLink,snLink))
 
+def GetAlbumArt(n):
+  url = "http://noagendaplayer.com/art/" + n + ".jpg"
+  fname = url.split('/')[-1]
+  path = "na/art/" + fname
+  ppath = re.sub(r'\.jpg$', '.png', path)
+  if not os.path.isfile(ppath):
+    if not os.path.isfile(path):
+      try:
+        u = urllib2.urlopen(url)
+        f = open(path, 'wb')
+        meta = u.info()
+        fsize = int(meta.getheaders("Content-Length")[0])
+        print "Downloading %s: %s Bytes: %s" % (url, fname, fsize)
+        fsize_dl = 0
+        block_sz = 8192
+        while True:
+          buffer = u.read(block_sz)
+          if not buffer:
+              break
+          fsize_dl += len(buffer)
+          f.write(buffer)
+          #status = r"%10d  [%3.2f%%]" % (fsize_dl, fsize_dl * 100. / fsize)
+          #status = status + chr(8)*(len(status)+1)
+          #print status,
+        f.close()
+        #print "Done downloading " + url
+      except Exception as e:
+        print "%s: %s" % (url, e)
+    #print "Converting %s to %s\n" % (path, ppath)
+    cmd = "sips -s format png %s --out %s" % (path, ppath)
+    os.system(cmd)
+    try: os.unlink(path)
+    except Exception as e: pass
+
+def AlbumArtURL(n):
+  url = None
+  file = 'na/art/' + n + '.png'
+  if os.path.isfile(file):
+    url = "art/" + n + '.png'
+  return url
+  
 
 if __name__ == '__main__':
   def usage():
@@ -216,6 +275,7 @@ if __name__ == '__main__':
   Read NASummaries.txt, produce derivative HTML and/or LaTeX files,
   and optionally upload them to a webserver.
 
+    -a, --art        Include album art in PDF and HTML
     -d, --delete     Delete the LaTeX file after rendering PDF
     -g, --git        Commit and push to repo
     -h, --help       Print this summary and exit
@@ -227,6 +287,7 @@ if __name__ == '__main__':
     -t, --title      Suppress the title page
     -u, --upload     rsync to callclooney.org
   """
+  art = False
   delLtx = False
   git = False
   latex = False
@@ -240,8 +301,8 @@ if __name__ == '__main__':
   title = True
   upload = False
   infile = None
-  shortopts = "dghHi:n:Nltu"
-  longopts = ["delete","git","help","HTML","input=","latex","number=","noop",
+  shortopts = "adghHi:n:Nltu"
+  longopts = ["art","delete","git","help","HTML","input=","latex","number=","noop",
               "title","upload"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
@@ -250,6 +311,7 @@ if __name__ == '__main__':
     usage()
     sys.exit(-1)
   for [o,a] in opts:
+    if o == '-a' or o == '--art': art = True
     if o == '-d' or o == '--delete': delLtx = True
     if o == '-g' or o == '--git': git = True
     elif o == '-h' or o == '--help':
@@ -269,6 +331,8 @@ if __name__ == '__main__':
   if infile is None: infile = 'NASummaries.txt'
   with codecs.open(infile, 'r', "utf-8") as x: f = x.read()
   try: os.mkdir("na");
+  except Exception as e: pass
+  try: os.mkdir("na/art");
   except Exception as e: pass
   summs = re.split("\n\n+", f)
   summs.reverse()
@@ -305,6 +369,7 @@ if __name__ == '__main__':
     if len(summ) == 0: continue
     lines = summ.split("\n")
     n = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+    if art: GetAlbumArt(n)
     showdate = lines[1]
     showdate = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', showdate)
     if n > maxshow: maxshow = n
@@ -325,7 +390,13 @@ if __name__ == '__main__':
   if latexout is not None:
     latexout.write("\end{document}\n")
     latexout.close()
-    res = os.system('xelatex -output-directory=na NASummaries.tex')
+    res = os.system('xelatex -output-directory=na -interaction=batchmode -halt-on-error NASummaries.tex')
+    if art:
+      res = os.system('xelatex -output-directory=na -interaction=batchmode -halt-on-error NASummaries.tex')
+    res2 = os.system('gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE' +
+                     ' -dQUIET -dBATCH -sOutputFile=na/NASummariesSmall.pdf' +
+                     ' na/NASummaries.pdf')
+    os.rename('na/NASummariesSmall.pdf', 'na/NASummaries.pdf')
     try:
       os.unlink('na/NASummaries.aux')
       os.unlink('na/NASummaries.log')
