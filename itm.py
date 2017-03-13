@@ -169,8 +169,8 @@ def HTMLPage(f,lines,shownum,showdate):
             oq = False
         news = news + c
       s = news
-      s = re.sub(r'\((B?CotD)\)', '(<span style="color:red;">\1</span>)', s)
-      s = re.sub(r'\(TCS\)', '(<span style="color:red;">TCS</span>)', s)
+      s = re.sub(r'\((B?CotD)\)', r'(<span style="color:red;">\1</span>)', s)
+      s = re.sub(r'\((TCS)\)', r'(<span style="color:red;">\1</span>)', s)
       urltime = re.sub(':', '-', parts[0])
       label = "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'>%s</a>" % (shownum, urltime, parts[0])
       f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code></td><td>%s</td></tr>\n" % (label,s))
