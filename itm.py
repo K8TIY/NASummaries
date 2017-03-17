@@ -78,7 +78,7 @@ def latexSection(f,lines,shownum,showdate,samepage):
       f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
   f.write("\\end{itemize}\n")
   if filler is not None:
-    f.write("\\begin{figure*}[!b]\\begin{center}\\includegraphics[width=.65 \textwidth,height=.65 \textheight,keepaspectratio]{"+pic+"}\\end{center}\\end{figure*}")
+    f.write("\\begin{figure*}[!b]\\begin{center}\\includegraphics[width=.65 \\textwidth,height=.65 \\textheight,keepaspectratio]{"+pic+"}\\end{center}\\end{figure*}")
   if nobreak:
     f.write("\\vspace{.25cm}\n")
   else:
