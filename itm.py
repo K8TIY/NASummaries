@@ -18,6 +18,7 @@ def latexHeader(f,dotitle):
 \usepackage[colorlinks=true]{hyperref}
 \setlist{nolistsep}
 \setlist{noitemsep}
+\usepackage{dblfloatfix}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
 \newcommand{\cjk}[1]{{\fontspec[Scale=0.9]{Hiragino Mincho Pro}#1}}
@@ -42,7 +43,7 @@ def latexHeader(f,dotitle):
   if dotitle:
     f.write('\maketitle\n')
 
-def latexSection(f,lines,shownum,showdate):
+def latexSection(f,lines,shownum,showdate,samepage):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
   f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
   pic = "na/art/" + shownum + ".png"
@@ -53,14 +54,23 @@ def latexSection(f,lines,shownum,showdate):
     if lines[3] == 'Artwork':
       filler = pic
     else:
-      f.write("\\begin{tikzpicture}[remember picture,overlay]"+
-                  "\\node[xshift=4cm,yshift=-2.3cm] at (current page.north west)"+
-                  "{\\includegraphics[width=3cm]{"+pic+"}};"+
-                  "\\end{tikzpicture}\n")
+      if not samepage:
+        f.write("\\begin{tikzpicture}[remember picture,overlay]"+
+                "\\node[xshift=4cm,yshift=-2.3cm] at (current page.north west)"+
+                "{\\includegraphics[width=3cm]{"+pic+"}};"+
+                "\\end{tikzpicture}\n")
+      else:
+        f.write("\\begin{tikzpicture}[remember picture,overlay]"+
+                "\\node[xshift=-4.6cm,yshift=-2.3cm] at (current page.north east)"+
+                "{\\includegraphics[width=3cm]{"+pic+"}};"+
+                "\\end{tikzpicture}\n")
   f.write("}\n")
   f.write("\\begin{itemize}\n")
+  nobreak = False
   for i in xrange(3,len(lines)):
-    if len(lines[i]) > 0 and lines[i] != "Artwork":
+    if lines[i] == "Nobreak":
+      nobreak = True
+    if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak":
       parts = lines[i].split(None, 1)
       label = "\\scmono{%s}" % (parts[0])
       urltime = re.sub(':', '-', parts[0])
@@ -68,8 +78,12 @@ def latexSection(f,lines,shownum,showdate):
       f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
   f.write("\\end{itemize}\n")
   if filler is not None:
-    f.write("\\vspace{5em}\\begin{center}\\includegraphics[width=.75 \\textwidth]{"+pic+"}\\end{center}")
-  f.write("\\newpage\n")
+    f.write("\\begin{figure*}[!b]\\begin{center}\\includegraphics[width=.65 \textwidth,height=.65 \textheight,keepaspectratio]{"+pic+"}\\end{center}\\end{figure*}")
+  if nobreak:
+    f.write("\\vspace{.25cm}\n")
+  else:
+    f.write("\\newpage\n")
+  return nobreak
 
 # Educate quotes and format stuff
 def latexEscape(s):
@@ -133,7 +147,7 @@ def HTMLPage(f,lines,shownum,showdate):
     f.write('<div style="text-align:center;"><img alt="Show ' + shownum + ' album art" src="' + url + '"/></div>')
   f.write("<table>")
   for i in xrange(3,len(lines)):
-    if len(lines[i]) > 0 and lines[i] != '~~~~' and lines[i] != "Artwork":
+    if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak":
       parts = lines[i].split(None, 1)
       s = re.sub(r'\s\s+', r'<br/>', parts[1])
       s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
@@ -365,6 +379,7 @@ if __name__ == '__main__':
     <lastmod>%s</lastmod>
     <changefreq>daily</changefreq>
   </url>''' % (now,now))
+  nobreak = False
   for summ in summs:
     if len(summ) == 0: continue
     lines = summ.split("\n")
@@ -373,7 +388,7 @@ if __name__ == '__main__':
     showdate = lines[1]
     showdate = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', showdate)
     if n > maxshow: maxshow = n
-    if latex: latexSection(latexout,lines,n,showdate)
+    if latex: nobreak = latexSection(latexout,lines,n,showdate,nobreak)
     if html:
       htmlname = "%s_NASummary.html" % (n)
       url = "http://www.blugs.com/na/" + htmlname
@@ -390,9 +405,9 @@ if __name__ == '__main__':
   if latexout is not None:
     latexout.write("\end{document}\n")
     latexout.close()
-    res = os.system('xelatex -output-directory=na -interaction=batchmode -halt-on-error NASummaries.tex')
+    res = os.system('xelatex -output-directory=na -halt-on-error NASummaries.tex')
     if art:
-      res = os.system('xelatex -output-directory=na -interaction=batchmode -halt-on-error NASummaries.tex')
+      res = os.system('xelatex -output-directory=na -halt-on-error NASummaries.tex')
     res2 = os.system('gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE' +
                      ' -dQUIET -dBATCH -sOutputFile=na/NASummariesSmall.pdf' +
                      ' na/NASummaries.pdf')
