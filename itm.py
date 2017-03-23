@@ -6,7 +6,6 @@ import urllib2
 
 
 def latexHeader(f,dotitle):
-  title = "No Agenda Summaries"
   f.write(r"""\documentclass{report}
 \usepackage{tikz}
 \usepackage{graphicx}
@@ -33,15 +32,12 @@ def latexHeader(f,dotitle):
 \newcommand{\doulos}[1]{{\fontspec{Doulos SIL}#1}}
 
 \begin{document}
-\title{{\Huge \mono{""" + title + r"""}}}
-\author{Sir Ludark Babark Fudgefountain, \scmono{K8TIY}}
-\date{\parbox{\linewidth}{\centering%
-  \today\endgraf\bigskip
-  \textit{The text of this document and associated software are hereby placed in
-  the public domain. All image copyrights belong to their respective owners.}}}
+
+
 """)
   if dotitle:
-    f.write('\maketitle\n')
+    f.write(r"""\textit{The text of this document and associated software are hereby placed in
+the public domain. All image copyrights belong to their respective owners.}\newpage""")
 
 def latexSection(f,lines,shownum,showdate,samepage):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
@@ -408,6 +404,13 @@ if __name__ == '__main__':
     res = os.system('xelatex -output-directory=na -halt-on-error NASummaries.tex')
     if art:
       res = os.system('xelatex -output-directory=na -halt-on-error NASummaries.tex')
+    if title:
+      res = os.system('xelatex -halt-on-error Title.tex')
+      res = os.system('xelatex -halt-on-error Title.tex')
+      res = os.system('gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite'+
+                      ' -sOutputFile=na/NASummariesTitled.pdf'+
+                      ' Title.pdf na/NASummaries.pdf')
+      os.rename('na/NASummariesTitled.pdf', 'na/NASummaries.pdf')
     res2 = os.system('gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE' +
                      ' -dQUIET -dBATCH -sOutputFile=na/NASummariesSmall.pdf' +
                      ' na/NASummaries.pdf')
