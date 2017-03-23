@@ -1,0 +1,86 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This template has been done collecting multiple entries from:
+% http://tex.stackexchange.com
+%
+% Author:
+% Graciano Bay
+%
+% License:
+% CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{report}
+\usepackage{fontspec}
+\usepackage[margin=1.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{calligra}
+\usepackage{tikz}
+\usetikzlibrary{matrix,fit,chains,calc,scopes}            
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{pgfornament}
+\newcommand{\doulos}[1]{{\fontspec{Doulos SIL}#1}}
+
+
+\tcbset{
+    Baystyle/.style={
+        sharp corners,
+        enhanced,
+        boxrule=6pt,
+        colframe=OliveGreen,
+        height=\textheight,
+        width=\textwidth,
+        borderline={8pt}{-11pt}{},
+    }
+}
+
+\pagestyle{empty}
+\begin{document}
+\centering
+    \begin{tcolorbox}[Baystyle,]
+        {\begin{center}
+        \vspace*{0.14\textheight}
+        \fontsize{45}{45}\doulos{The Complete Book of Everything}\\      
+        \vspace*{0.018\textheight}
+        \fontsize{25}{25}\calligra Summaries of The No Agenda Show\\
+        %\vspace*{0.018\textheight}
+        %\vspace*{0.2\textheight}
+        % Big Logo\\
+        \vspace*{0.09\textheight}
+        \pgfornament[color=Green,width=6cm]{86}\\
+        \vspace*{0.09\textheight}
+        {\fontsize{18}{18}\calligra Edited by\\}
+        \fontsize{28}{28}\doulos{Sir Fudgefountain}\\
+        \vspace*{0.1\textheight}
+        \centering
+        \begin{tikzpicture}[
+        start chain=main going right,
+          ]
+             \node[on chain,align=center,draw=none] (a1){{\fontsize{12}{12}\calligra Illustrations by} \\
+             {\Large \doulos{The Human Resources}}
+             }; 
+             { [start branch=A going below]
+             \node[on chain,align=center,draw=none,scale=0.01](d1){};
+             \node[on chain,align=center,draw=none,](d2){\Huge \doulos{Shut Up, Slave!}};
+             %\node[on chain,align=center,draw=none,scale=0.01](d3){};
+             }
+             \node[on chain,align=center,draw=none] (a2){\hspace{-0.5em}\pgfornament[color=Green,width=2.8cm]{69}};
+             { [start branch=B going below]
+             \node[on chain,align=center,draw=none,scale=0.01](s1){};
+             \node[on chain,align=center,draw=none,](s2){};
+             \node[on chain,align=center,draw=none,scale=0.01](s3){}; 
+             }
+             \node[on chain,align=center,draw=none] (a3){{\fontsize{12}{12}\calligra Final Review by} \\
+             {\Large \doulos{Mark Pugner}}
+             };          
+             { [start branch=C going below]
+             \node[on chain,align=center,draw=none,scale=0.01](e1){};
+             \node[on chain,align=center,draw=none,](e2){\Huge \doulos{In the Morning!}};
+             %\node[on chain,align=center,draw=none,scale=0.01](e3){}; 
+        }
+        %\hspace{-0.5em}\draw[black] (s2.north) -- (s2.south);
+        \end{tikzpicture}
+            \end{center}}
+    \end{tcolorbox}
+\end{document}
