@@ -74,7 +74,7 @@ def latexSection(f,lines,shownum,showdate,samepage):
       f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
   f.write("\\end{itemize}\n")
   if filler is not None:
-    f.write("\\begin{figure*}[!b]\\begin{center}\\includegraphics[width=.65 \\textwidth,height=.65 \\textheight,keepaspectratio]{"+pic+"}\\end{center}\\end{figure*}")
+    f.write("\\begin{figure*}[!b]\\begin{center}\\includegraphics[width=.45 \\textwidth,height=.45 \\textheight,keepaspectratio]{"+pic+"}\\end{center}\\end{figure*}")
   if nobreak:
     f.write("\\vspace{.25cm}\n")
   else:
@@ -103,6 +103,7 @@ def latexEscape(s):
   s = re.sub(u'([\u0370-\u03FF]+)', r'\\doulos{\1}', s)
   s = re.sub(u'([\u16A0-\u16FF]+)', r'\\asymbol{\1}', s)
   s = re.sub(r'__(.+?)__', r'\\cjk{\1}', s)
+  s = re.sub(r'____', r'\\underline{\\hspace{2em}}', s)
   s = re.sub(r'\\&ast;', '*', s)
   s = re.sub(r'\((B?CotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(TCS\)', r'({\\color{red}TCS})', s)
@@ -244,32 +245,15 @@ def GetAlbumArt(n):
   ppath = re.sub(r'\.jpg$', '.png', path)
   if not os.path.isfile(ppath):
     if not os.path.isfile(path):
-      try:
-        u = urllib2.urlopen(url)
-        f = open(path, 'wb')
-        meta = u.info()
-        fsize = int(meta.getheaders("Content-Length")[0])
-        print "Downloading %s: %s Bytes: %s" % (url, fname, fsize)
-        fsize_dl = 0
-        block_sz = 8192
-        while True:
-          buffer = u.read(block_sz)
-          if not buffer:
-              break
-          fsize_dl += len(buffer)
-          f.write(buffer)
-          #status = r"%10d  [%3.2f%%]" % (fsize_dl, fsize_dl * 100. / fsize)
-          #status = status + chr(8)*(len(status)+1)
-          #print status,
-        f.close()
-        #print "Done downloading " + url
-      except Exception as e:
-        print "%s: %s" % (url, e)
-    #print "Converting %s to %s\n" % (path, ppath)
-    cmd = "sips -s format png %s --out %s" % (path, ppath)
-    os.system(cmd)
-    try: os.unlink(path)
-    except Exception as e: pass
+      cmd = "curl -L %s -o %s" % (url, path)
+      res = os.system(cmd)
+      print "%s returned %s" % (cmd,res)
+    cmd = "sips -s format png -Z 512 %s --out %s" % (path, ppath)
+    res = os.system(cmd)
+    print "%s returned %s" % (cmd,res)
+    if os.path.isfile(ppath):
+      try: os.unlink(path)
+      except Exception as e: pass
 
 def AlbumArtURL(n):
   url = None
@@ -419,6 +403,8 @@ if __name__ == '__main__':
       os.unlink('na/NASummaries.aux')
       os.unlink('na/NASummaries.log')
       os.unlink('na/NASummaries.out')
+      os.unlink('Title.log')
+      os.unlink('Title.aux')
       if delLtx and res==0: os.unlink('NASummaries.tex')
     except Exception as e: pass
   if ind is not None:
