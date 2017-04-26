@@ -53,12 +53,12 @@ def latexSection(f,lines,shownum,showdate,samepage):
       if not samepage:
         f.write("\\begin{tikzpicture}[remember picture,overlay]"+
                 "\\node[xshift=4cm,yshift=-2.3cm] at (current page.north west)"+
-                "{\\includegraphics[width=3cm]{"+pic+"}};"+
+                "{\\includegraphics[width=3cm,height=3cm,keepaspectratio]{"+pic+"}};"+
                 "\\end{tikzpicture}\n")
       else:
         f.write("\\begin{tikzpicture}[remember picture,overlay]"+
                 "\\node[xshift=-4.6cm,yshift=-2.3cm] at (current page.north east)"+
-                "{\\includegraphics[width=3cm]{"+pic+"}};"+
+                "{\\includegraphics[width=3cm,height=3cm,keepaspectratio]{"+pic+"}};"+
                 "\\end{tikzpicture}\n")
   f.write("}\n")
   f.write("\\begin{itemize}\n")
@@ -324,9 +324,9 @@ if __name__ == '__main__':
   maxshow = 0
   if infile is None: infile = 'NASummaries.txt'
   with codecs.open(infile, 'r', "utf-8") as x: f = x.read()
-  try: os.mkdir("na");
+  try: os.mkdir("na")
   except Exception as e: pass
-  try: os.mkdir("na/art");
+  try: os.mkdir("na/art")
   except Exception as e: pass
   summs = re.split("\n\n+", f)
   summs.reverse()
