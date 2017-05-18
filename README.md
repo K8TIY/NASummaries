@@ -75,6 +75,12 @@ pen-and paper summaries, so it may seem that I have fallen behind.
 Not so! I just don't have devices available that make that kind of
 keyboard entry straightforward.
 
+Will This Work Ever be Available in Hardcopy?
+---------------------------------------------
+
+I intend to self-publish this eventually, after the early shows are finished
+and I have a straight run of Shows 1-1000 (and beyond).
+
 Thanks To:
 ----------
 
