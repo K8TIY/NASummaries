@@ -403,10 +403,14 @@ if __name__ == '__main__':
       os.unlink('na/NASummaries.aux')
       os.unlink('na/NASummaries.log')
       os.unlink('na/NASummaries.out')
+    except Exception as e: pass
+    try:
       os.unlink('Title.log')
       os.unlink('Title.aux')
-      if delLtx and res==0: os.unlink('NASummaries.tex')
     except Exception as e: pass
+    if delLtx:
+      try: os.unlink('NASummaries.tex')
+      except Exception as e: pass
   if ind is not None:
     ind.write("</div></div></div></body></html>\n")
     ind.close()
