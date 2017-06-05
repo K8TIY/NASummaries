@@ -5,9 +5,17 @@ import re,getopt,codecs,cgi,time,shutil
 import urllib2
 
 
-def latexHeader(f,dotitle):
-  f.write(r"""\documentclass{report}
-\usepackage{tikz}
+def latexHeader(f):
+  if book: f.write(r"""\documentclass[twoside]{book}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO,RE]{}
+\renewcommand{\headrulewidth}{0pt}
+""")
+  else: f.write(r'\documentclass{report}')
+  f.write(r"""\usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{fontspec}
 \usepackage{fancyvrb}
@@ -30,14 +38,16 @@ def latexHeader(f,dotitle):
 %\titleformat{\section}[display]{\large}{\thetitle}{1em}{#1\space\xrfill[0.6ex]{0.4pt}}
 \renewcommand*\thesection{\arabic{section}}
 \newcommand{\doulos}[1]{{\fontspec{Doulos SIL}#1}}
-
 \begin{document}
-
-
 """)
-  if dotitle:
+  if book and frontmatter:
+    f.write(r"""\include{Frontmatter}
+\mainmatter""")
+  elif frontmatter:
     f.write(r"""\textit{The text of this document and associated software are hereby placed in
-the public domain. All image copyrights belong to their respective owners.}\newpage""")
+the public domain. All image copyrights belong to their respective owners.}
+\newpage
+""")
 
 def latexSection(f,lines,shownum,showdate,samepage):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
@@ -269,20 +279,24 @@ if __name__ == '__main__':
   Read NASummaries.txt, produce derivative HTML and/or LaTeX files,
   and optionally upload them to a webserver.
 
-    -a, --art        Include album art in PDF and HTML
-    -d, --delete     Delete the LaTeX file after rendering PDF
-    -g, --git        Commit and push to repo
-    -h, --help       Print this summary and exit
-    -H, --HTML       Create HTML
-    -i, --input      Read from argument instead of NASummaries.txt
-    -l, --latex      Create LaTeX
-    -n, --number     Use this number as the Show number in the git commit
-    -N, --noop       Do not execute rsync or git that would touch a remote site
-    -t, --title      Suppress the title page
-    -u, --upload     rsync to callclooney.org
+    -a, --art           Include album art in PDF and HTML
+    -b, --book          Use LaTeX book class instead of report
+    -d, --delete        Delete the LaTeX file after rendering PDF
+    -f, --frontmatter   Suppress the frontmatter
+    -g, --git           Commit and push to repo
+    -h, --help          Print this summary and exit
+    -H, --HTML          Create HTML
+    -i, --input         Read from argument instead of NASummaries.txt
+    -l, --latex         Create LaTeX
+    -n, --number        Use this number as the Show number in the git commit
+    -N, --noop          Do not execute rsync or git that would touch a remote site
+    -t, --title         Suppress the title page
+    -u, --upload        rsync to callclooney.org
   """
   art = False
+  book = False
   delLtx = False
+  frontmatter = True
   git = False
   latex = False
   latexout = None
@@ -295,9 +309,9 @@ if __name__ == '__main__':
   title = True
   upload = False
   infile = None
-  shortopts = "adghHi:n:Nltu"
-  longopts = ["art","delete","git","help","HTML","input=","latex","number=","noop",
-              "title","upload"]
+  shortopts = "abdfghHi:n:Nltu"
+  longopts = ["art","book","delete","frontmatter""git","help","HTML","input=","latex",
+              "number=","noop","title","upload"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -306,7 +320,9 @@ if __name__ == '__main__':
     sys.exit(-1)
   for [o,a] in opts:
     if o == '-a' or o == '--art': art = True
+    if o == '-b' or o == '--book': book = True
     if o == '-d' or o == '--delete': delLtx = True
+    if o == '-f' or o == '--frontmatter': frontmatter = False
     if o == '-g' or o == '--git': git = True
     elif o == '-h' or o == '--help':
       usage()
@@ -320,7 +336,7 @@ if __name__ == '__main__':
     elif o == "-u" or o == "--upload": upload = True
   if latex:
     latexout = codecs.open("NASummaries.tex", "w", "utf-8")
-    latexHeader(latexout, title)
+    latexHeader(latexout)
   maxshow = 0
   if infile is None: infile = 'NASummaries.txt'
   with codecs.open(infile, 'r', "utf-8") as x: f = x.read()
