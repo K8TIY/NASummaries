@@ -2174,7 +2174,7 @@ Ninjas in Mongolia
 1:16:55 JCD story about flying to Las Vegas for NAB Show with recent "dislocated shoulder", 50+ handicapped parking spots at convention center; Sony 84" 4K 3D display, OLED 4K; Adobe "best podcast in the universe" guy
 1:27:01 "This is a weekly test of the Giant Voice System", appearance in *The Purge* movie; Whelen "chemical release", "terrorist alert, a terrorism alert has been issued, please follow procedure"
 1:32:40 Donation segment #2; JCD's NAB drinks with Kiki Stockhammer
-1:44:32 FCC not at NAB because of sequester, lawyer: "fee-based organization", low-power TV, improvements to all radio-frequency TV stations forbidden; new ACC scheme will "put Morse code on the map"; Samuel Morse the world-class painter; FCC ignoring GMRS abuse; European Audiovisual Media Services Directive broad "on demand" definition
+1:44:32 FCC not at NAB because of sequester, lawyer: "fee-based organization", low-power TV, improvements to all radio-frequency TV stations forbidden; new ACC scheme will "put Morse code on the map", Samuel Morse the world-class painter; FCC ignoring GMRS abuse; European Audiovisual Media Services Directive broad "on demand" definition
 1:59:37 Merkel as Auschwitz prisoner on Polish magazine; alleged Merkel nude; cross-bank bail-ins
 2:03:11 Michelle Obama's Twitter `#AskFLotUS` hijacked; White House "Memphis soul night"; Beyonce and Jay Z's Cuba trip green-lighted by Treasury Department, people-to-people "educational" travel, not a Raoul "Dave" Castro birthday event
 2:15:21 Al-Qaeda Iraq branch merger with Jabhat al-Nusra; AQECA al-Qaeda Electronic Cyber Army and TCA Tunisian Cyber Army attacks on Pentagon and State Department, energy sector mentioned in social media
@@ -2217,7 +2217,7 @@ Speculation Analysis
 1:11:20 Donation segment #1; JCD bitcoin "Beanie Babies" on TWiT; Zydeco's kids menu
 1:23:08 JCD "I got sick and then I got better" iso; earthquake on Iran-Pakistan border, Iran-Pakistan pipeline "calls Washington's bluff" vs Turkmenistan-Afghanistan-Pakistan-India pipeline, more Waziristan dronings; Martin "bakelite nametag" Dempsey, JCD: "he could put stars on his forehead if he wants to", Inhofe on threatening Germany with military base pullout and paying us to leave; half of Austrians think Nazis could come to power again
 1:35:49 Obama signs STOCK Act online transparency rollback, records to be kept in basement
-1:41:17 Failed Manchin-Toomey amendment would make gun registry a felony, NRA misinformation, 1999 LaPierre testimony all in on background checks; Obama lies about 90% Senate vote numbers, "continuing distortion of Senate rules" of cloture, Biden percentage mathematics fail; Harry Reid "no" vote; Feinstein on Lanza's "extreme aversion to normal social life", "he was homeschooled", home "a veritable weapons depot", ACC: "sign this woman to a book deal!"; "disgusting" and "disappointing" memes
+1:41:17 Failed Manchin-Toomey amendment would make gun registry a felony, NRA misinformation, 1999 LaPierre testimony all-in on background checks; Obama lies about 90% Senate vote numbers, "continuing distortion of Senate rules" of cloture, Biden percentage mathematics fail; Harry Reid "no" vote; Feinstein on Lanza's "extreme aversion to normal social life", "he was homeschooled", home "a veritable weapons depot", ACC: "sign this woman to a book deal!"; "disgusting" and "disappointing" memes
 2:01:14 Nigel Farage: "not even me in my most pessimistic of speeches would have imagined, Mr.[]Rehn, that you and the others in the Troika would resort to the level of common criminals and steal money from people's bank account", Cyprus the euro "death knell"; ACC fails money transfer to CVC due to "Christina *overboeking*" memo terrorism scare, wire department voicemail, ACC: "*are you fucking kidding me?!*"; Herman Van Rompuy on tax avoidance and "fight against tax havens"
 2:14:53 Donation segment #2
 2:28:25 Second Half of Show: fireball over Madrid, HAARP plasma clouds; military incoming meteorite information classified
@@ -5358,7 +5358,7 @@ Double Twister
 0:00:00 ACC: "I think you've, didn't quite say, outed Tim Cook!"
 0:00:34 JCD: "I'm phonin' it in!"; "dudes named Ben pounding the backend" on Gmail API
 0:03:01 World Cup: Netherlands vs Mexico; Dean Karlan payoff formula; March 30 *Simpsons* episode with Homer bribed as referee; 2.83 goals per match; final call: Brazil-Germany 2-1
-0:13:32 BitTorrent Sync DHT (distributed hash table) fix; `faroo.com` PTP search engine
+0:13:32 BitTorrent Sync DHT distributed hash table fix; `faroo.com` PTP search engine
 0:16:27 African Growth and Opportunity Act changes for Madagascar & Swaziland
 0:21:31 Worldwide minimum wage meme, `#livingwage`, State one-upsmanship game
 0:25:18 Marie Harf's inappropriate USA[]sweatshirt; NASCAR "competition yellow"
@@ -5370,12 +5370,12 @@ Double Twister
 0:57:36 Machael Bay's *The Last Ship* meme-fest, "a virus of unknown origin", "melting permafrost", "you led the Russians right to us!", "global pandemic"; Nebraska double tornado, upcoming *Into the Storm* film: "it's splitting, there's three, there's four, they're everywhere!"
 1:06:49 ARRL Field Day; "doomsday prepper" arrested in Florida, "all they can do is pray"
 1:12:05 Donation segment #1; "go away bad guy" Postfix error
-1:29:23 JCD's new microphone, allegedly broke wind on 619; Rev.[]Manning: "bingo boom shakalaka"
-1:33:53 Biden: "my child has a drug problem… vast majority of parents face that"; National Review on Warren as Obama of 2016; Obama reneged on deal to support Hillary, Boehner; Indonesian "yes" culture; Obamas sleeping separately, cigarettes & junk food
+1:29:23 JCD's new microphone, allegedly broke wind on 619; Rev.[]Manning "bingo boom shakalaka"
+1:33:53 Biden: "my child has a drug problem… vast majority of parents face that"; *National Review* on Warren as Obama of 2016; Obama reneged on deal to support Hillary, Boehner; Indonesian "yes" culture; Obamas sleeping separately, cigarettes & junk food
 1:46:55 Tim Cook "outed" on CNBC; gay = ratings
-1:55:14 Whoopi on hate speech: "Spoken like a true white guy. I don't mean it in a bad way."
+1:55:14 Whoopi on hate speech: "spoken like a true white guy, I don't mean it in a bad way"
 2:01:30 Adeena Karasick on technology & media: "spectral, and virtual, and simulacric"
-2:09:54 Sonavault archiving e-mails before sending to IMAP/SMTP, Sonasoft "no access" to IRS e-mails; reports from listeners named Ben;Lotus Notes migration, Mr.[]Cool's *mea culpa* on Brolf; "whether we couldn't convert to a more searchable, more retainable e-mail system"
+2:09:54 Sonavault archiving e-mails before sending to IMAP/SMTP, Sonasoft "no access" to IRS e-mails; reports from listeners named Ben; Lotus Notes migration, Mr.[]Cool's *mea culpa* on Brolf; "whether we couldn't convert to a more searchable, more retainable e-mail system"
 2:31:11 E-bay study on online advertising: nothing makes a difference
 2:37:30 Donation segment #2
 2:45:53 Anniversary of Archduke Ferdinand assassination, killer memorialized with statue; Zakaria on 1914/2014 similarities; Nazi hipsters "Nipsters"; German government jettisoning Verizon
@@ -11708,7 +11708,7 @@ Foot Stomp
 Throw a Rock
 0:00:00 JCD: "The code was *ants*." (2:30:43??)
 0:00:34 JCD "pounded by the Pineapple Express"; EU refugees threatened by -20°C temperatures; climatologist Judith Curry on Georgia Tech resignation: "knives sticking out of my back"
-0:09:11 ACC's marked-up JAR from producer; former CIA Larry Johnson to *RT*: NSA not all-in, "it's a joke"; NBC "Vladimir Putin himself ordered the attack" lie, agencies "all in agreement" lie; Shields & Brooks lie-fest: "I agree with anger, with shock", "democratic global world"
+0:09:11 ACC's marked-up JAR from producer; former CIA Larry Johnson to *RT*: NSA not all-in, "it's a joke"; NBC "Vladimir Putin himself ordered the attack" lie, agencies "all-in agreement" lie; Shields & Brooks lie-fest: "I agree with anger, with shock", "democratic global world"
 0:23:48 Michael Smerconish on "twitstorm" over "where's the beef", Michael Hayden: "welcome to my wurldur/wardrobe", "a brick short of a load"; Glenn Greenwald on Democrat "smear campaign", "agent of the Kremlin" meme, Howard Dean accuses *The Intercept* of being Russian or Iranian stooge; *CBS This Morning* on no evidence of impact on election outcome
 0:35:23 *Assessing Russian Activities and Intentions in Recent US Elections*: "paid social media users, or *trolls*", undermining "liberal democratic order", "mix of agents of influence, cutouts, front organizations, and false-flag operations", *RT* & Assange, "network of quasi-government trolls" and "professional trolls", ACC: "I think this is a microaggression against trolls"
 0:57:58 NBC disclaimer in "top-secret report on Russia"; Schumer: agencies "have six ways from Sunday at gettin' back at ya", JCD on Kennedy coup and *Family of Secrets*; Google Capital funding Crowdstrike; Adam Schiff "bipartisan" means McCain & Graham; McCain "wouldn't you agree" to Clapper, vote tally meme, Lindsey Graham: "I'm ready to throw a rock"
@@ -12309,9 +12309,9 @@ Kim Jong Yum Yum
 0:51:45 Barry Manilow's secret gay marriage; Kendall Jenner Pepsi ad shitstorm; *1984* "doublethink"
 0:58:41 Donation segment #1; chatroom "Brownshirts"
 1:09:30 Michael Crichton *State of Fear* flak; no ban on child marriage for Indonesia; JCD plugs Russian dashcam compilations, Swedish dashcam captures Muslim gender segregation on school bus
-1:14:12 *Billions* character losing sleep over Russian hackers; Susan Rice on requesting unmasking of US persons: "I leaked nothing to nobody"; Dimension B morning shows all cite faceless former administration sources; Van Jones proposes Presidential Medal of Freedom for Rice; "nothing to nobody" oddity, husband ABC News executive producer; Bombard's Body Language analysis of Rice on *NewsHour*, double blink lie tell, "presidential request" flub; 
+1:14:12 *Billions* character losing sleep over Russian hackers; Susan Rice on requesting unmasking of US persons: "I leaked nothing to nobody"; Dimension B morning shows all cite faceless former administration sources; Van Jones proposes Presidential Medal of Freedom for Rice; "nothing to nobody" oddity, husband ABC News executive producer; Bombard's Body Language analysis of Rice on *NewsHour*, double blink lie tell, "presidential request" flub 
 1:30:38 Mike Cernovich MKULTRA theory; Don Lemon: Nunes and Farkas stories a "diversion"; David Corn: defamation "because she's a black woman"
-1:34:25 Bill O'Reilly the "masher", ACC story: Peter van Vollenhoeven; CBS on Fox News advertisers dropping out, investigation meme; *Wall Street Journal* going after advertisers on YouTube videos; CBS vague reference racial discrimination lawsuit; chatroom renamed to "war room"
+1:34:25 Bill O'Reilly the "masher", ACC story: Peter van Vollenhoeven; CBS on Fox News advertisers dropping out, investigation meme; *Wall Street Journal* going after advertisers on YouTube videos; vague CBS reference to racial discrimination lawsuit; chatroom renamed to "war room"
 1:46:10 Maxine Waters on Fox "sexual harassment enterprise" (BCotD), Waters *Roxanne* jingle
 1:50:12 MSNBC propagating Uday & Qusay meme; FSB and Carter Page; ACC: eyes on Gary Cohn
 1:54:19 Boeing $3bn deal with Iran; Leviathan field gas for EU; Chinese trading stock completely on margin; *New York Observer* story on "strange" Jared Kushner running Windows on a Mac
