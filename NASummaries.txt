@@ -284,7 +284,7 @@ Sooty Emissions
 22
 00/00/0000
 Nothing to See Here
-0:00:00 *There is no No Agenda Show 22. According to PhoneBoy, this will be mentioned on Show 100. Stay tuned!*
+0:00:00 *There is no *No Agenda* Show 22 – this is covered toward the beginning of Show 100.*
 Nobreak
 
 23
@@ -482,7 +482,7 @@ Where's The Beef?
 0:20:47 ACC burned out on Asia travel, all-in on Jamaica, Round Hill Hotel & Villas; JCD gripe: alleged lack of photos on ACC's blog, Flickr investigation, Isle of Wight's Crab & Lobster sign
 0:35:10 Listener info on geotagging cameras with compass GPS chips, "Google us" ad sign, Street View creepiness; listener reads from *1984* on surrender of privacy; Photoshopped photo of Patricia sitting on Cessna nose
 0:46:44 ACC lusting after Cirrus Vision SF50 "The Jet", strength of fiberglass vs composites, "ballistic recovery system" parachutes for bad aviator decisions, VLJ revolution
-0:57:18 Gazprom CEO asserts future dominance with $1T market cap and $250 per barrel; Andrew Horowitz and energy price fixing, "Enron loophole" for gas; ACC *Daily Source Code* interview with EU "Starfleet Command" Viviane Reding, outrageous roaming and 15€/MB data fees, JCD's prepaid burner phones, kids favoring text messaging over voice
+0:57:18 Gazprom CEO asserts future dominance with $1T market cap and $250 per barrel; Andrew Horowitz and energy price fixing, "Enron loophole" for gas; ACC *Daily Source Code* interview with EU **"Starfleet Command"** Viviane Reding, outrageous roaming and 15€/MB data fees, JCD's prepaid burner phones, kids favoring text messaging over voice
 1:15:05 Skype dropouts with fast-forward, MP3 encoding rate, podcasts on USB/iPhone-connected cars vs CDs; JCD on sports talk and right-wing radio, ad tech podcasts; ACC podcast subscription rundown; podcast listening cycles, not listening vs unsubscribing
 1:33:21 JCD on 3.5-hour Phil Specter lecture at UC, danger of releasing two crappy singles or shows in a row; JCD on need to constantly update blogs; importance of headlines and subject lines, JCD on European magazine covers
 1:42:39 Mexican military murder in Phoenix, congressman's relative kidnapped in Juarez, avoiding driving a nice-looking car, ruggedized and bulletproof cars in Brazil
@@ -1454,6 +1454,60 @@ Health Code Violation
 1:11:20 CDC: half of 100k flu cases in US are swine flu; CVC's boyfriend's UK passport with huge RFID chip antenna; Australian scientist Adrian Gibbs: swine flu development in laboratory
 1:15:20 Donation segment, donation dice
 1:18:07 Outro: possible Wednesday night show, ACC's June in San Francisco
+
+99
+05/28/2009
+Dandelion Wine
+0:00:31 ACC's live introduction; two missed shows, ACC & Patricia separated, impending divorce, first attempt at Show 99 deleted
+0:04:04 Rachel Madcow blasts Obama for "prolonged detention"; *New York Times* Maureen Dowd plagiarism scandal, editor replacement of "we" with "the Bush crowd", Dowd's exposure of Joe Biden plagiarism, JCD on "did I write that?" episodes; *The Scotsman* plagiarizing *Gamesweasel*; Mimi coloring copy-pasted text
+0:17:54 *The Economist* on Proctor & Gamble denying Pringles' potato content to avoid VAT, JCD: "it's actually a toy!"; Monterey Foods potentially in trouble; ACC on Bar Americain ribs
+0:23:27 JCD recommends *The American Experience* Kennedys series, Bobby Kennedy: "we are a great country, and a selfish country, and a compassionate country"
+0:28:06 JCD's local news on ring of car thieves busted, CHP unable or unwilling to trace cars to owners; ACC's Slovakian driver on dozing off in car and awakening to ticket, financial incentives for ticket-writing; Speaker of House of Commons Michael Martin resigns over expense scandal; *Jon & Kate Plus 8* crap
+0:36:33 JCD on not allowed into Google I/O by indecisive 20-somethings; death of `<blink>`, HTML5 video embedding; miffed North Korea promises "unimaginable merciless punishment" over maritime WMD program, ABC News distills it to "the North threatened a military response", report with Uncle Don, "you don't want to mess with them"
+0:49:02 Lahore bombing appearing to target ISI, Pakistani military fighting a multi-front war
+0:53:02 Dandelions selling for $9 per pound, JCD on Mimi making dandelion wine, WWII nettle soup, cedar box for Native American cooking
+0:56:50 Producer note on 2007 Boeing 737-300 disengaged auto-throttle incident at Bournemouth Airport and Turkish Airlines 1591; JCD on medical imaging software frying patients, Eurocopter running Windows
+1:04:32 California Supreme Court upholds gay-union ban, Gavin Newsom throwing it in people's faces, black Obama voters all-in on Proposition 8, civil unions vs marriage, ACC: "I want you to go through divorce as well!", professionally made signs at demonstrations
+1:10:37 *Wall Street Journal* on PPIP scam, banks buying toxic assets from themselves with tax money; incomprehensible `recovery.gov` reports; June 17 Bernie Madoff sentencing; ACC $50bn Israel AIG theory
+1:15:01 Supreme Court controversies, porn-watching Clarence Thomas and “that woman” Anita Hill
+1:17:40 Outro: ACC's travel plans and month in San Francisco; jingles for Show 100
+
+100
+05/31/2009
+A Squirrel Walks Into A Bar
+0:00:00 *No Agenda* Countdown
+0:02:22 Nonexistent "lost" Episode 22, "controversial" Show 100, Bob Dylan `dvorak.org/na` jingle from Geoff Smith; ACC in Amsterdam; Susan Boyle loses *Britain's Got Talent*, "360 deal" recording contract indentured servitude, JCD on "dummy contracts" in book business
+0:12:55 ACC's legal action with gossip paper over CC licensed "dope-smoking" aviation photo
+0:18:39 Bush Library raises $100M in 100 days, ACC: "is this going to be made of gold?", delays in Clinton Library fundraising, JCD: Bush Library to contain "comic books"; Obama fundraising dinner, donation request e-mails
+0:21:55 Silvio Berlusconi's New Year's party for 50 young women; Obama administration demands reversal of Humboldt County California measures to prevent military recruiters to contact minors, ACC: "hey kids, you get an armband just for showing up to the rally!"
+0:24:58 UK demand for squirrel pie on the rise; JCD blames sous-vide technique for recent food poisoning death; Schwabe's *Unmentionable Cuisine*, *I'm a Celebrity…Get Me Out of Here* witchetty grub eating, breast milk and fork-holding controversies; ACC on eating at College Hotel in Amsterdam with first-year hospitality students; first mention of **Ms.[]Micky**; HEMA department store underwear
+0:40:23 Man arrested in Seattle for zombie costume and fake machine gun; fuss over CVC's boyfriend Dexter leaving bag unattended; eight-year terrorism cycle; New Zealand parrot steals passport
+0:44:14 And Now Back to real News: Arkansas murderers escape prison in guard uniforms made there
+0:45:29 Robert Gibbs insults British press over suppressed Iraqi sexual torture photos
+0:46:31 Squirrel stealing American flags from Port Huron MI cemetery
+0:47:01 US money-printing and $100bn for IMF, rising unemployment, JCD: "business cycle"; JCD on "petite male" Robert Reich, "novelty fuck"; Russian scientist: Tunguska event was UFO ramming meteor to save earth
+0:54:41 *The Guardian* on UN "flood of drugs" in Afghanistan to devalue it
+0:58:21 Man crashes pickup truck after swerving to avoid squirrel, JCD: "the automatic reaction I have is to gun it"; pest control company owner charged with animal cruelty for trapped squirrel
+1:00:30 ACC on "all the high but none of the death" e-cigarettes; Russian airline passengers film UFO; producer note on e-cigarette propylene glycol, ACC on crappy commercial tobacco
+1:05:59 Donation segment; HEMA embroidered Knight underwear; layaway program
+1:11:06 Police advised of injured squirrel on 500 block of 7th Street; *No Agenda* mutual fund
+1:12:54 Outro: JCD & Horowitz all-in on ETFs; Russians subsisting on spoiled food; prototype `noagenda.squarespace.com`
+
+101
+06/03/2009
+Lightning Strikes
+0:00:34 Giant raindrops in California; ACC on CAVOK ceiling and visibility OK, called on to do search and recue for missing ultralight
+0:05:35 Air France 447 possible lightning strike, ACC: "it was time for an Airbus to come down" in Boeing-Airbus war, ACC: "sheet metal and rivets, baby"; previous week's bomb scare, new bin Laden speech; nose dive from elevator malfunction, JCD's Ames-NASA simulator experiences
+0:14:18 And Now Back to Real News: Conan O'Brien bumps Jay Leno, JCD: "I'm gonna give him six to twelve weeks and he's off the air"; Latvian Go Blonde Festival; HEMA *No Agenda* underwear; betting on horses and dogs based on last to poop
+0:23:56 Gordon Ramsey's £7M in back taxes, JCD's sous-vide theory upended
+0:27:21 Upcoming European elections, JCD on in-flight voting PSA; European Parliament increase from 736 to 754 seats from Lisbon Treaty, ACC predicts 28% turnout; pedophile Daniel Cohn-Bendit; German court examining Lisbon Treaty compatibility, "legal kill" for running from police; *Rendition: Guantanamo* video game
+0:34:43 Potentially compulsory MMR vaccine for UK schools, JCD on his son's "one pock" from chicken pox, ACC all-in on "measles parties"; investigation into secret deal between Google & Yahoo not to poach employees; Steve Ballmer ironically threatens to move offshore
+0:41:53 Monty Python's *Sit on My Face* intermezzo
+0:43:18 California to run out of cash in 14 days, JCD: "*every year* this goes on!"; ACC on friend's mother's nursing home room no longer being cleaned, JCD on *Tech TV* getting rid of the makeup people; producer note on e-cigarette propylene glycol, JCD *Merck Index* request
+0:52:51 WHO: world "edging toward pandemic"; rumor of Jacqui Smith resigning; $20bn natural gas project in Australia protected wildlife area; new natural gas discoveries in Russia and Louisiana; Hazel Blears the one resigning
+0:58:09 Dutch tabloid editor scoffs on TV at ACC's War Child proposal
+0:59:24 JCD on thieves potentially monitoring for "I'm away from home" tweets
+1:00:42 Outro: early wrap-up so ACC & CVC can talk
 
 200
 2010-05-16
