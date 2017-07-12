@@ -30,6 +30,7 @@ def latexHeader(f):
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
 \newcommand{\cjk}[1]{{\fontspec[Scale=0.9]{Hiragino Mincho Pro}#1}}
 \newcommand{\asymbol}[1]{{\fontspec[Scale=0.9]{Apple Symbols}#1}}
+\newcommand{\symbola}[1]{{\fontspec[Scale=0.9]{Symbola}#1}}
 \addtolength{\oddsidemargin}{-.6in}
 \addtolength{\evensidemargin}{-.6in}
 \addtolength{\textwidth}{1.2in}
@@ -112,6 +113,7 @@ def latexEscape(s):
   s = re.sub(u'([\u0400-\u052F]+)', r'\\doulos{\1}', s)
   s = re.sub(u'([\u0370-\u03FF]+)', r'\\doulos{\1}', s)
   s = re.sub(u'([\u16A0-\u16FF]+)', r'\\asymbol{\1}', s)
+  s = re.sub(u'([\u2700-\u27BF]+)', r'\\symbola{\1}', s)
   s = re.sub(r'__(.+?)__', r'\\cjk{\1}', s)
   s = re.sub(r'____', r'\\underline{\\hspace{2em}}', s)
   s = re.sub(r'\\&ast;', '*', s)
