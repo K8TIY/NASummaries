@@ -54,6 +54,7 @@ def latexSection(f,lines,shownum,showdate,samepage):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
   f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
   pic = "na/art/" + shownum + ".png"
+  pic = re.sub(r'\.(\d+\.png)', r'_\1', pic)
   if not os.path.isfile(pic): pic = None
   filler = None
   f.write("\\section[%s]{%s \\small{(%s)}" % (latexEscape(lines[2]),latexEscape(lines[2]),showdate))
@@ -150,6 +151,7 @@ def HTMLPage(f,lines,shownum,showdate):
   HTMLHeader(f,'No Agenda %s' % (lines[0]),shownum)
   f.write('<h3>%s <i>%s</i> <span style="font-size:.6em;">(%s)</span></h3>' % (shownum,lines[2],showdate))
   pic = "na/art/" + shownum + ".png"
+  pic = re.sub(r'\.(\d+\.png)', r'_\1', pic)
   if not os.path.isfile(pic): pic = None
   if pic is not None:
     url = AlbumArtURL(shownum)
@@ -251,10 +253,12 @@ def HTMLHeader(f,title,shownum=None):
 """ % (title,google,homeLink,snLink))
 
 def GetAlbumArt(n):
+  re.sub
   url = "http://noagendaplayer.com/art/" + n + ".jpg"
   fname = url.split('/')[-1]
   path = "na/art/" + fname
   ppath = re.sub(r'\.jpg$', '.png', path)
+  ppath = re.sub(r'\.(\d+\.png)', r'_\1', ppath)
   if not os.path.isfile(ppath):
     if not os.path.isfile(path):
       cmd = "curl -L %s -o %s" % (url, path)
@@ -270,8 +274,10 @@ def GetAlbumArt(n):
 def AlbumArtURL(n):
   url = None
   file = 'na/art/' + n + '.png'
+  file = re.sub(r'\.(\d+\.png)', r'_\1', file)
   if os.path.isfile(file):
     url = "art/" + n + '.png'
+    url = re.sub(r'\.(\d+\.png)', r'_\1', url)
   return url
   
 
@@ -417,17 +423,14 @@ if __name__ == '__main__':
                      ' -dQUIET -dBATCH -sOutputFile=na/NASummariesSmall.pdf' +
                      ' na/NASummaries.pdf')
     os.rename('na/NASummariesSmall.pdf', 'na/NASummaries.pdf')
-    try:
-      os.unlink('na/NASummaries.aux')
-      os.unlink('na/NASummaries.log')
-      os.unlink('na/NASummaries.out')
-    except Exception as e: pass
-    try:
-      os.unlink('Title.log')
-      os.unlink('Title.aux')
-    except Exception as e: pass
     if delLtx:
-      try: os.unlink('NASummaries.tex')
+      try:
+        os.unlink('NASummaries.tex')
+        os.unlink('na/NASummaries.aux')
+        os.unlink('na/NASummaries.log')
+        os.unlink('na/NASummaries.out')
+        os.unlink('Title.log')
+        os.unlink('Title.aux')
       except Exception as e: pass
   if ind is not None:
     ind.write("</div></div></div></body></html>\n")
