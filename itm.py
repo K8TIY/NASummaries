@@ -120,6 +120,7 @@ def latexEscape(s):
   s = re.sub(r'\\&ast;', '*', s)
   s = re.sub(r'\((B?CotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(TCS\)', r'({\\color{red}TCS})', s)
+  s = re.sub(r'<sub>(.+?)</sub>', r'{\\textsubscript \1}', s)
   news = ''
   oq = False
   for i in xrange(0,len(s)):
@@ -173,7 +174,6 @@ def HTMLPage(f,lines,shownum,showdate):
       s = re.sub(r'\[\]', r' ', s)
       s = re.sub(r'\[\[(\[*.+?\]*)\]\]', r'\1', s)
       s = re.sub(r'{{(.+?)}}', r'\1', s)
-      s = re.sub(r'_(\S*)', r'<sub>\1</sub>', s)
       s = re.sub(r'\\{', r'{', s)
       s = re.sub(r'\\}', r'}', s)
       s = re.sub(r'\\(\'+)', r'\1', s)
