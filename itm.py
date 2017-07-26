@@ -169,6 +169,7 @@ def HTMLPage(f,lines,shownum,showdate):
   f.write("</table></div></div></div></body></html>\n")
 
 def HTMLEscape(s):
+  s = re.sub(r'\\_', '_', s)
   s = re.sub(r'\s\s+', r'<br/>', s)
   s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
   s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
@@ -221,15 +222,14 @@ def HTMLHeader(f,title,shownum=None):
   </script>
   <div class="gcse-search"></div>
 </div>"""
-  if shownum is not None:
-    google = ''
   snLink = ''
   homeLink = ''
   if shownum is not None:
+    google = ''
     homeLink = '<li><a href="index.html">Home</a></li>'
-    snURL = 'http://%s.nashownotes.com' % shownum
-    snLink = '<li><a href="%s" target="_blank">Show Notes</a></li>' % snURL
-    if int(shownum) <= 300: snLink = ''
+    snURL = ShowNotesURL(shownum)
+    if snURL is not None:
+      snLink = '<li><a href="%s" target="_blank">Show Notes</a></li>' % snURL
   f.write("""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -256,6 +256,11 @@ def HTMLHeader(f,title,shownum=None):
   <div class="content">
     <div class="main">
 """ % (title,google,homeLink,snLink))
+
+def ShowNotesURL(shownum):
+  if int(shownum) > 581: return 'http://%s.noagendanotes.com' % shownum
+  elif int(shownum) > 300: return 'http://%s.nashownotes.com' % shownum
+  return None
 
 def GetAlbumArt(n):
   re.sub
