@@ -150,7 +150,7 @@ def playerURL(s,fmt):
 
 def HTMLPage(f,lines,shownum,showdate):
   HTMLHeader(f,'No Agenda %s' % (lines[0]),shownum)
-  f.write('<h3>%s <i>%s</i> <span style="font-size:.6em;">(%s)</span></h3>' % (shownum,lines[2],showdate))
+  f.write('<h3>%s <b>%s</b> <span style="font-size:.6em;">(%s)</span></h3>' % (shownum,HTMLEscape(lines[2]),showdate))
   pic = "na/art/" + shownum + ".png"
   pic = re.sub(r'\.(\d+\.png)', r'_\1', pic)
   if not os.path.isfile(pic): pic = None
@@ -161,46 +161,49 @@ def HTMLPage(f,lines,shownum,showdate):
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak":
       parts = lines[i].split(None, 1)
-      s = re.sub(r'\s\s+', r'<br/>', parts[1])
-      s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
-      s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
-      s = re.sub(r'&amp;ast;', '*', s)
-      s = re.sub(r'~~~(.+?)~~~', r'<span style="background:black">&nbsp;&nbsp;&nbsp;&nbsp;</span>', s)
-      s = re.sub(r'~~(.+?)~~', r'<s>\1</s>', s)
-      s = re.sub(r'``(.+?)``', r'<code>\1</code>', s)
-      s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
-      s = re.sub(r'`', r'&lsquo;', s)
-      s = re.sub(r"'", r'&rsquo;', s)
-      s = re.sub(r'\[\]', r' ', s)
-      s = re.sub(r'\[\[(\[*.+?\]*)\]\]', r'\1', s)
-      s = re.sub(r'{{(.+?)}}', r'\1', s)
-      s = re.sub(r'\\{', r'{', s)
-      s = re.sub(r'\\}', r'}', s)
-      s = re.sub(r'\\(\'+)', r'\1', s)
-      s = re.sub(r'__(.+?)__', r'\1', s)
-      s = re.sub(r'\d+@\d:\d\d:\d\d', lambda m: playerURL(m.group(),'html'), s)
-      s = re.sub(r'\((\d:\d\d:\d\d)\)', r'(<code>\1</code>)', s)
       label = "<code>%s</code>" % (parts[0])
-      news = ''
-      oq = False
-      for i in xrange(0,len(s)):
-        c = s[i]
-        if c == '"':
-          if not oq:
-            c = '&ldquo;'
-            oq = True
-          else:
-            c = '&rdquo;'
-            oq = False
-        news = news + c
-      s = news
-      s = re.sub(r'\((B?CotD)\)', r'(<span style="color:red;">\1</span>)', s)
-      s = re.sub(r'\((TCS)\)', r'(<span style="color:red;">\1</span>)', s)
+      s = HTMLEscape(parts[1])
       urltime = re.sub(':', '-', parts[0])
       label = "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'>%s</a>" % (shownum, urltime, parts[0])
       f.write("<tr><td style='padding-right:5px;vertical-align:top;'><code>%s</code></td><td>%s</td></tr>\n" % (label,s))
   f.write("</table></div></div></div></body></html>\n")
 
+def HTMLEscape(s):
+  s = re.sub(r'\s\s+', r'<br/>', s)
+  s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
+  s = re.sub(r'\*(.+?)\*', r'<i>\1</i>', s)
+  s = re.sub(r'&amp;ast;', '*', s)
+  s = re.sub(r'~~~(.+?)~~~', r'<span style="background:black">&nbsp;&nbsp;&nbsp;&nbsp;</span>', s)
+  s = re.sub(r'~~(.+?)~~', r'<s>\1</s>', s)
+  s = re.sub(r'``(.+?)``', r'<code>\1</code>', s)
+  s = re.sub(r'`(.+?)`', r'<code>\1</code>', s)
+  s = re.sub(r'`', r'&lsquo;', s)
+  s = re.sub(r"'", r'&rsquo;', s)
+  s = re.sub(r'\[\]', r' ', s)
+  s = re.sub(r'\[\[(\[*.+?\]*)\]\]', r'\1', s)
+  s = re.sub(r'{{(.+?)}}', r'\1', s)
+  s = re.sub(r'\\{', r'{', s)
+  s = re.sub(r'\\}', r'}', s)
+  s = re.sub(r'\\(\'+)', r'\1', s)
+  s = re.sub(r'__(.+?)__', r'\1', s)
+  s = re.sub(r'\d+@\d:\d\d:\d\d', lambda m: playerURL(m.group(),'html'), s)
+  s = re.sub(r'\((\d:\d\d:\d\d)\)', r'(<code>\1</code>)', s)
+  news = ''
+  oq = False
+  for i in xrange(0,len(s)):
+    c = s[i]
+    if c == '"':
+      if not oq:
+        c = '&ldquo;'
+        oq = True
+      else:
+        c = '&rdquo;'
+        oq = False
+    news = news + c
+  s = news
+  s = re.sub(r'\((B?CotD)\)', r'(<span style="color:red;">\1</span>)', s)
+  s = re.sub(r'\((TCS)\)', r'(<span style="color:red;">\1</span>)', s)
+  return s
 
 def HTMLHeader(f,title,shownum=None):
   google = """<div>
