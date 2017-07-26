@@ -4,7 +4,6 @@ import os,sys
 import re,getopt,codecs,cgi,time,shutil
 import urllib2
 
-
 def latexHeader(f):
   if book: f.write(r"""\documentclass[twoside]{book}
 \usepackage{fancyhdr}
@@ -156,7 +155,8 @@ def HTMLPage(f,lines,shownum,showdate):
   if not os.path.isfile(pic): pic = None
   if pic is not None:
     url = AlbumArtURL(shownum)
-    f.write('<div style="text-align:center;"><img alt="Show ' + shownum + ' album art" src="' + url + '"/></div>')
+    f.write('<div style="text-align:center;">')
+    f.write('<img style="max-width:40em;" alt="Show ' + shownum + ' album art" src="' + url + '"/></div>')
   f.write("<table>")
   for i in xrange(3,len(lines)):
     if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak":
@@ -227,7 +227,9 @@ def HTMLHeader(f,title,shownum=None):
   homeLink = ''
   if shownum is not None:
     homeLink = '<li><a href="index.html">Home</a></li>'
-    snLink = '<li><a href="http://%s.nashownotes.com" target="_blank">Show Notes</a></li>' % shownum
+    snURL = 'http://%s.nashownotes.com' % shownum
+    snLink = '<li><a href="%s" target="_blank">Show Notes</a></li>' % snURL
+    if int(shownum) <= 300: snLink = ''
   f.write("""<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
