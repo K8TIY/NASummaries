@@ -258,8 +258,8 @@ def HTMLHeader(f,title,shownum=None):
 """ % (title,google,homeLink,snLink))
 
 def ShowNotesURL(shownum):
-  if int(shownum) > 581: return 'http://%s.noagendanotes.com' % shownum
-  elif int(shownum) > 300: return 'http://%s.nashownotes.com' % shownum
+  if int(float(shownum)) > 581: return 'http://%s.noagendanotes.com' % shownum
+  elif int(float(shownum)) > 300: return 'http://%s.nashownotes.com' % shownum
   return None
 
 def GetAlbumArt(n):
