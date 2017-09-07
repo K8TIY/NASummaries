@@ -362,7 +362,7 @@ China Syndrome
 The Future of Media
 0:00:23 ACC in California; JCD's 10k Twitter followers in 20 days; DVD rippers, Independent Spirit Awards, George Carlin the "hyper-curmudgeon"
 0:05:56 PodShow's name change to Mevio, domain name unobtainium, overbroad "user-generated content"; ducks and spontaneously generated fish in ACC's backyard pond
-0:12:47 JCD's tea care package from UK, Twining's Everyday, ACC's Koi Los Angeles dinner, mistaken for "David the hair stylist", Hollywood funding, recommends Roy Evans' *The Kid Stays in the Picture*, AMC's *Shootout*; Wesley Snipes' three-year sentence for tax dodge, luxury jails for celebrities, third-world-esque prison statistics, ACC proposes death row reality show
+0:12:47 JCD's tea care package from UK, Twining's Everyday, ACC's Koi Los Angeles dinner, mistaken for "David the hair stylist", Hollywood funding, recommends Roy Evans' *The Kid Stays in the Picture*, AMC's *Shootout*; Wesley Snipes' three-year sentence for tax dodge, luxury jails for celebrities, third-world-esque prison statistics, ACC proposes **death row reality show**
 0:29:16 Green week "buttons, badges, and posters", vegetarian agenda, Bill Maher anti-meat rant, cow fart meme; oil price scam, excess profit taxes; Soros' big loss on Bear Stearns
 0:39:09 JCD soymilk warning, canola "Canadian oil, low acid", hexane oil extraction
 0:42:49 $9bn China-Congo infrastructure deal for copper & cobalt
@@ -2258,7 +2258,7 @@ Obamaland
 1:14:12 FDIC's Sheila Bair: "as we pass the one hundredth bank failure of 2009", bank "healing process", authority to borrow from Treasury Department, "we are the government", banks prepaying three years worth of insurance premiums
 1:20:31 Advair ad with diversity of actors; ACC on Nutrisystem legal disclaimers at Mevio; ACC proposes *No Agenda* ad
 1:26:08 Don Draper's "ice queen wife" on *Mad Men*: "I hate this place, I hate out friends, I hate this town"; Manufacturing Czar Ron Bloom: "we know that the free market is nonsense", "we kind of agree with Mao, that political power comes largely from the barrel of a gun"
-1:31:39 ACC on net neutrality: "It's like Harry Potter is running the FCC", Dvorak blog blocked in various countries and companies; Hulu to start charging fees
+1:31:39 ACC on net neutrality: "It's like Harry Potter is running the FCC", `dvorak.org` blocked by various countries and companies; Hulu to start charging fees
 
 143
 10/29/2009
@@ -2344,6 +2344,29 @@ Fort Hood Terrorist
 1:11:56 Donation Segment: Saskatoon **"Paris of Canada"**; $200 **Associate Executive Producer**
 1:23:24 Timothy Geithner none too pleased about $1T cap on "TARP on steroids" bailout, gold briefly at $1100, ACC: "it's gonna blow through two thousand"; pasteable donation links, JCD "It's a Done Deal" program
 1:26:35 *Times Online* interview with Goldman Sachs' Lloyd Blankfein, "I'm just a banker doing God's work"; Lord Monckton on COP 15 treaty: "world government" and wealth transfer to third world for "climate debt", "election" absent from document
+
+147
+11/11/2009
+Podcast Award Nominees
+0:00:00 JCD: "Whose side are these people on?!"(0:43:37)
+0:00:36 Happy Veterans Day, C-SPAN on Congress taking rest of week off, UK Poppy Day irony
+0:03:40 Producer Segment
+0:06:02 College student producer not all-in on RFID implants; JCD's son Mevio intern, SEO the real future; "don't forget" vs "remember" vs Ten Commandments
+0:11:00 Hypocrite Sean Hannity dismisses AMA guidance that medical marijuana may be of value
+0:14:16 ACC in Chicago, United $49 "extra five inches", Sax Chicago boutique hotel
+0:17:24 ACC's *V* show DVD with `.avi` file, JCD on DVD writer for TV; ACC reports demise of pigeon chick Oatmeal on "flight day", JCD: "the bones are still soft when it's young"
+0:21:37 Local parallel with CVC's train nightmare: aggressive Muni agent scuffles with 17-year-old
+0:24:45 Nomination for Podcast Awards in General and People's Choice categories, death joker ACC
+0:27:17 WGN on Northwestern University Halloween party blackface uproar: "hi you, Micah", "two students dressed as blackface, a racially insensitive character, really throwback to the 1800s when white slave owners would mock their slaves", JCD: "*hey, let's go mock the slaves and maybe they'll kill us in our sleep!*", whites stealing black material, one student "reportedly an athlete"; JCD on home schooling because of appalling public school propaganda
+0:36:25 "Out-and-out douche" Shepard Smith on Fort Hood doctors worried about Nidal Hasan, Catherine Herridge: "unnamed military official" on Hasan's sensitivity about religion, "one government counterterrorism investigator tells me, *had we launched an investigation of Hasan, we'd have been crucified … we couldn't launch because of First Amendment privileges*", JCD: "if the First Amendment can go by the wayside, then we won't have these incidents any more, whose side are these people on?!" (JCDPPotD); ACC: written like *Law & Order* script
+0:46:16 Hasan's apartment with heavy-duty paper shredder and "stack of papers that were turned upside-down", Shepard Smith oblivious to "medication to treat HIV"; producer transcript of Col.[]Ralph Peters: "worst terrorist attack on American soil since 9/11"; producers notes on FN FiveSeven 5.7x28mm pistol with high-capacity ~~clips~~ magazines legal after AWB sunset in 2004; anti-marijuana "home-grown" meme, incongruity of Israeli currency in apartment; Joe Lieberman pushing for determination on terrorism
+0:58:46 Beltway sniper John Allen Muhammad execution lost opportunity for death row reality show
+1:01:03 Donation Segment; ACC on NYC real estate standing empty; ACC all-in on GTD
+1:12:02 Nine Points Capital Partners guy to CNBC: global currency crisis would result in "global world government, a new global currency, and a New World Order", host "hmm" response
+1:19:32 Joel on Software forum messages between high-speed trading developers; woman nearly getting run over by subway train on CNN video with facial recognition boxes
+1:22:38 GAO Operation Iraqi Freedom report: "identification of contractor requirements" challenge, shipping container tracking system 25% accurate, 200 Iraq containers actually in Afghanistan, one third missing, ~~destroying~~ "retrograding" equipment; Ibn Sina Hospital handoff, "critical" equipment untransferable, ACC: "if you weren't pissed off that we were there killing people in the first place, your money is being mismanaged like nobody's business"
+1:28:54 Copenhagen draft: "warming of the climate system as a consequence of human activity is unequivocable", 1750 starting point; no French donors; danger of "abrupt climate change"
+1:34:51 *No Agenda* Swine Flu Minute jingle, left-right channel programming and NLP, visual distractions like eyebrows; JCD "you need to focus, your work is lackluster" gig in-jokes
 
 200
 2010-05-16
@@ -13044,7 +13067,7 @@ Burn the Man Bun
 0:38:25 CNBC on retirement job opportunities: wheelchair repair and voiceover work
 0:40:58 Trump fan Gene Huber on stage at Melbourne FL rally, salutes cardboard cutout daily, CNN "fake news" jab; ex-NSA shill Malcolm Nance: "these people need to start getting lawyers and cutting deals"; Obama FISA application for Manafort & Stone
 0:55:37 Lame Milo Yiannopoulos appearance on Bill Maher; *Overtime* show on gay vs transgendered as mental disorder, Nance: "Port Said and Naples" gay joke, Larry Wilmore: "you can go fuck yourself, all right?", ACC: "*fuck you, fag!!*", Nance: "fuck off" (CotD)
-1:06:20 Producer Segment: Dame Tanya promotes Rob McCue'a The Fat Monk
+1:06:20 Producer Segment: Dame Tanya Weiman promotes Rob McCue'a The Fat Monk
 1:18:27 Geert Wilders Moroccan "scum" misreporting, "scared" meme, "Moroccan thugs" translation vs English "not all are scum"; Wilders on not leaving home due to death threats, MH-17 "Russian fascism" sneak attack, "*point!*" wrap-up, cultural relativism; Merkel-Szydlo talks; Le Pen candidacy "capped at 35-40%"; "visa liberalization" for Ukraine
 1:36:26 Prank Ukrainian Prime Minister telephone calls to John McCain and Maxine Waters
 1:49:18 RT on AP National Guard story based on fake Homeland Security memo; Kim Jong Nam rumors; Ami Horowitz on Swedes all-in on open borders, crime surge glossed over; John Dickerson on Trump vs the courts, McCain in Munich introduced by Bono, inappropriate Zsa Zsa joke, "the West: a new and different and better kind of world order"
