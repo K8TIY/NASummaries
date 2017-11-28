@@ -311,6 +311,7 @@ if __name__ == '__main__':
     -N, --noop          Do not execute rsync or git that would touch a remote site
     -t, --title         Suppress the title page
     -u, --upload        rsync to callclooney.org
+    -v, --verbose       Print upload and git commands before executing them
   """
   art = False
   book = False
@@ -327,10 +328,11 @@ if __name__ == '__main__':
   noop = False
   title = True
   upload = False
+  verbose = False
   infile = None
-  shortopts = "abdfghHi:n:Nltu"
+  shortopts = "abdfghHi:n:Nltuv"
   longopts = ["art","book","delete","frontmatter""git","help","HTML","input=","latex",
-              "number=","noop","title","upload"]
+              "number=","noop","title","upload","verbose"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError,why:
@@ -353,10 +355,11 @@ if __name__ == '__main__':
     elif o == "-N" or o == "--noop": noop = True
     elif o == "-t" or o == "--title": title = False
     elif o == "-u" or o == "--upload": upload = True
+    elif o == "-v" or o == "--verbose": verbose = True
   if latex:
     latexout = codecs.open("NASummaries.tex", "w", "utf-8")
     latexHeader(latexout)
-  maxshow = 0
+  maxshow = 0.0
   if infile is None: infile = 'NASummaries.txt'
   with codecs.open(infile, 'r', "utf-8") as x: f = x.read()
   try: os.mkdir("na")
@@ -458,6 +461,8 @@ if __name__ == '__main__':
     if noop:
       print "noop set; not executing '%s'" % (cmd)
     else:
+      if verbose:
+        print cmd
       os.system(cmd)
   if git is True:
     if shownum is not None: maxshow = shownum
@@ -466,5 +471,8 @@ if __name__ == '__main__':
     if noop:
       print "noop set; not executing '%s' for %s, %s" % (cmd, shownum, maxshow)
     else:
+      if verbose:
+        print cmd
+        print cmd2
       os.system(cmd)
       os.system(cmd2)
