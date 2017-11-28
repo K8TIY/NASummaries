@@ -401,7 +401,7 @@ if __name__ == '__main__':
   for summ in summs:
     if len(summ) == 0: continue
     lines = summ.split("\n")
-    n = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
+    n = float(re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0]))
     if art: GetAlbumArt(n)
     showdate = lines[1]
     showdate = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', showdate)
