@@ -3214,21 +3214,21 @@ The Deuce!
 
 425
 2012-07-12
-Understanding *No Agenda* (a.k.a. 200.6)
+Understanding *No Agenda* (a.k.a.[]200.6)
 0:00:00 ACC: "So…"  JCD: "Roll tape, roll."  ACC: "Yeah and then, but y'know we still have to start, y'know the way what people never hear on the show."  JCD: "Oh yeah."  ACC: "Yeah."  JCD: "Whatever that means, hit it."
 0:00:41 JCD "hit it"; ACC getting married; explanation of the episode
 0:03:27 Show 200.5, first half
-1:02:26 New jingles, link to them in show notes, ACC height of 5' 17"
-1:05:31 Choice of `dvorak.org/na`, jingle made it immutable; ACC's day job, move from CA to TX; Hot Pockets Tour
+1:02:26 New jingles, link to them in show notes, ACC height of 5' 17&rdquo;
+1:05:31 Choice of `dvorak.org/na` made immutable by jingle; ACC's day job, move from CA to TX; Hot Pockets Tour
 1:08:34 Dramatic show prep change, more listener-supplied information worldwide, show length; Skype delay and timing
 1:12:20 ACC and JCD no longer in physical proximity, met perhaps twice in the last two years; longer shows instead of more shows; production values; artist credits; JCD: "get kicked out of my own chatroom"; Red Book is new
-1:18:31 Consider a tech podcast like Cranky Geeks?
-1:20:55 Adam's wedding: Ms.[]Micky bummed that JCD not in wedding; JCD canceling on way to airport
+1:18:31 Consider a tech podcast like *Cranky Geeks*?
+1:20:55 ACC's wedding: Ms.[]Micky bummed that JCD not at wedding; JCD canceling on way to airport
 1:22:59 Same old crew of donors; lots of freeloaders
 1:25:16 JCD and Mimi's home schooling
 1:26:23 JCD listening without headphones; studios: JCD's light, ACC's dark
-1:28:13 JCD changed position on crackpot theories? WTC 7; Second Half of Show is now the whole show
-1:31:27 Would a donor at the $100K gain any influence? Two reasons: "it's not gonna happen and it's not gonna happen"; *TWiT* invite
+1:28:13 JCD changed position on crackpot theories? WTC 7; whole show now Second Half of Show
+1:31:27 Would a donor at the $100k gain any influence? Two reasons: "it's not gonna happen and it's not gonna happen"; *TWiT* invite
 1:35:02 Show 200.5, second half
 2:04:35 JCD: "Why do you think it's so weird that I don't use headphones?"; teleprompter training, the point at which a read becomes natural; JCD annoyed by his stammering
 2:06:09 General decline in real news reporting, more deep reading, JCD watching foreign media
@@ -7712,7 +7712,7 @@ Scottish Do Over
 0:00:00 JCD: "It's a big deal your 50th birthday and so the people wanted to chime in on it."
 0:00:33 ACC's 50th birthday card via Newsletter; Dutch bathroom birthday calendar tradition; ACC subverts Facebook; inappropriate birthday wishes; AgentOrange in from Kandahar, challenge coins; party at Mayer Manor, René Froger surprise appearance, *Before They're Gone* book, JCD: "you got a Lytro?", Johnny Walker Platinum vs Green vs Macallan Amber
 0:28:22 The "Fappening" stolen iCloud celebrity porn, actresses going public to raise "awareness"; compare and contrast bathtub kiddie pics CPS reaction
-0:40:50 September 20 Podshow reunion; solo podcasts cannot make money
+0:40:50 September 20 PodShow reunion; solo podcasts cannot make money
 0:46:58 Producer Segment
 0:59:58 "Quiet period" before Scottish independence referendum on 18th, predicted: "*Braveheart* moment", prediction: *yes* by 2%, do-over, *no* outcome
 1:05:04 Sister Willow in from Italy, influx of Libyan refugees, Lampedusa has changed from tourist destination to refugee camp
