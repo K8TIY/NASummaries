@@ -109,6 +109,8 @@ def latexEscape(s):
   s = re.sub(r'`(.+?)`', r'\\texttt{\1}', s)
   s = re.sub(r'\[\[(\[*.+?\]*)\]\]', r'\\doulos{\1}', s)
   s = re.sub(r'\[\]', r'\\ ', s)
+  s = re.sub(r'\[', r'{[}', s)
+  s = re.sub(r'\]', r'{]}', s)
   s = re.sub(r'{{(.+?)}}', r'$\mathrm{\1}$', s)
   s = re.sub(u'([\u0400-\u052F]+)', r'\\doulos{\1}', s)
   s = re.sub(u'([\u0370-\u03FF]+)', r'\\doulos{\1}', s)
@@ -133,6 +135,7 @@ def latexEscape(s):
     news = news + c
   s = news
   s = re.sub(r'\\(\'+)', r'$\1$', s)
+  s = re.sub(r'\\&rdquo;', '"', s)
   return s
 
 def playerURL(s,fmt):
@@ -405,7 +408,7 @@ if __name__ == '__main__':
     if art: GetAlbumArt(n)
     showdate = lines[1]
     showdate = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', showdate)
-    if n > maxshow: maxshow = n
+    if float(n) > maxshow: maxshow = float(n)
     if latex: nobreak = latexSection(latexout,lines,n,showdate,nobreak)
     if html:
       htmlname = "%s_NASummary.html" % (n)
