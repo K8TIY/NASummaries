@@ -262,8 +262,8 @@ def HTMLHeader(f,title,shownum=None):
 """ % (title,google,homeLink,snLink))
 
 def ShowNotesURL(shownum):
-  if int(float(shownum)) > 581: return 'http://%s.noagendanotes.com' % shownum
-  elif int(float(shownum)) > 300: return 'http://%s.nashownotes.com' % shownum
+  if float(shownum) > 581.0: return 'http://%s.noagendanotes.com' % shownum
+  elif float(shownum) > 300.0: return 'http://%s.nashownotes.com' % shownum
   return None
 
 def GetAlbumArt(n):
@@ -469,6 +469,7 @@ if __name__ == '__main__':
       os.system(cmd)
   if git is True:
     if shownum is not None: maxshow = shownum
+    maxshow = re.sub(r'(.+?)\.0$', r'\1', str(maxshow))
     cmd = "git commit -m 'Show %s.' NASummaries.txt" % (maxshow)
     cmd2 = "git push origin master"
     if noop:
