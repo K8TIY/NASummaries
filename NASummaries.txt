@@ -264,7 +264,7 @@ Never Say No to a Soldier
 0:03:22 Listener message on milk protecting porcelain from thermal shock; JCD on Lipton originating teabag string, French silk teabags, new plastic mesh; ACC National Insurance Number interviewer leaving UK for Spain, tax increases in response to binge drinking, 24-hour pub hours and crime decrease, JCD on history of British drinking, CBC's *This Hour Has 22 Minutes* portrayal of British, American view of Netherlands: wooden shoes replaced by hookers & drugs, nothing made there any more, no more "I want my bicycle back" jokes about Germany
 0:20:00 Iceland film song *You Can't Say No to a Soldier*; ACC on US vs UK versions of Gordon Ramsay's *Kitchen Nightmares*; *99 Words for Boobs* song, JCD: "I'm downloading it now"
 0:31:28 EU to approve Google-Doubleclick merger, JCD blog numbers up and AdSense revenue down since show started, Currys retail outlet; JCD on "screwy" ad numbers; Ask Jeeves' switch to Ask, ACC's pre-IPO investment; JCD's nonexistent Google thought experiment 
-0:47:54 Adweek on BRIC Brazil, Russia, India, China fashion industries, ACC at Dutch fashion show hugging models, divorce faux pas
+0:47:54 *Adweek* on BRIC Brazil, Russia, India, China fashion industries, ACC at Dutch fashion show hugging models, divorce faux pas
 0:52:11 Feedback from female listener; e-mails on money making strategies; JCD calls for elevator secret codes; upcoming Apple event, Andrew Horowitz video on similar AOL & Yahoo page layouts, AOL "rudderless ship" without Steve Case; JCD's seamless e-mail hosting arrangement with Marc Perkel
 Nobreak
 
@@ -1338,7 +1338,7 @@ Stroking the Ugly Stick
 0:32:21 Donation Segment: "another one for the armory" jingle; $1081 numerology mystery
 0:39:43 `twotothehead.com`; **"hello, kettle, this is the pot calling"**; JCD calls for information on *linguiça* sources; Kaito BT409 9-LED folding ugly stick
 0:43:34 21 polo horses dead in Florida; Germany fighting 2005 Monsanto pig patent application; JCD on tasteless rBST-contaminated milk, non-reproducible acorn-fed Iberian ham; H.R.20 Melanie Blocker Stokes MOTHERS Act for postpartum depression rammed through
-0:53:51 Piaggio airplane recommended to ACC in place of "Sky King", "it looks like a flying penis"; Nicolas "Napoleon IV" Sarcozy's Airbus A330-200 upgrade; EU and Joint Strike Fighter project, 2-3TB of data stolen from Pentagon
+0:53:51 Piaggio airplane recommended to ACC in place of "Sky King", "it looks like a flying penis"; Nicolas "Napoleon IV" Sarkozy's Airbus A330-200 upgrade; EU and Joint Strike Fighter project, 2-3TB of data stolen from Pentagon
 0:58:13 Acid rain legislation prototype for global warming version, JCD on Europe's "dissolving statues"; former FDA administrator Dr.[]David Kessler's new book: fat + sugar = dopamine; Stephen Hawking "went to hospital", ACC story: *Swamp Thing* appearance "I was blotto", shameless Hawking *Simpsons* episode; JCD on *Family Guy*'s two cancellations; Unilever research finds pleasure nerves in skin, ACC: "people had to be stroked at a certain speed … 4-5 cm/s", JCD: speedometer practice mouse pad, "only present on hairy skin", ACC: "it's an iPhone app!", GPhone metal detector
 1:15:27 European Parliament to vote on ISP three strikes law, ACC: bandwidth degraded due to "throttling, filtering, looking, sniffing, snooping, slurping, sucking all of my data", Pirate Bay blocked; GPhone metal detector compass, "the Jeep of phones"; Google accused of tax dodge via Ireland; Taxi Eric on alert for JCD at Queen's Day party; prime tourist destination Iceland, JCD tip: buy Icelandic "Rasta sheep" wool goods at Reykjavík Airport shop; *No Agenda linguiça* airport booths, JCD recommends Wisconsin airport Usinger Wurst Haus
 1:23:55 News Media Group first-quarter earnings down 28.4%; Miss California loses Miss USA 2009 to Perez Hilton's gay marriage question, JCD: "it was rigged"; ACC on courting Hilton in London for show, "he's a dick"
@@ -2067,7 +2067,7 @@ Thank You Satan?
 09/23/2009
 The Algae Car Saves Ohio
 0:00:00 ACC: *<static>* "Federal reserve says no rise in interest rates, everything is stable, all is well! Go back to your homes, watch television and enjoy life! Don't forget to shop!" (0:42:07)
-0:00:43 ACC in New York City at "pain in the ass" W Times Square hotel with "goons", "salad bowl sink", JCD on salad bowl tidal wave, dark hallways; danger of Ad Week "sucking advertiser dick" comments; Times Square pedestrian modifications, TKTS bleachers, Father Duffy Square; Clinton Global Initiative & United Nations chaos, Gaddafi's tent pitched on Trump property, fifty-babe guard detail
+0:00:43 ACC in New York City at "pain in the ass" W Times Square hotel with "goons", "salad bowl sink", JCD on salad bowl tidal wave, dark hallways; danger of *Adweek* "sucking advertiser dick" comments; Times Square pedestrian modifications, TKTS bleachers, Father Duffy Square; Clinton Global Initiative & United Nations chaos, Gaddafi's tent pitched on Trump property, fifty-babe guard detail
 0:14:16 Belated 5A5 Steak Lounge review, waiter with head cocked, "flavor shooter" with caviar, JCD's runny Béarnaise, Jason's Vineyard 2005 Cabernet, no cappuccino machine, "soft launch"
 0:22:19 Swine flu sales pitch: links between flu and heart attacks; UK Mental Health Act allows vaccine refusers to be sectioned; H3N9 canine flu now spreading; Massachusetts bill to allow police vaccination without warrant; Verichip stock up 186% on news of implantable virus detection patents, JCD: "*boom*, three dollars!", CEO's $1.45M, company founded on bodies of 9/11 firefighters, semi-anonymous staff
 0:33:48 Glenn Beck interview by Katie Couric teased mercilessly, useless *Time* article, wrap-up: new book "published by Simon & Schuster, which is owned by CBS"; half of Mevio out with swine flu; networks "circling the bowl", federal newspaper bailout; dizzying potential scheme for FDIC borrowing money from banks, Federal Reserve buying more than half of treasury bills, JCD quotes Emerson "hobgoblin of small minds"
@@ -16106,3 +16106,29 @@ Artwork
 0:00:32 Last-minute Christmas shopping men's club; ACC's history with Steve Pieczenik, JCD "*let the guy talk!*" principle with no interruptions, first D-V-O-R-A-K spell-out
 0:06:03 ACC Steve Pieczenik interview
 2:06:45 Outro: JCD proposes the occasional holiday interview show in the future
+
+994
+12/28/2017
+Scromit
+0:00:00 JCD: "You know, I know a lot of guys who knit." (1:51:12)
+0:00:33 "Unorthodox" pending Dvorak Christmas; ACC's in Lincoln Park Chicago with gas-less Airbnb fireplace, JCD on cold- vs hot-weather skin pores, TtK's mother: "you're a good man, Adam"; Show 993 with the odd "you fell for it", no evidence of unimplemented net neutrality rules, "pay extra for Facebook" meme, Pieczenik's pushback via compliment, producers' ill-conceived third show idea; no one watching on New Year's Eve, Fox News B-team
+0:12:16 Millennial-triggering stimuli: non-sequitur "that's racist", Aric the Shill the token black Dvorak, Merry Christmas "bonanza"; Trump Christmas tweet and war on religion, "holiday" from "holy day"; "Hanukkah Harry", no mention of Kwanzaa, Donald Trump Festivus meme
+0:20:45 Dashcam video of 20k homeless in LA, Shadowstats numbers finally trending down
+0:22:51 Bill Gates admits $400M Common Core failure, Next Generation Science Standards, JCD's Intel NUC and computer education; GMU Law's Bryan Caplan to Tucker Carlson recommending college for 5% of US population, JCD takes exception with "high-earning major", influence of Foothill College history professor, producers listening to various obscure podcasts
+0:35:25 Obama to Prince Harry on BBC podcast: "as a former Constitutional lawyer", "everybody had a common set of facts", JCD: "in the *forties*!", "entirely different realities", JCD on Obama's Dimension B POV, ACC: Balkanization "the DNA of the internet"; NPR on "hackathon" for fake news browser extension "Open Mind", "see your own bias" dashboard (BCotD)
+0:45:55 WHO to recognize "gaming disorder", JCD: "fantasy football", "no advertising" theory
+0:54:36 Producer Segment: *Santa’s Husband* album art issue; ACC triggered by fake service dogs
+1:33:50 Charlotte Thomson Iserbyt on Benjamin Bloom’s *Taxonomy of Educational Objectives*, "challenging the student’s fixed beliefs"; Danish students’ Wi-Fi experiment on cress seeds
+1:39:51 Bomb squad called for Steve Mnuchin's horse manure package; Bernie Sanders gripes about tax bill benefiting billionaires, JCD's variable cycle trigger, Bitcoin and Gaddafi gold dinar
+1:45:53 Southwest flight attendant’s impromptu Houston gate concert
+1:49:44 Facebag outrage over *Vanity Fair* video encouraging Hillary not to run again: "take up a new hobby…: volunteer work, knitting"; *New York Times* on black voter turnout for Doug Jones
+1:54:19 "Dangerously cold" weather in US; Canadian website: Santa Claus relocating to South Pole
+1:56:37 Matthew VanDyke on CFR spook work in Middle East, NDS "combination CIA-FBI" National Directorate of Security in Afghanistan, blamed for Taliban capture of Kunduz
+2:04:15 Joy Reid delighted with "Binomo" independence prank call to Nikki Haley, JCD: "now MSNBC has become the Jerky Boys"; Sheila Jackson Lee grabs airline seat and calls objection racist
+2:08:59 Producer note on routine Civil Defense siren tests in Hawaii as CBS fake news
+2:11:48 *Ozy* admits purchasing bot traffic for its sketchy celebrity profiles
+2:16:27 Donation Segment: Nixie tube clocks; upcoming Show 1000 "one-nil-nil-nil"
+2:32:00 War on Weed: UK "scromit" epidemic migrates to US, "smoke weed, smoke weed, smoke weed" victim, "cannabinoid hyperemesis syndrome", ACC on connection with hormone replacement
+2:38:45 Clip Blitz: Library of Congress to archive only "significant" tweets; *It's a Wonderful Life* labeled communist propaganda by FBI; eating vegetables "like kale" staving off dementia
+2:41:04 FBI investigating All Nippon Airways 175 return to LAX over two passengers on one boarding pass, ACC: "*no way!*", fuel shortage theory, JCD on sketchy Japanese pilots
+2:49:25 Apple stock 2.5% plunge over iPhone X rumors; CBS Trump-Russia whipsaw, Mueller "round one", Flynn guilty plea distinguished from FBI lying; voting machines hacked by Russia meme
