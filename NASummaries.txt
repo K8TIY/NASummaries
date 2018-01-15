@@ -3581,36 +3581,32 @@ The Deuce!
 200.5
 2010-05-17
 *No Agenda* 200.5
-0:00:40 Intro
-0:02:15 ACC on Michael Jackson killed on CNBC
-0:04:00 ACC/JCD meeting story, CNET pilot 1993, *Cranky Geeks*
-0:08:31 Origin of the show, JCD: "an interesting conversation between two people is interesting to everybody"; JCD's natural cynicism, computer test said JCD's career path should be "critic"
-0:12:54 Decision to go to two shows per week; radio backgrounds; sound quality, ACC: "silence is beautiful"
-0:19:07 Who's the star of the show?
-0:20:11 How *Family Guy* changed "no jingles, no sound effects, no agenda", *Weenie and the Butt*; ACC: "zero content, all filler!"; Geoff Smith's jingles, "in the morning" rimshot and segue
-0:26:22 Evolution of the show; complementary clips; no plan; transition to more media assassination; ACC's mail labeling system, C-SPAN, transcript system; JCD on Book TV; move away from anecdote format listener-driven
-0:35:03 Donations introduced in late 2008 or 2009, public broadcasting model, NPR: "sponsorship, underwriting, advertising, call it whatever you want"; psychological hurdle to fund raising
-0:43:53 Instant feedback via live streaming, fixed schedule
-0:45:28 ACC: "we don't work for tips"
-0:46:41 Entertainment? ACC afraid JCD's going to kick the bucket, JCD afraid ACC's going to go off his rocker
-0:49:14 Hope to accomplish? JCD: give listeners an edge, ACC: born to do it
-0:52:10 Objections to "hookers and blow"; JCD on new hookers cycle
-0:53:46 Show opening as an impediment to attracting listeners?
-0:54:54 "Crackpot" moniker as ultimate shield; Crackpot from e-mail, Buzzkill from artwork
-0:55:44 Open-source nature: ACC: "we don't own anything"; show postmortem; derivative products; "in the morning" trademark suggestion; Aric the Shill on the administration
-1:00:31 Deuce Club donation segment
-1:06:59 ACC: "so John, would you like to basically do this full-time and quit everything else?"; podcasting as an off-putting mechanism/medium; Apple pushing all NPR podcasts
-1:15:22 Knighthood and similar promotions, JCD: "Why can't Ford Motor Company grant knighthoods?"; Knight network app, bat signal; JCD on interesting promotional models
-1:21:55 Most enjoyable show element? JCD: when the show ends, ACC: catching JCD flat-footed
-1:24:43 Support breakdown by country
-1:29:13 Subscriber numbers?
-1:31:07 JCD's show prep; value and volume of show notes
-1:33:50 Global fund on money hidden in the Reagan administration?
-1:34:42 Cost of producing the show?
-1:35:31 ACC uses SoundByte by Black Cat Software
-1:36:58 Instructions for Nokia E71 app creation; BlackBerry getting on podcasts
-1:38:26 "A glut of talent"; prefer new format
-1:39:40 What's the future? Media's getting worse, Obama administration getting worse; longevity by independence from advertisers; no conspiracy theory tax; Alex Jones as canary in the coal mine; no guests, JCD: "this is not the *Larry King Show*"
+0:00:35 JCD: "to be honest about it, a lot of it is just plain boring"
+0:02:15 ACC unemployable since Michael Jackson murder comment to MSNBC
+0:03:59 ACC/JCD meeting story at CNET pilots in 1993, e-mail exchange and *Cranky Geeks*
+0:08:31 *No Agenda*'s origin in casual conversation, JCD: "an interesting conversation between two people is interesting to everybody"; JCD's "critic" from software career path predictor
+0:12:54 ACC's decision to commit to two shows per week; ACC: "both radio guys", JCD: "modern form of radio", importance of sound quality, ACC on customized sound: "silence is beautiful"
+0:19:07 Producer question: who's the star of the show?
+0:20:11 How a *Family Guy* DVD changed "no jingles, no sound effects, no agenda"; *Weenie and the Butt* morning zoo excerpt, ACC: "zero content, all filler"; deliberately not discussing topics beforehand; Geoff Smith "in the morning" rimshot and pet peeve segue
+0:26:22 Evolution of the show via producer ideas; unexpectedly complementary clips; transition to more media assassination and commitment milestones, ACC's e-mail labeling and C-SPAN transcript system; JCD on *Book TV* research value; move from anecdote format listener-driven
+0:35:03 Donations introduced late 2008 or 2009, critical role of NPR "sponsorship, underwriting, advertising, call it whatever you want"; JCD on instant feedback via donations, novels directly user-funded, the tyranny of the hard break; ACC on fundraising psychological hurdle
+0:43:53 ACC's instant feedback from chatroom, enforced schedule rigidity; "we don't work for tips"
+0:46:41 Critical importance of entertainment value; JCD hoping to give listeners an edge, ACC: "I think I was born to do this", selfishness of good works
+0:52:10 Objections to "hookers and blow", JCD on "new cycle of hookers"
+0:53:42 Show opening as impediment to attracting both new listeners and NSA
+0:54:54 "Crackpot" life insurance policy; Crackpot from e-mail, Buzzkill from artwork
+0:55:44 ACC on open-source model: "we don't own anything"; show postmortem with selection of show name & album art; suggested "in the morning" trademark; Aric the Shill's admin work
+1:00:31 Deuce Club Donation Segment
+1:06:58 ACC: "so John, would you like to basically do this full-time and quit everything else?"; podcasting as off-putting mechanism, pitfalls of RSS, Apple pushing all NPR podcasts
+1:15:22 Origin of knighthoods with JCD's "why can't Ford Motor Company grant knighthoods" comment; ACC's Knight network "bat signal" app idea; JCD on innovative promotional models; ACC motivated by donation dropoffs and snarky JCD comments
+1:21:55 No sin in fast-forwarding through a boring bit, ACC on the joy of catching JCD flat-footed
+1:24:43 ACC guesses support breakdown by country: USA, Australia, Canada, UK, Netherlands; impossibility of knowing actual subscription numbers, JCD guesses 50-400k
+1:31:07 JCD's show prep collecting articles and clips with Zoom H2 recorder; ACC on value and volume of shownotes, hunt for elusive "zinger"
+1:33:50 ACC's research dead-end on Wanta-Reagan-Mitterrand Protocols
+1:34:41 Considerable time cost of producing the show; ACC's Sound Byte by Black Cat Software
+1:36:58 Nokia E71 RSS app creation; BlackBerry getting in on podcast scene
+1:38:26 "Glut" of jingles and talent an improvement over older format nostalgia
+1:39:40 Show 333 next milestone; JCD: media and Obama administration both getting worse; independence from advertising attack vector; no conspiracy theory tax, Alex Jones as canary in the coal mine for government intervention; no guests, JCD: "this is not the *Larry King Show*"
 
 425
 2012-07-12
