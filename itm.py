@@ -293,7 +293,10 @@ def AlbumArtURL(n):
     url = "art/" + n + '.png'
     url = re.sub(r'\.(\d+\.png)', r'_\1', url)
   return url
-  
+
+def RemoveFile(f):
+  try: os.unlink(f)
+  except Exception as e: pass
 
 if __name__ == '__main__':
   def usage():
@@ -441,14 +444,15 @@ if __name__ == '__main__':
                      ' na/NASummaries.pdf')
     os.rename('na/NASummariesSmall.pdf', 'na/NASummaries.pdf')
     if delLtx:
-      try:
-        os.unlink('NASummaries.tex')
-        os.unlink('na/NASummaries.aux')
-        os.unlink('na/NASummaries.log')
-        os.unlink('na/NASummaries.out')
-        os.unlink('Title.log')
-        os.unlink('Title.aux')
-      except Exception as e: pass
+      RemoveFile('NASummaries.tex')
+      RemoveFile('na/NASummaries.aux')
+      RemoveFile('na/NASummaries.log')
+      RemoveFile('na/NASummaries.out')
+      RemoveFile('na/NASummaries.idx')
+      RemoveFile('na/NASummaries.ilg')
+      RemoveFile('na/NASummaries.ind')
+      RemoveFile('Title.log')
+      RemoveFile('Title.aux')
   if ind is not None:
     ind.write("</div></div></div></body></html>\n")
     ind.close()
