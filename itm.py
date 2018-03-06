@@ -2,7 +2,17 @@
 # -*- coding: utf-8 -*-
 import os,sys
 import re,getopt,codecs,cgi,time,shutil
-import urllib2
+try:
+  # For Python 3.0 and later
+  from urllib.request import urlopen
+except ImportError:
+  # Fall back to Python 2's urllib2
+  from urllib2 import urlopen
+
+try:
+  xrange
+except NameError:
+  xrange = range
 
 def latexHeader(f):
   if book: f.write(r"""\documentclass[twoside]{book}
@@ -121,6 +131,7 @@ def latexEscape(s):
   s = re.sub(r'____', r'\\underline{\\hspace{2em}}', s)
   s = re.sub(r'\\&ast;', '*', s)
   s = re.sub(r'\((B?CotD)\)', r'({\\color{red}\1})', s)
+  s = re.sub(r'\(((ACC|JCD)PPotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(TCS\)', r'({\\color{red}TCS})', s)
   s = re.sub(r'<sub>(.+?)</sub>', r'{\\textsubscript \1}', s)
   news = ''
@@ -207,6 +218,7 @@ def HTMLEscape(s):
     news = news + c
   s = news
   s = re.sub(r'\((B?CotD)\)', r'(<span style="color:red;">\1</span>)', s)
+  s = re.sub(r'\(((ACC|JCD)PPotD)\)', r'(<span style="color:red;">\1</span>)', s)
   s = re.sub(r'\((TCS)\)', r'(<span style="color:red;">\1</span>)', s)
   return s
 
@@ -277,10 +289,10 @@ def GetAlbumArt(n):
     if not os.path.isfile(path):
       cmd = "curl -L %s -o %s" % (url, path)
       res = os.system(cmd)
-      print "%s returned %s" % (cmd,res)
+      print("%s returned %s" % (cmd,res))
     cmd = "sips -s format png -Z 512 %s --out %s" % (path, ppath)
     res = os.system(cmd)
-    print "%s returned %s" % (cmd,res)
+    print("%s returned %s" % (cmd,res))
     if os.path.isfile(ppath):
       try: os.unlink(path)
       except Exception as e: pass
@@ -300,7 +312,7 @@ def RemoveFile(f):
 
 if __name__ == '__main__':
   def usage():
-    print """Usage: NASummaries.py [OPTIONS]
+    print("""Usage: NASummaries.py [OPTIONS]
   Read NASummaries.txt, produce derivative HTML and/or LaTeX files,
   and optionally upload them to a webserver.
 
@@ -318,7 +330,7 @@ if __name__ == '__main__':
     -t, --title         Suppress the title page
     -u, --upload        rsync to callclooney.org
     -v, --verbose       Print upload and git commands before executing them
-  """
+  """)
   art = False
   book = False
   delLtx = False
@@ -341,7 +353,7 @@ if __name__ == '__main__':
               "number=","noop","title","upload","verbose"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
-  except getopt.GetoptError,why:
+  except getopt.GetoptError as why:
     print("could not understand command line options: %s" % why)
     usage()
     sys.exit(-1)
@@ -466,10 +478,10 @@ if __name__ == '__main__':
   if upload is True:
     cmd = "rsync -azrlv --exclude='.DS_Store' -e ssh na/ blugs@blugs.com:blugs.com/na"
     if noop:
-      print "noop set; not executing '%s'" % (cmd)
+      print("noop set; not executing '%s'" % (cmd))
     else:
       if verbose:
-        print cmd
+        print(cmd)
       os.system(cmd)
   if git is True:
     if shownum is not None: maxshow = shownum
@@ -477,10 +489,10 @@ if __name__ == '__main__':
     cmd = "git commit -m 'Show %s.' NASummaries.txt" % (maxshow)
     cmd2 = "git push origin master"
     if noop:
-      print "noop set; not executing '%s' for %s, %s" % (cmd, shownum, maxshow)
+      print("noop set; not executing '%s' for %s, %s" % (cmd, shownum, maxshow))
     else:
       if verbose:
-        print cmd
-        print cmd2
+        print(cmd)
+        print(cmd2)
       os.system(cmd)
       os.system(cmd2)
