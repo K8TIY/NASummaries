@@ -7839,7 +7839,7 @@ Guards Gates Guns
 0:00:00 ACC: "One-two. Alright, give me another cue."  JCD: "Hit it."
 0:00:59 Art show shmoozing: ACC: "I'm half of a comedy podcast duo"; "slave strong"
 0:03:50 What is heroin?; fentanyl shortage; opium in China; silver syringe sets; heroin on Long Island; Siegfried method; 2006 fentanyl epidemic; reduced pharmaceutical TV advertising; Sam Quinones with Gil Kerlikowske on PBS: ACC: "People need to get back on the regulated stuff"
-0:26:50 Narcan/Naloxone
+0:26:50 Narcan/naloxone
 0:33:46 War on generics: Drospirenone and right to sue generic manufacturers
 0:39:08 3-methylfentanyl as a chemical weapon
 0:41:00 Addiction as a disease vs syndrome; pot as alternative to opiates among football players; Facebook as gateway drug; big pharma pot
@@ -15613,7 +15613,7 @@ Bias Response Team
 1:55:02 RT's Lionel media burned-out star rant; music business slow-motion collapse; Trump administration pushes transgender bathroom issue back to states; American College of Pediatricians admonishes against "chemical and surgical impersonation of the opposite sex", "a person's belief that he or she is something they are not is, at best, a sign of confused thinking", JCD on proxy Münchausen syndrome; mainstream media on Trump "beginning to tear at the social fabric of the country"; transgender hormone schism, Caitlyn Jenner definitely not on hormones
 2:11:33 Donation Segment
 2:20:40 Nicholas Kristof "Husbands are Deadlier than Terrorists" story; Glenn Greenwald on CIA proxy war in Syria, "empowering themselves to enact policy", "soft coup"; German BND spying on foreign journalists
-2:31:23 John Kasich on meeting with Trump about Obamacare; Naloxone available over the counter, prices skyrocket; Steven Weissman on predatory medical pricing; producer `whitehouse.gov` clicking camera ban petition; FIRE's Robert Shibley on college "bias response teams"
+2:31:23 John Kasich on meeting with Trump about Obamacare; naloxone available over the counter, prices skyrocket; Steven Weissman on predatory medical pricing; producer `whitehouse.gov` clicking camera ban petition; FIRE's Robert Shibley on college "bias response teams"
 
 908
 03/02/2017
@@ -18380,3 +18380,29 @@ LibJoe
 2:27:37 Columbus LGBTQ domestic violence program, "the dynamic of same-gender couples is much different than heterosexuals"; George Washington University takes on "Christian privilege"
 2:33:01 Conan O'Brien "you don't need us to tell you that gas prices are back on the rise" compilation, CNN Newsource Sinclair response compilation; Lester Holt drowned out by MLK speaker
 2:39:32 Google AI head steps down; Chelsea Manning on choosing *Washington Post*; Delta Airlines customer payment breach, TtK's LifeLock single point of failure; 44 Democrats waived background checks for Awan Brothers, Donna Brazile feigns ignorance to Maria Bartiromo
+
+1023
+04/08/2018
+Warm Hand-Off
+0:00:00 JCD: "She's almost a dead ringer for Bill Gates." (0:53:35)
+0:00:33 ACC to the rescue in truck at Bandana Ball; Dutch royalty and Bud Light "Dilly Dilly" ad
+0:04:24 DHS RFP for database of journalists and "media influencers", "relevant to Washington and the six media hubs" in 100 languages, ACC: "we're under *etcetera*!"; ACC OTG teaser
+0:09:26 News teaser: people smoking crack on BART; International Gamers Conference attendees "shellshocked" by San Francisco experience; man on the street with puddle-seeking kids
+0:13:07 *New York Times* uptalking stammerer on ISIS governance in Iraq; stutterer on Trump lying: "take on some of just the the the the the the… the… the… lies!", JCD: "*wow!!*"
+0:18:22 Required background checks for Awan Brothers sidestepped via loophole; Jason Chaffetz bouncing between Fox shows; investigators blocked from data stolen by Awans, running IT like "rinky-dink mom and pop business" (Phrase from the Chaise); JCD's botched ACC iso
+0:30:10 Ryan Chilcote to PBS *NewsHour* on new sanctions against Russian oligarchs, Silicon Valley investor Viktor Vekselberg, spokesman Dmitry Peskov: "there are no oligarchs in Russia", Trump "politically impotent" perception; Yulia Skripal phone audio with relative has Sergei unharmed, contradictions from Boris Johnson & Porton Down, Russian Ambassador suspicious about 14 dead Russian citizens, UN Ambassador Karen Pierce: "we have nothing to hide"
+0:43:02 Erik Prince's "back channel" to Russia via Seychelles, meeting set up by Lebanese-American businessman George Nader; entertainment industry in bed with China, "Wong Dong Studios"
+0:52:39 Sneering Sheryl Sandberg interview by Judy Woodruff condensed to 45 seconds: "I'm really sorry for that and Mark's really sorry", JCD Prozac theory; "we don't sell data, ever" vs Experian deal; "we are the product" vs psychographic tranches; Sandberg: "we don't have an opt-out at the highest level, that would be a paid product", ARPU average revenue per user
+1:06:41 Google engineer Yonatan Zunger on unanticipated uses for technology; Rep.[]Ro Khanna on need for internet bill of rights "common sense provisions", "Parkland kids" mobilizing using social media; Honest Ads Act redefines trolls as "paid social media users", "pro-Russian bots" on Twitter, Internet Research Agency's $100k spent vs ~~absurd ~~$1.4bn overall
+1:20:32 *Daily Standard*'s Daniel Halper on uselessness of "big tech" ads; Zuckerberg's election dilemma
+1:27:33 Producer Segment: John Fletcher "*happy birthday!*"; LGBBTQQIAAPK abbreve "L-jeebs"
+1:46:02 ACC OTG: *The Best Thing I Ever Did Was Getting Off the Grid*, *Down With OTG*, *OTG You Can't Find Me* jingles, 900MHz latency, "digital detox" with "love buzzer", Bandana Ball "squeals of delight", Brave browser blocking HTML5 canvas fingerprinting, Roomba spying, "we are the AI that Silicon Valley is missing", pager ringtone gallery, iPod Touch Wi-Fi calling
+2:12:13 *Chappaquiddick* trailer: rated R for "historical smoking"
+2:13:47 Reihan Salam filling in for David Brooks on *NewsHour*: Trump negotiating policy in public, Mark Shields "pernicious", Salam: Trump "candidate of authenticity", JCD: Shields "rattled"
+2:20:18 Donation Segment
+2:27:14 JCD doing next show from Biloxi MS, ACC's nine days in Netherlands; Dutch "Spring Time"
+2:30:14 *China's Coming Collapse* author Gordon Chang on Trump countering "made in China 2025"
+2:35:42 Nearly 1/3 of college students homeless and using food pantries, "identify as needing food"
+2:37:49 Norwegian Cruise Liners "nightmare" due to noisy and smelly renovation work
+2:41:42 Jerome Adams to NPR on naloxone availability in spite of price increases, ACC: "isn't it great that we have Mike Tyson as our Surgeon General?", "warm hand-off right from the overdose"
+2:47:51 FDA approves "democratized" DIY BRCA test, female host's "whole lotta spitting"
