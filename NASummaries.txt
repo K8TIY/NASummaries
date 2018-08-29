@@ -440,7 +440,7 @@ The King of Beers
 0:15:42 *Russia Today* on radiation-absorbing mineral; JCD on São Paulo rock shop's giant geodes; Vatican PR guy in Korea, Marco Polo's divorce papers in archive
 0:21:51 JCD's lousy lunch at Cafe at Country, Ted Leonsis' *LIST Magazine* and new credit card; *The Independent* international edition in hotel lobby; Chinese taking over UK weed trade
 0:33:07 *Rape of Nanking*, Jane Seymour *Japan* PBS documentary
-0:41:48 JCD Fox Business and CNBC tours, CNBC far superior; Brian Williams hitting on Patricia; CNBC's high-end audience and production values; BT sells ACC out to spammers with new ISDN line; JCD on the writing gig contract process, "dummy contract", 1/3 up front, Dvorak contract collection, speaking gig force majeur clause
+0:41:48 JCD Fox Business and CNBC tours, CNBC far superior; Brian Williams hitting on Patricia; CNBC's high-end audience and production values; BT sells ACC out to spammers with new ISDN line; JCD on the writing gig contract process, "dummy contract", <frac>1/3</frac> up front, Dvorak contract collection, speaking gig force majeur clause
 1:01:09 Lisbon Treaty amendment to original Constitution, Irish referendum, incarceration for those with communicable disease, ACC question in Parliament; new German surveillance law; €10k limit on undeclared transfers in or out, airport money-sniffing dogs
 1:13:34 Microwaving euro and new $20 bill RFID chips, JCD's Faraday wallet and lack of microwave
 1:25:48 Fast Company China-Africa deal article; oil price hearing with Soros, Enron speculation loophole for Goldman Sachs & Morgan Stanley, tanker holding pattern, aiming for $200 a barrel
@@ -2568,7 +2568,7 @@ The Democratic Industrial Complex
 0:58:52 Donation Segment: Gates Foundation grants to anti-evolution Discovery Institute
 1:07:04 UN Office on Drugs and Crime: $352bn in drug money laundered by banking system; appropriations bill lists recipients of money
 1:11:06 Al Gore backpedals on 75% chance of ice-free Arctic, researcher Wieslav Maslowski "rather pissed on his chips"; anti-warmist heart attack, JCD: "it looked like got an electric shock"; Lord Monckton interviews clueless Greenpeace protester: Greenpeace "not a weather bureau is it?"; Prince Charles & Gordon Brown in separate jets; CIA Center for Climate & Security anticipates "fighting for food and shelter" and military conflict
-1:20:37 Recent *The Nation* article on "Democratic Industrial Complex", 2/3 of donations from healthcare industry; Howard Dean on healthcare bill from "pro insurance company Democrats"
+1:20:37 Recent *The Nation* article on "Democratic Industrial Complex", <frac>2/3</frac> of donations from healthcare industry; Howard Dean on healthcare bill from "pro insurance company Democrats"
 1:24:37 AP on Monsanto anticompetitive business practices, Bayer admits GMO contamination is out of control, not a word from NPR or PBS; new information on the dangers of high fructose corn syrup, JCD recommends Heinz organic ketchup, Pepsi dropping HFCS
 1:30:48 Cruise missile explosion over Nebraska; Northwest 188 ATC tapes released, ACC: "these guys were not asleep, they were freaked out by something and they're not talking about it"
 1:34:05 And Now Back to Real News: dead Nebraska man eaten by his two pugs
@@ -6453,7 +6453,7 @@ Goys with Guns
 0:00:00 ACC: "There's doping going on in the sport of curling." JCD: "What??" (1:46:36)
 0:00:40 Valentine's weddings and Christmas birthdays; ACC's upcoming 50th birthday; Ms.[]Micky's green card medical tests
 0:05:10 Holder struggles to answer questions about "white paper" on droning Americans; Brian Williams: "some people regard death by drone as a necessary evil"; Obama: "I know that you're gonna have a whole bunch of other questions, and that's why I hired this guy Jay Carney", Carney: "first and foremost that's his responsibility to protect the United States, and American citizens" vs oath of office; twelve Constitutional presidential powers enumerated; Carney: "war against al-Qaeda as authorized by Congress", "these strikes are legal, they are ethical, and they are wise"; International Humanitarian Law; "operational leader continually planning attacks against US persona or interests"
-0:23:00 Touré clueless about droning of al-Awlaki's son; Carney: "it was provid… it was an unclassified document"; NIAC Non-International Armed Conflict and "enemy forces", 2/3 of Americans think drones are cool; ACC predicts cyber-9/11; investigation into Israeli bus bombing in Bulgaria: Hezbollah did it
+0:23:00 Touré clueless about droning of al-Awlaki's son; Carney: "it was provid… it was an unclassified document"; NIAC Non-International Armed Conflict and "enemy forces", <frac>2/3</frac> of Americans think drones are cool; ACC predicts cyber-9/11; investigation into Israeli bus bombing in Bulgaria: Hezbollah did it
 0:36:06 Prohibiting Israeli dual nationals in Congress; Jews for and against guns; Brother Nathanael: "truth is, Jews have always felt an abiding hostility toward the *goys with their guns*"
 0:42:26 Producer Segment: Ms.[]Micky's Vlieger & Vandam embossed gun bag; fake Amtrak clip
 1:04:41 Brief disappearance from iTunes due to Mevio show hiding; Newsletter; Shadow Stats and the 7% lie starting in 1984, Carlyle Group Sunoco refinery investment for low election gas prices; possibility of bond market collapse; CFPB's Richard Cordray on backing national debt with Americans' investments
@@ -8368,7 +8368,7 @@ Heteroflexible Previvor
 0:52:04 ACC: "BitTorrent Sync is the future"; emacs org mode
 0:55:30 Climate-gate: Amy Goodman in Warsaw; "cough for coal"; "climate justice"; ACC "Another great chant!"; "climate debt"
 1:03:55 "Peacemakers"; Prem Rawat on Free Speech TV
-1:04:48 Amy Goodman back-announcing Chopin; climate change flag; Sir Jeans Netatmo setup; 90 companies produce 2/3 of emissions, Jesse Jackson style shakedown
+1:04:48 Amy Goodman back-announcing Chopin; climate change flag; Sir Jeans Netatmo setup; 90 companies produce <frac>2/3</frac> of emissions, Jesse Jackson style shakedown
 1:12:20 Netherlands to spend €70bn on windmills
 1:13:16 *No Agenda* Swine Flu Minute: GlaxoSmithKline H5N1 vaccine Pandemrix direct sale to the stockpile, containing adjuvants
 1:17:43 CDC Predict the Influenze Season Challenge
@@ -8949,7 +8949,7 @@ People the Board
 1:40:59 Heiss white paper finally released; Uprising of Love, Arcus Foundation; Amnesty International concert with Madonna and Pussy Riot: JCD: "You might as well have three versions of Yoko Ono"; BBC at Sochi gay bar
 1:52:14 Ukraine: Haiku Herman welcoming Putin to Brussels; Eastern Partnership: "pipeline states"; DCFTA; `digitalmaidan.com`; geographical indication phaseout, e.g. Champagne; homegrown-looking `digitalmaidan.com` by BWD Inc; Vitali Klitschko powder fire extinguisher video
 2:09:05 HSBC not allowing cash withdrawals, alternative media: "bank run!"; J.P.[]Morgan Chase suicides: 33-story building; Lesse Loskarn hanging suicide
-2:17:10 Justice oversight committee: Leahy to Holder on domestic drones: JCD: "I'll summarize: we're getting drones"; Gitmo facts and figures: "dispose of some"; Grassley Amendment "now paying considerably more for their healthcare"; prison population grown by 500% over 30 years, 1/3 of Justice budget
+2:17:10 Justice oversight committee: Leahy to Holder on domestic drones: JCD: "I'll summarize: we're getting drones"; Gitmo facts and figures: "dispose of some"; Grassley Amendment "now paying considerably more for their healthcare"; prison population grown by 500% over 30 years, <frac>1/3</frac> of Justice budget
 2:27:54 Donation Segment
 2:36:36 BBC interview with Gülen the "moderate Imam" in "self-imposed exile"; Turkish Central Bank set interest rates to 12%, Lira now lower; Erdoğan moving "too fast"
 2:39:45 Obama to Jordan soon
@@ -11838,7 +11838,7 @@ Oatmeal
 1:23:35 South Korean Ambassador Mark Lippert slashed
 1:26:55 Snowden's bungie-cord extraction
 1:28:34 *CSI: Cyber*: "any crime involving electronic devices is by definition cyber"
-1:35:13 Hunter Biden's boss Ihor Kolomoyskyi financing 1/3 of the Ukrainian military; Dana Rohrabacher to Nuland: "hey, it's not your time", Nuland's endearing smile trick; Dutch MH17 findings report: Russian buk missile, RT refutation
+1:35:13 Hunter Biden's boss Ihor Kolomoyskyi financing <frac>1/3</frac> of the Ukrainian military; Dana Rohrabacher to Nuland: "hey, it's not your time", Nuland's endearing smile trick; Dutch MH17 findings report: Russian buk missile, RT refutation
 1:51:32 HSBC insiders in BBC; Netanyahu to Congress on Ali Khamenei tweeting
 1:57:29 JCD's wine store "what I have for you today" pet peeve; spin class comedy routine; the demise of Dutch co-ed showers; ACC's selfie stick
 2:05:20 Zetas cartel leader arrested
@@ -15912,7 +15912,7 @@ Poster Boys of Evil
 2:27:34 $300 stolen nationwide in IRS back taxes scam, savvy refuser SWATted, JCD discusses tactics
 2:31:03 ACC informal poll in insurance hikes, short term policies; Josh Earnest downplays costs
 2:34:21 Katie Hopkins trounces CNN's Hala Gorani in "Clinton News Network" catfight
-2:41:42 AT&T $85bn Time-Warner merger; WWF: 2/3 of species gone by 2020 in sixth mass extinction
+2:41:42 AT&T $85bn Time-Warner merger; WWF: <frac>2/3</frac> of species gone by 2020 in sixth mass extinction
 2:46:11 ACC wagers $5 on Anthony Weiner suicide before next show; ACC's World Series prediction
 
 874
@@ -16405,7 +16405,7 @@ Foot Stomp
 1:07:27 CNN on Trump and Hollywood, "very unpopular president right now", ; Progressive 127 on Rockettes "forced to dance"; yet another celebrity anti-Trump "obstruct" video for Congress
 1:15:27 Producer Segment: ACC tries ant "the other red meat" chocolate
 1:23:43 Schumer: Obamacare replacement will "make America sick again"; Pelosi: "you want grandma living in the guest room?"; top countries on antidepressant list, JCD on Korean energy drinks
-1:28:41 Don Lemon panel on Civil War "racial amnesia" and Trump Mexican & Muslim "racist notions", JCD on Britain & France gold rush Civil War instigation conspiracy theory; Bitcoin "not useful money" caveat, "*betcha wish you had more!!*", JCD on Patreon & *No Agenda* FAQ; Ev Williams fires 1/3 of Medium staff; JAR tips fail to mention encryption, `keybase.io`
+1:28:41 Don Lemon panel on Civil War "racial amnesia" and Trump Mexican & Muslim "racist notions", JCD on Britain & France gold rush Civil War instigation conspiracy theory; Bitcoin "not useful money" caveat, "*betcha wish you had more!!*", JCD on Patreon & *No Agenda* FAQ; Ev Williams fires <frac>1/3</frac> of Medium staff; JAR tips fail to mention encryption, `keybase.io`
 1:44:12 Six Week Cycle: Glendon Scott Crawford convicted for X-ray "death ray" device for Muslims bought from FBI; Pink Floyd *Money* war on cash jingle
 1:47:12 New final syllable stretching uptalk dialect, JCD: "it's a milieu"; new meme "fact-free"; Alan Tonelson to Thom Hartmann on history of NAFTA, Trump vs "trade status quo"
 1:57:26 *Mein Kampf* flying off shelves in Germany; controversy over police "Nafris" for North Africans
@@ -19559,7 +19559,7 @@ Warm Hand-Off
 2:20:18 Donation Segment
 2:27:14 JCD doing next show from Biloxi MS, ACC's nine days in Netherlands; Dutch "Spring Time"
 2:30:14 *China's Coming Collapse* author Gordon Chang on Trump countering "made in China 2025"
-2:35:42 Nearly 1/3 of college students homeless and using food pantries, "identify as needing food"
+2:35:42 Nearly <frac>1/3</frac> of college students homeless and using food pantries, "identify as needing food"
 2:37:49 Norwegian Cruise Liners "nightmare" due to noisy and smelly renovation work
 2:41:42 Jerome Adams to NPR on naloxone availability in spite of price increases, ACC: "isn't it great that we have Mike Tyson as our Surgeon General?", "warm hand-off right from the overdose"
 2:47:51 FDA approves "democratized" DIY BRCA test, female host's "whole lotta spitting"
@@ -19980,7 +19980,7 @@ Pardon Me
 2:23:10 Dogs Are People Too: Michigan State University bestiality; new flu strains in Chinese dogs
 2:27:40 JCD on celebrity journalists at Tavern on the Green, Bob Schieffer "I'm not sure the Republican Party's gonna survive"; CNN conspiracy theories about Melania Trump's disappearance
 2:35:46 USAF help line abbreve-fest: "for ARMS, DAS&E, CMOS, LOGMOD, OVIMS, and SMAS"
-2:37:16 Clip Blitz: women carrying 2/3 of student load debt; Miss America dropping swimsuit competition; protests over Google's San Jose campus plan; Microsoft's experimental underwater data center; surge in military veterans running for office as Democrats
+2:37:16 Clip Blitz: women carrying <frac>2/3</frac> of student load debt; Miss America dropping swimsuit competition; protests over Google's San Jose campus plan; Microsoft's experimental underwater data center; surge in military veterans running for office as Democrats
 2:42:03 Bilderberg Group meeting in Italy; retiring *Monsanto* jingle due to acquisition by Bayer, Disneyland Monsanto House of the Future; Elon Musk delays tourist moon trips and Model 3; millennials on Bird scooters and producer adoption of traffic thumbs-down
 2:44:52 NPR on "war against plastic straws", viral video of sea turtle with straw lodged in nostril
 
@@ -20507,3 +20507,26 @@ A.I. Zombies
 2:24:55 Brennan nervously walks back "treasonous" to Rachel Maddow: "I didn't mean that he committed treason, but it was a term that I used, *nothing short of treasonous*"; Sarah Sanders "he did nothing wrong, there are no charges against him" clip repeated three times in NBC report, mind-reading Hallie Jackson: White House "not ruling out" Manafort pardon
 2:33:18 Sexual Harassment Update: Asia Argento pays Jimmy Bennett $380k for 2013 sexual assault
 2:38:04 Koch Brothers organization uninterested in Steve Bannon strategy of fighting impeachment
+
+1063
+08/26/2018
+Furternity
+0:00:00 ACC: "*But I had to leave the grandkids alone to defend the country!*" (1:38:36)
+0:00:37 ACC's Southwest delays in and out of Chicago, Loews hotel handicapped suite, VIPR security at entrances to Millennium Park, Über "playing the spread" with undisclosed surge pricing
+0:12:13 John McCain dead at 81, "we're getting nothing done" iso, CBS hagiography with 2017 "President Comey" flub, JCD on "misdirection" example of bipartisanship as "a message only a maverick could deliver"; Steve Pieczenik: "spoiled, entitled brat", Hanoi Hilton "coward and a traitor", "killed more Americans than any other President I would have known of", vouched for by "coward and treasonous military officer" David Petraeus, civilian killer Bob Kerrey, *qui s'excuse s'accuse*; Chuck Schumer seeking to rename Russell Senate Office in his honor
+0:28:17 *Democracy Now*: "whistleblower" Reality Winner sentenced to 5<frac>1/4</frac> years, Trump tweet: "small potatoes" compared to Hillary's crimes; Scott Adams notes Trump "one-names" Hillary "Crooked"
+0:33:09 Q-Vision: Jeff Sessions' shit-eating grin for overly enthusiastic Maria Bartiromo on "*sham!*" Hillary e-mail investigation; ABC "great question" on timing of Sessions firing
+0:38:18 David Pecker misdirections from Tom Llamas: Trump "promoting" Cruz-JFK story, "*slamming* those who are turning on him" vs "not fair" lament, JCD: CSJ "chicken shit journalism"
+0:48:02 Responses to JCD's second Newsletter, ACC enthuses about massive *No Agenda* community; "*wait a minute, roast beef for sale, marriages for lemonade, it's all we will get!*" iso
+0:56:52 Producer Segment: `trumprotation.com`; "Dude Named Ben" origin; millennials and brunch
+1:25:25 Dimension B: JCD: "*grab the dog!*", John Brennan to Bill Maher: no security clearance monetization, cheers for deep state from radical left audience, Maher: "you're dead to me Rand Paul", Brennan: Americans deserve spooks who are "not gonna be political, not gonna be politicized", doubles down on "treasonous", Maher defends Clapper, "I didn't want to speak out after I left the government" lie, Trump increasingly desperate "typical authoritarian", "Donnybrook Fights" with "national treasure" McCain, Maher "third great crisis in American history" ignoring Smedley Butler, Clapper: "I'm really concerned about whether this could spill over into the streets!", ACC: "the fidget spinners are going to grab their muskets?"
+1:47:28 Foamer-style Canadian narration of trip over new bridge: "*look at the river, look at the river!*"
+1:50:41 "Furternity leave" for new pet owners at digital marketing firm; JCD gripes about brunch
+1:53:18 ACC OTG: iPhone-free Chicago trip; CBC on virtues of paper maps for national park hikers, ditzy millennial "I almost dropped my phone in the lake", JCD on GPS tied to cell network
+1:59:52 *Invention Secrecy Act of 1951* in episode of *Elementary*, classified patents and gag orders
+2:07:00 Donation Segment: JCD on "literal dirtbags" in Washington; Rick Dees "hundies"
+2:24:59 Disney's crackdown on James Gunn as housecleaning ahead of Bob Iger political run; Eli Lilly pulls sponsorship of driver Conor Daly over racial slur by his father "more than thirty years ago" (CotD); nasty "Trump shills" man overboard note
+2:28:29 British police taking flak for hitting teenage girl, JCD on MIA "sticky goo" inventions
+2:31:11 Ask John: Theodore Kaczynski on privileged white male academics championing social justice
+2:32:44 Kara Swisher to Bill Maher on Facebook's lack of responsibility, Maher bad-mouths Zuckerberg's appearance, Voltaire's "great responsibility" couched in comic book terms, "these sites were not hacked by the Russians, they were used exactly as they were built", "we don't wanna be judged by our first things, Bill" 9/11 hijackers reference, "weaponize" meme, JCD blamescomputer chips; Russian bots accused of using Mollie Tibbetts murder as distraction
+2:46:16 JCD: Replica Wine knockoffs "not possible in a million years"
