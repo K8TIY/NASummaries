@@ -14,6 +14,17 @@ try:
 except NameError:
   xrange = range
 
+class bcolors:
+  HEADER = '\033[95m'
+  OKBLUE = '\033[94m'
+  OKGREEN = '\033[92m'
+  WARNING = '\033[93m'
+  FAIL = '\033[91m'
+  ENDC = '\033[0m'
+  BOLD = '\033[1m'
+  UNDERLINE = '\033[4m'
+
+
 def latexHeader(f):
   if book: f.write(r"""\documentclass[twoside]{book}
 \usepackage{fancyhdr}
@@ -289,9 +300,14 @@ def GetAlbumArt(n):
     if not os.path.isfile(path):
       cmd = "curl -L %s -o %s" % (url, path)
       res = os.system(cmd)
-      print("%s returned %s" % (cmd,res))
+      if res != 0:
+        print(bcolors.FAIL + "%s returned %s" % (cmd,res) + bcolors.ENDC)
+        sys.exit(1)
     cmd = "sips -s format png -Z 512 %s --out %s" % (path, ppath)
     res = os.system(cmd)
+    if res != 0:
+      print(bcolors.FAIL + "%s returned %s" % (cmd,res) + bcolors.ENDC)
+      sys.exit(1)
     print("%s returned %s" % (cmd,res))
     if os.path.isfile(ppath):
       try: os.unlink(path)
