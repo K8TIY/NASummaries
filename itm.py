@@ -145,6 +145,7 @@ def latexEscape(s):
   s = re.sub(r'\(((ACC|JCD)PPotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(TCS\)', r'({\\color{red}TCS})', s)
   s = re.sub(r'<sub>(.+?)</sub>', r'{\\textsubscript \1}', s)
+  s = re.sub(r'<frac>(.+?)/(.+?)</frac>', r'$\\frac{\1}{\2}$', s)
   news = ''
   oq = False
   for i in xrange(0,len(s)):
@@ -215,6 +216,7 @@ def HTMLEscape(s):
   s = re.sub(r'__(.+?)__', r'\1', s)
   s = re.sub(r'\d+@\d:\d\d:\d\d', lambda m: playerURL(m.group(),'html'), s)
   s = re.sub(r'\((\d:\d\d:\d\d)\)', r'(<code>\1</code>)', s)
+  s = re.sub(r'<frac>(.+?)/(.+?)</frac>', r'<sup>\1</sup>&frasl;<sub>\2</sub>', s)
   news = ''
   oq = False
   for i in xrange(0,len(s)):
