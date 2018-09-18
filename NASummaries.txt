@@ -20654,3 +20654,24 @@ Hunger Stones
 2:17:35 Donation Segment: TPO Podcast wins award
 2:33:00 CBSN on Trump minions doing Rotation name-calling; John Kerry desperately plugging new book, "Agent Orange", idiotic "can't even go to the funeral of a war hero" comment
 2:40:35 Chuck Todd *The Atlantic* assertion "serious journalists correct the record" vs orgy of lies and deflection in 2016 interview with Paul Wolfowitz; Jon Stewart grills *New York Times*' Judith Miller over propagating administration WMD lies, "I think the story got cut for space" bullshit
+
+1067
+09/09/2018
+Double Header
+0:00:00 ACC: "Good, good, good, good, good." (0:02:01)
+0:00:30 ACC in Italy for his sister's 25th wedding anniversary
+0:03:45 JCD interview with Scott Adams: Pacific Bell meeting with demo of the World Wide Web, "I did not buy Cisco"; *Dilbert* inspiration from phone company and bank, workplace comedy preferred by readers; "observational plus engineering" humor, JCD "absurdist" vs "cognitive blind spots"; termination from Pacific Bell, coworker Anita inspiration for *Dilbert*'s Alice
+0:17:34 "Literally thousands of e-mails a day" in suggestions; no conventions to avoid drawing backgrounds; switch to computer around 2004 due to focal dystonia neurological disorder
+0:22:30 Tourette syndrome diagnosis by JCD based on twitches and neat freak behavior, three-year loss of voice due to spasmodic dysphonia, normal speech "as long as nobody's listening", neck Botox shot experiment, Google "voice dystonia", experimental neck nerve splicing surgery
+0:29:45 Daily exercise regimen, "I don't vote", inaccurate "Trump apologist" label, hypnotist training in early 20s, "superpower" to see through illusion of human rationality; Trump's use of persuasion tools, "immune to shame", family pastor Norman Vincent Peale's *The Power of Positive Thinking*, visuals and emotion, "talking past the sale" technique; "probably forty percent of my income evaporated, and seventy percent of my social circle" due to Trump apologist label
+0:39:43 "Grousing" to JCD about insulting CEO at speaking engagement; legal difficulties from restaurant investments in 9/11 economy, vegetarianism; `blightauthority.com` fight against urban decay; engineering work with ISDN; valedictorian in class of 40, Hartwick College and Berkeley
+0:46:51 Opinions on list of people: "boring" Mike Pence, *Win Bigly* Oval Office invitation, Kellyanne Conway a Hillary surrogate, "life experience" meeting with Trump, "insanely smart" Rachel Maddow, MSNBC "the version of CNN that went too far", no opinion of Jerry Brown
+0:52:48 Silicon Valley billionaires "interesting", Marc Benioff and "intention", philanthropy on page one of slideshow, JCD draws John Lasseter parallel, Republicans in stealth mode
+0:57:39 Favorite TV *The Five* and Greg Gutfeld; not fond of fiction because "my ability to imagine is probably … extraordinary"; "low level" programmer in BASIC, "more about the talent stack", Mac and iPhone adherent; 2011 BMW X5; avoidance of alcohol and Michelin stars
+1:04:10 WhenHub Interface Network, When cryptocurrency, *Cubicles That Make You Envy the Dead*
+1:09:13 Interlude
+1:11:14 JCD interview with Dane Jasper: current projects on foundation of fiber to home, standard $50 per month fee, average household's $200+ for "archaic" system; JCD's "accidental" $3 Tucows position, billboard trucks; utility pole location, exposure to damage from transformer oil fires, "we have issues with squirrels", "with fiber it's pretty much either fine or it's broken"
+1:22:22 IPv6 "implementation issues", WANs outperforming LANs; Bay Area customer service, "infuriating" call center scripts; GPON gigabit passive optical networking technology, commercial 2 gigabit offering, upcoming XGSPON and NG-PON2, "future-proof" fiber medium
+1:35:34 JCD's AT&T door-to-door "bros" pushing 50 Mbit DSL via "lawn fridge"; "it wouldn't be okay for somebody to set up a wireless ISP off their roof", servers not allowed, benefits of fast backups to cloud; no internet TV offerings aside from satellite; JCD's switch to Cat7
+1:53:02 "We really benefit from the fact that America's cable companies in particular are some of the most hated companies", Google's loss of interest in fiber; cabling costs per foot, utility poles within easements, costly vertical space rental; YouTube preview of JCD's installation
+2:06:31 Outro: ACC headed to Lake Como and on to the Large Hadron Collider after next show
