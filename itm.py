@@ -145,6 +145,7 @@ def latexEscape(s):
   s = re.sub(r'\(((ACC|JCD)PPotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(TCS\)', r'({\\color{red}TCS})', s)
   s = re.sub(r'<sub>(.+?)</sub>', r'{\\textsubscript \1}', s)
+  s = re.sub(r'<sup>(.+?)</sup>', r'{\\textsuperscript \1}', s)
   s = re.sub(r'<frac>(.+?)/(.+?)</frac>', r'$\\frac{\1}{\2}$', s)
   news = ''
   oq = False
