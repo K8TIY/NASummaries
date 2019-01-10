@@ -140,6 +140,7 @@ def latexEscape(s):
   s = re.sub(u'([\u2700-\u27BF]+)', r'\\lgrande{\1}', s)
   s = re.sub(u'([\u20A0-\u20CF]+)', r'\\lgrande{\1}', s)
   s = re.sub(u'([\u0900-\u097F]+)', r'\\skt{\1}', s)
+  s = re.sub(u'([\u4E00-\u9FFF]+)', r'\\cjk{\1}', s)
   s = re.sub(r'__(.+?)__', r'\\cjk{\1}', s)
   s = re.sub(r'____', r'\\underline{\\hspace{2em}}', s)
   s = re.sub(r'\\&ast;', '*', s)
