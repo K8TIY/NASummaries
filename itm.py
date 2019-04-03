@@ -48,7 +48,7 @@ def latexHeader(f):
 \usepackage{dblfloatfix}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
-\newcommand{\cjk}[1]{{\fontspec[Scale=0.9]{Hiragino Mincho Pro}#1}}
+\newcommand{\cjk}[1]{{\fontspec[Scale=0.9]{Kaiti TC}#1}}
 \newcommand{\asymbol}[1]{{\fontspec[Scale=0.9]{Apple Symbols}#1}}
 \newcommand{\lgrande}[1]{{\fontspec[Scale=0.9]{Lucida Grande}#1}}
 \newcommand{\skt}[1]{{\fontspec[Scale=0.9]{Sanskrit 2003}#1}}
@@ -147,8 +147,8 @@ def latexEscape(s):
   s = re.sub(r'\((B?CotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(((ACC|JCD)PPotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(TCS\)', r'({\\color{red}TCS})', s)
-  s = re.sub(r'<sub>(.+?)</sub>', r'{\\textsubscript \1}', s)
-  s = re.sub(r'<sup>(.+?)</sup>', r'{\\textsuperscript \1}', s)
+  s = re.sub(r'<sub>(.+?)</sub>', r'{\\textsubscript {\1}}', s)
+  s = re.sub(r'<sup>(.+?)</sup>', r'{\\textsuperscript {\1}}', s)
   s = re.sub(r'<frac>(.+?)/(.+?)</frac>', r'$\\frac{\1}{\2}$', s)
   news = ''
   oq = False
