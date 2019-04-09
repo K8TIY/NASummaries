@@ -48,6 +48,7 @@ def latexHeader(f):
 \usepackage{dblfloatfix}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
+\newcommand{\emoji}[1]{{\fontspec[Scale=0.9]{Meiryo}#1}}
 \newcommand{\cjk}[1]{{\fontspec[Scale=0.9]{Kaiti TC}#1}}
 \newcommand{\asymbol}[1]{{\fontspec[Scale=0.9]{Apple Symbols}#1}}
 \newcommand{\lgrande}[1]{{\fontspec[Scale=0.9]{Lucida Grande}#1}}
@@ -140,6 +141,7 @@ def latexEscape(s):
   s = re.sub(u'([\u2700-\u27BF]+)', r'\\lgrande{\1}', s)
   s = re.sub(u'([\u20A0-\u20CF]+)', r'\\lgrande{\1}', s)
   s = re.sub(u'([\u0900-\u097F]+)', r'\\skt{\1}', s)
+  s = re.sub(u'([\u2600-\u26FF]+)', r'\\emoji{\1}', s)
   s = re.sub(u'([\u4E00-\u9FFF]+)', r'\\cjk{\1}', s)
   s = re.sub(r'__(.+?)__', r'\\cjk{\1}', s)
   s = re.sub(r'____', r'\\underline{\\hspace{2em}}', s)
