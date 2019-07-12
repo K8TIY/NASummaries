@@ -46,6 +46,7 @@ def latexHeader(f):
 \setlist{nolistsep}
 \setlist{noitemsep}
 \usepackage{dblfloatfix}
+\usepackage{marginnote}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
 \newcommand{\emoji}[1]{{\fontspec[Scale=0.9]{Meiryo}#1}}
@@ -72,7 +73,7 @@ the public domain. All image copyrights belong to their respective owners.}
 \newpage
 """)
 
-def latexSection(f,lines,shownum,showdate,samepage):
+def latexSection(f,lines,shownum,showdate,samepage,reedit):
   shownum = re.sub(r'^(\d+\.?\d*).*$', r'\1', lines[0])
   f.write("\\renewcommand{\\thesection}{%s}\n" % (shownum))
   pic = "na/art/" + shownum + ".png"
@@ -97,15 +98,21 @@ def latexSection(f,lines,shownum,showdate,samepage):
   f.write("}\n")
   f.write("\\begin{itemize}\n")
   nobreak = False
+  reedited = False
   for i in xrange(3,len(lines)):
     if lines[i] == "Nobreak":
       nobreak = True
-    if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak":
+    if lines[i] == "Reedited":
+      reedited = True
+    if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak" and lines[i] != "Reedited":
       parts = lines[i].split(None, 1)
       label = "\\scmono{%s}" % (parts[0])
       urltime = re.sub(':', '-', parts[0])
       label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
-      f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
+      text = parts[1]
+      if reedit and reedited:
+        text =  text + u' \u2713'
+      f.write("\\item[%s]%s\n" % (label, latexEscape(text)))
   f.write("\\end{itemize}\n")
   if filler is not None:
     f.write("\\begin{figure*}[!b]\\begin{center}\\includegraphics[width=.45 \\textwidth,height=.45 \\textheight,keepaspectratio]{"+pic+"}\\end{center}\\end{figure*}")
@@ -192,7 +199,7 @@ def HTMLPage(f,lines,shownum,showdate):
     f.write('<img style="max-width:40em;" alt="Show ' + shownum + ' album art" src="' + url + '"/></div>')
   f.write("<table>")
   for i in xrange(3,len(lines)):
-    if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak":
+    if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak" and lines[i] != "Reedited":
       parts = lines[i].split(None, 1)
       label = "<code>%s</code>" % (parts[0])
       s = HTMLEscape(parts[1])
@@ -350,6 +357,7 @@ if __name__ == '__main__':
     -l, --latex         Create LaTeX
     -n, --number        Use this number as the Show number in the git commit
     -N, --noop          Do not execute rsync or git that would touch a remote site
+    -r, --reedit        Indicate reedits in the LaTeX
     -t, --title         Suppress the title page
     -u, --upload        rsync to callclooney.org
     -v, --verbose       Print upload and git commands before executing them
@@ -367,13 +375,14 @@ if __name__ == '__main__':
   html = False
   shownum = None
   noop = False
+  reedit = False
   title = True
   upload = False
   verbose = False
   infile = None
-  shortopts = "abdfghHi:n:Nltuv"
+  shortopts = "abdfghHi:n:Nlrtuv"
   longopts = ["art","book","delete","frontmatter""git","help","HTML","input=","latex",
-              "number=","noop","title","upload","verbose"]
+              "number=","noop","reedit","title","upload","verbose"]
   try:
     [opts,args] = getopt.getopt(sys.argv[1:],shortopts,longopts)
   except getopt.GetoptError as why:
@@ -394,6 +403,7 @@ if __name__ == '__main__':
     elif o == "-l" or o == "--latex": latex = True
     elif o == "-n" or o == "--number": shownum = a
     elif o == "-N" or o == "--noop": noop = True
+    elif o == "-r" or o == "--reedit": reedit = True
     elif o == "-t" or o == "--title": title = False
     elif o == "-u" or o == "--upload": upload = True
     elif o == "-v" or o == "--verbose": verbose = True
@@ -447,7 +457,7 @@ if __name__ == '__main__':
     showdate = lines[1]
     showdate = re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', showdate)
     if float(n) > maxshow: maxshow = float(n)
-    if latex: nobreak = latexSection(latexout,lines,n,showdate,nobreak)
+    if latex: nobreak = latexSection(latexout,lines,n,showdate,nobreak,reedit)
     if html:
       htmlname = "%s_NASummary.html" % (n)
       url = "http://www.blugs.com/na/" + htmlname
