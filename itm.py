@@ -80,7 +80,10 @@ def latexSection(f,lines,shownum,showdate,samepage,reedit):
   pic = re.sub(r'\.(\d+\.png)', r'_\1', pic)
   if not os.path.isfile(pic): pic = None
   filler = None
-  f.write("\\section[%s]{%s \\small{(%s)}" % (latexEscape(lines[2]),latexEscape(lines[2]),showdate))
+  title = lines[2]
+  if reedit and lines[3] == 'Reedited':
+    title = title + u' \u2713'
+  f.write("\\section[%s]{%s \\small{(%s)}" % (latexEscape(title),latexEscape(title),showdate))
   if art == True and pic is not None:
     if lines[3] == 'Artwork':
       filler = pic
@@ -98,21 +101,15 @@ def latexSection(f,lines,shownum,showdate,samepage,reedit):
   f.write("}\n")
   f.write("\\begin{itemize}\n")
   nobreak = False
-  reedited = False
   for i in xrange(3,len(lines)):
     if lines[i] == "Nobreak":
       nobreak = True
-    if lines[i] == "Reedited":
-      reedited = True
     if len(lines[i]) > 0 and lines[i] != "Artwork" and lines[i] != "Nobreak" and lines[i] != "Reedited":
       parts = lines[i].split(None, 1)
       label = "\\scmono{%s}" % (parts[0])
       urltime = re.sub(':', '-', parts[0])
       label = "\\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}" % (shownum, urltime, label)
-      text = parts[1]
-      if reedit and reedited:
-        text =  text + u' \u2713'
-      f.write("\\item[%s]%s\n" % (label, latexEscape(text)))
+      f.write("\\item[%s]%s\n" % (label, latexEscape(parts[1])))
   f.write("\\end{itemize}\n")
   if filler is not None:
     f.write("\\begin{figure*}[!b]\\begin{center}\\includegraphics[width=.45 \\textwidth,height=.45 \\textheight,keepaspectratio]{"+pic+"}\\end{center}\\end{figure*}")
