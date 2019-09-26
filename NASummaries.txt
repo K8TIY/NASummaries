@@ -4750,7 +4750,7 @@ Obama Insane?
 Stop Albedo Now!
 0:00:00 JCD: "I can't watch the World Series because baseball at this level makes me nervous."
 0:00:39 *Gitmo Nation National Anthem*, JCD: "*that's what they used to play, at schools*"
-0:02:24 JCD: "I'm gettin' a **ham license**, I've decided", story about salvaging radio antenna from decommissioned submarine, ACC: "CQ DX, CQ DX!", "hey John, 73s and 88s to you!", "it's a license to complain!", seawater spout antenna video, 14.275 MHz retransmission by VE6CPU
+0:02:24 JCD: "I'm gettin' a **ham license**, I've decided", story about salvaging radio antenna from decommissioned submarine, ACC: "CQ DX, CQ DX!", "hey John, 73s and 88s to you!", "it's a license to complain!", seawater spout antenna video, 14.275 MHz retransmission by `VE6CPU`
 0:10:06 Producer Segment: 99% "douchebag ratio"; "Gitmo Nation Sauerkraut"
 0:18:26 `drop.io` shutting down after sale to Facebook; JCD on defunct Palm Pilot sync service website, pre-Yahoo GeoCities archive in 1TB torrent; ACC on Libyan `bit.ly`, P2P mesh network
 0:25:19 Los Angeles County Museum of Art screening of Josh Azzarella video, David LaChapelle art with missing elements, *Thriller* minus Michael Jackson; Randy Quaid press conference excised "manipulating the banking system", "malignant tumor of star whackers in Hollywood", roster of eight dead actors, defamation by former lawyer Lloyd Braun with *Seinfeld* alter ego
@@ -12302,7 +12302,7 @@ Reverse the Curse
 0:39:38 Israel vs Palestine as harbinger of global meltdown, $3.1bn annually from US, "Jewish state of Israel" meme back; Iron Dome, Tel Aviv; Jordanian Muslim Brotherhood
 0:56:27 Robert Kagan *The Allure of Normalcy* NWO piece, neocons shifting over to Democrat party; US as "the locomotive at the head of mankind"; distillation tower *en route* from Turkey to Kurdistan; listener on Iron Dome working, patriot missiles
 1:13:22 Producer Segment: new e-mail template 35% open rate
-1:42:27 JCD got a QSL card from ``KE0AMZ``, ACC getting QSL cards by Ms.[]Micky
+1:42:27 JCD got a QSL card from `KE0AMZ`, ACC getting QSL cards by Ms.[]Micky
 1:45:28 Afghanistan election: Abdullah Abdullah favored over our guy Ashraf Ghani *Zana-e Bush* "wife of Bush", Psaki on "serious allegations of fraud", Ghani TED talk
 1:56:26 C-SPAN intro for discussion of internet freedom with Bruce Schneier; Michael Cops missing own irony on internet deregulation; ALEC, Council of Mayors behind State municipal broadband bans; Cops on political ad spending, Section 317, "so than when you saw those ads, you'd know who was trying to buy your vote", JCD: "this is idealistic bullcrap"
 2:09:41 War on men: Harry Reid on Hobby Lobby ruling by "five white men"
@@ -13855,7 +13855,7 @@ The Key Key Thing
 0:00:34 JCD's "two problems in my life": losing flashlights and malfunctioning staplers; ACC's Amazon Echo pseudo-review: "if it had an Apple logo on it, everyone would be crapping themselves"; Jacques Ellul pre- and post-PC
 0:11:36 CIA headquarters now on lockdown; ACC back from New York, Empire Bar & Grill strippers
 0:13:51 Cyberattack prevention Executive Order; Kara Swisher "Mr.[]Tech" Obama interview: "we're hugely vulnerable", Red Book: air traffic control systems, "digital base", "we've got to be able to pull those companies together so they're working together", JCD: "it's called collusion, it's against the law", antitrust protection, "capacities to scoop up information", "commercially driven" European protectionism & Stasi, "we have owned the internet"; "I'm a strong believer in strong encryption", "our law enforcement is expected to stop … every bomb on a plane", ACC: "you wanna put it in the book?", "folks who want airtight encryption also want to be protected from terrorists"; "everybody's got to learn how to code early"
-0:42:32 "Coincidental" Kaspersky disclosure of multi-bank malware hack; producer note on crappy Anthem infrastructure and IT staff; "the cyber-secure smart home"; ACC on all the dating sites, PBS on niche dating sites like ``purrsonals.com``, Paul Oyer on "firm-specific human capital", need to settle for good enough, ACC story on recognizing person from Tinder
+0:42:32 "Coincidental" Kaspersky disclosure of multi-bank malware hack; producer note on crappy Anthem infrastructure and IT staff; "the cyber-secure smart home"; ACC on all the dating sites, PBS on niche dating sites like `purrsonals.com`, Paul Oyer on "firm-specific human capital", need to settle for good enough, ACC story on recognizing person from Tinder
 0:58:49 Producer Segment
 1:16:12 Jason Silva: "exponentially emerging technologies"; sketchy Singularity University
 1:25:14 "Happiest place on earth" Denmark shooting, cafe attack; Kurt Westergaard on self-censorship; Ashton Carter confirmation, European call for "removing internet content that is deemed to promote terrorism or extremism", airline data sharing; Helle Thorning-Schmidt: "high alert"
@@ -14260,7 +14260,7 @@ New Mediocre
 1:12:49 Ted Cruz on Constitution's notion of preexisting rights; Megyn Kelly and gun banner's talking points, Kelly: "and yet, guns are a lot like lawyers: you don't want one around until you need one", "I'm not breaking onto your house", JCD: "it's the whole point!"; Operation Chokepoint apparently still leaning on gun shops, Sir Chris' letter on opposition to AB-66 body cameras which "would require officers to read Miranda rights to victims"
 1:27:01 Wasserman Schultz on Rand Paul's abortion position: "would Rand Paul let a woman die?"
 1:30:27 Asian Infrastructure Investment Bank; Lagarde: "what we risk is the new mediocre to become reality", ECB's negative interest rate impact on mortgage principal; FEMEN "end the ECB dictatorship" protester
-1:38:21 Paid internet propaganda trolls in Russia, JCD on Microsoft ``munchkins" trolling OS/2, Ballmer crash disk, Hillary's techno-experts
+1:38:21 Paid internet propaganda trolls in Russia, JCD on Microsoft "munchkins" trolling OS/2, Ballmer crash disk, Hillary's techno-experts
 1:44:42 Six-Week Cycle: Sheriff Gary Painter on ISIS in Mexico: "people … have found Muslim clothing, they have found Koran books", Show 650 clip with same script; CyberCaliphate's posting of law enforcement names and addresses by "right wing sympathizer"; Germany's proposed ten-week data retention policy, "terrorism and organized crime"; Facebook chat spying by CIA-backed In-Q-Tel funded Recorded Future
 1:59:50 Google accused by EU of monopolistic practices
 2:01:40 Donation Segment: new Isaac Pigott "shocked, shocked" $256 promo
@@ -16137,7 +16137,7 @@ Trump Head
 0:33:14 Note from Wounded Warrior Project PR director, Chip Reid "I got a job, you got a job", CBS: WWP on Charity Navigator watchlist; Form 990 deconstruction, IP lawsuits and WWF, book sales at rallies; Trump drops WWP, CBS drops story; Major Garrett's Trump beef
 0:49:00 Kasich: "it's best not to talk any more about back doors and encryption"; Bill's quavering "who will do the most"; Bush "so did you, Marco" diminutive
 0:54:36 Joe Scarborough slyly refers to inside information on FBI Hillary investigation, FBI "have never been big fans of the Clintons"; Elizabeth Warren tweets
-1:03:38 Producer Segment: how caucuses work, `agenda31.org`; ACC's vanity call K5ACC
+1:03:38 Producer Segment: how caucuses work, `agenda31.org`; ACC's vanity call `K5ACC`
 1:57:35 13-year-old German girl's story of rape by migrants turns out to have been fabricated; migrant drownings and strandings near Greece; Dutch response to "have a nice day"; Europeans analyze Trump, Belgium the "rat hole", "Donald Trump is his ideology"; hand grenade for shelter in Germany; Frauke Petry: "police should have the right to shoot at illegal migrants"; Sweden to deport up to 80k; Thom Hartmann to Bill Maher on teaching immigrants the language: "*your culture's fine, but here's our culture*"
 2:15:39 Charles Barkley on "racial component" in Super Bowl: "the best way to make talk radio good is to make it racial"; Idris Elba at SAG Awards: "welcome to diverse TV"
 2:22:24 New consent laws in California and New York, man on the street: do they cover kissing; California "consent carnival", five types of consent, Orwell's *1984*; *No Agenda* consent app, Kleiner Perkins lawsuit, `we-consent.org`
@@ -16174,7 +16174,7 @@ Laptop Bomb
 0:00:00 JCD: "I, this is stupid is why!" (0:21:54)
 0:00:38 BART gearing up for 200k Super Bowl fans, J'Johnson: DHS "working overtime", looking for "counterfeit merchandise", X-ray trucks; Über protest, Alexa's Über skill woes, JCD: "this machine is broadcasting subliminal messages"; ACC predicts Panthers, Beyonce album "drop", basketball "drained it", ABC promoting Oscars via `#OscarsSoWhite`, JCD predicts Broncos, lame Super Bowl City vs US Open
 0:17:03 BART swapping out fake security cameras for $1.4M; Coast Guard "maritime exclusion zone" for San Tomas Aquino Creek, JCD: "maybe some Viet Cong could be coming up the creek"
-0:22:21 ACC now officially K5ACC; Bruce Perens introduces amateur radio: **"when the apocalypse comes we're the guys who are gonna save the world, right?"**
+0:22:21 ACC now officially `K5ACC`; Bruce Perens introduces amateur radio: **"when the apocalypse comes we're the guys who are gonna save the world, right?"**
 0:24:19 Democrat debate: Hillary on "hedge funge managers" loophole, Chuck Todd asks for transcripts; Carl Bernstein: White House "horrified"; classified e-mails to Colin Powell; Sanders on Goldman Sachs' $5bn fine; Hillary's gender card, female college students offended; Madeline Albright: "special place in Hell for women who don't help each other"; Hillary on Sanders' "artful smear"; "my constituents"; Chelsea "President Sanders" flub
 0:48:10 Republican debate: low ABC production values, alpha male arm pats for Trump, crap makeup; single blue Trump frame; Trump reveals "we have all donors in the audience"; Barbara Bush: Trump says "terrible things about military", "I think about Jeb"
 1:02:45 Bush 43: "the first job of the president is to protect America"; sports recap skit; Rubio "Killary Clinton"; JCD Jeb "word matters" mashup; Rubio & Jeb on women and the draft, ACC: "isn't he gay?", Jeb on "gutting the military budget"; Rubio's ISIS "most dangerous … in the history of mankind" claim; ACC on amped up Rubio, JCD on nose moves, Dabiq apocalypse; Trump: "you'll find out" what's worse than waterboarding, Peace Prize nomination; CNN on "Trumper tantrum", Trump: "I love that phrase", Ben Carson damage control by CNN
@@ -16248,7 +16248,7 @@ Toilet Wars
 0:59:48 Producer Segment: `vapeyourkale.com`; JCD's lightning strike; KLBJ NA call-in promo
 1:26:30 Trump on San Bernardino iPhone: "Apple is absolutely in the wrong", Carson: "what we need is a public-private partnership", JCD: "*heil Hitler*", Rubio on alternative encryption products, "Silicone Valley" partnership, Cruz on 4th Amendment; Apple ordered to disable auto-erase, enable passcode submission, disable delay, via signed image file, real legal question: forcing Apple to work for hire; ACC's six-digit passcode, fingerprints not Constitutionally protected
 1:51:32 Rubio's college affordability plans: alternative accreditation, "student investment plan", JCD: "this sounds like indentured servitude … or Bowie bonds"
-1:54:48 K5ACC news on Dutch repeater network amateur radio news, ACC causes a "pileup"
+1:54:48 `K5ACC` news on Dutch repeater network amateur radio news, ACC causes a "pileup"
 1:58:01 US Marshalls arrest Texas man for delinquent student loan; free ambulance services
 2:01:31 Yatsenyuk survives no confidence vote, rampant corruption, new constitution "contract on a clear geopolitical goal … which consists of becoming a member of the European Union and NATO"; Russian Obama posters; Bolivian referendum and Morales' girlfriend, $500k from National Endowment for Democracy, Chinese companies on the scene, ACC Red Book: zika
 2:13:06 Gas price comparisons, *Deutsche Welle* on output freeze proposed by Russia and Saudi Arabia, $1.5M barrels per day excess; old-fashioned gas pumps, two-stroke pumps with oil, Saab 92
@@ -24806,7 +24806,7 @@ Goldfish Invasion
 0:08:38 PBS attorney on "no need to show force, fraud, or coercion" to prosecute Jeffrey Epstein for sex trafficking, JCD's seventeen-year-old streetwalker scenario, Chuck Schumer agitates for Alex Acosta's resignation or firing, William Barr recused over potential conflict of interest; PBS blames rich white men, JCD recommends Iceberg Slim's *Pimp*
 0:21:15 ACC's radio discussion of Joris Demmink with Mischa Kat; *The View* "he has to resign!" clamor; JCD on projecting Joe Biden's creepy behavior onto Trump; *Vanity Fair* author Conchita Sarnoff on potential 2008 election "political mess", Alberto Gonzales and Robert Mueller calling the shots; victim attorney Bradley Edwards on "little black book" from dead housekeeper, list of global elites; Acosta dodges question about co-conspirators by falling back on DoJ "guidelines"; Edwards on Trump's cooperation with investigators in 2009; Ponzi scheming mentor Steven Hoffenberg; Anne Coulter on mysterious origins of Epstein's money, state-sponsored blackmail theory; Acosta dodges "rabbit hole" question about Epstein as intelligence asset; Alan Dershowitz on the defensive, ACC: "it's blackmail, possibly FBI spying", JCD: "why isn't he dead?"; James Comey's daughter on prosecution team, Nancy Pelosi's daughter's odd "faves" tweet; Boys Town USA and Bush-era White House gay prostitutes
 0:53:17 "Goldfish invasion" in the Great Lakes; former New York banker's "we won" revisited
-1:00:09 VE7DXW's RF Seismograph notes propagation blackout coincident with Ridgecrest quake
+1:00:09 `VE7DXW` RF Seismograph notes propagation blackout coincident with Ridgecrest quake
 1:03:31 Producer Segment
 1:26:15 15 children dead in hot car deaths, ACC: "put the kid on a leash"; federal court blocks H&HS "power to enforce" rule requiring prices in drug ads, ACC on free medication fine print
 1:30:59 PBS on marijuana legalization push, ageist "generational replacement", "marijuana use disorder", ACC's recent "don't tell me I'm gonna scromit" experience
