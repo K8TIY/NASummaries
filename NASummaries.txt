@@ -1464,7 +1464,7 @@ Dandelion Wine
 0:17:54 *The Economist* on Proctor & Gamble denying Pringles' potato content to avoid VAT, JCD: "it's actually a toy!"; Monterey Foods potentially in trouble; ACC on Bar Americain ribs
 0:23:27 JCD recommends *The American Experience* Kennedys series, Bobby Kennedy: "we are a great country, and a selfish country, and a compassionate country"
 0:28:06 JCD's local news on ring of car thieves busted, CHP unable or unwilling to trace cars to owners; ACC's Slovakian driver on dozing off in car and awakening to ticket, financial incentives for ticket-writing; Speaker of House of Commons Michael Martin resigns over expense scandal; *Jon & Kate Plus 8* crap
-0:36:33 JCD on not allowed into Google I/O by indecisive 20-somethings; death of `<blink>`, HTML5 video embedding; miffed North Korea promises "unimaginable merciless punishment" over maritime WMD program, ABC News distills it to "the North threatened a military response", report with Uncle Don, "you don't want to mess with them"
+0:36:33 JCD on not allowed into Google I/O by indecisive 20-somethings; death of `&lt;blink&gt;`, HTML5 video embedding; miffed North Korea promises "unimaginable merciless punishment" over maritime WMD program, ABC News distills it to "the North threatened a military response", report with Uncle Don, "you don't want to mess with them"
 0:49:02 Lahore bombing appearing to target ISI, Pakistani military fighting a multi-front war
 0:53:02 Dandelions selling for $9 per pound, JCD on Mimi making dandelion wine, WWII nettle soup, cedar box for Native American cooking
 0:56:50 Producer note on 2007 Boeing 737-300 disengaged auto-throttle incident at Bournemouth Airport and Turkish Airlines 1591; JCD on medical imaging software frying patients, Eurocopter running Windows
@@ -1690,7 +1690,7 @@ The Doomsday Box
 113
 07/16/2009
 Surviving The Swine Flu
-0:00:00 JCD: *<laughing>* "Listen to us bitch."
+0:00:00 JCD: *(laughing)* "Listen to us bitch."
 0:00:35 Show time to be between 9:00 and 9:30 PST
 0:01:01 Hank Paulson being grilled by Committee, arthritic left pinkie
 0:02:20 Tony Blair's wife Cherie suffering from swine flu, 50% jump in cases in one week, over-the-phone diagnosis in UK, JCD: "*if you have a fever press one*"
@@ -1822,7 +1822,7 @@ Small Steps Toward Better Health
 120
 08/09/2009
 The Clinton Gore Man Hug
-0:00:00 JCD: *<laughing>* "I love that line! Put to death."
+0:00:00 JCD: *(laughing)* "I love that line! Put to death."
 0:00:37 Taxi Eric freaking out over nineteen-year-old daughter's swine flu; Goebbels inspired by American WWI propaganda; producer note on *Law & Order* measles propaganda: Dick Wolf former Bush 43 classmate and friend of Fred Thompson
 0:08:05 White House PHRMA big pharma "drug deal", $80bn reduction in price over ten years in return for no Medicare price caps, SEIU Service Employees International Union, "Mythbusters" call with Kathleen Sebelius; rowdy town hall meetings, Pelosi spotting swastikas
 0:17:36 JCD story: International Harvester factory job, receiving clerk or inspector, high productivity via amphetamines, mononucleosis disability
@@ -1992,7 +1992,7 @@ Coming Soon: The Cashless Society
 129
 09/10/2009
 Unionize Everything
-0:00:00 ACC: "*I'm so happy that we're going to kill tens of thousands of us, here's my water Mr.[]TSA, please take my water! <sobbing>*" (0:52:56)
+0:00:00 ACC: "*I'm so happy that we're going to kill tens of thousands of us, here's my water Mr.[]TSA, please take my water! (sobbing)*" (0:52:56)
 0:00:44 ACC back in US, touch of swine flu; JCD on frequent flyer immunity
 0:03:22 Obama speech before joint session of Congress, kissing room full of potentially sick attendees, HD allowing inspection of expensive clothing and jewelry, female elites like Hillary & Pelosi wearing "power color" red, Sebelius' enormous earrings; Dennis Miller: "this is beautiful karaoke"; Pelosi issues instructions for escorting Obama into chamber, constant muttered asides to colleagues; shallow Katie Couric comment on Michelle Obama standing beside Vicki Kennedy; JCD on Obama's ability to "buffalo" audience, "what bill?" sign
 0:15:26 *Wall Street Journal* op-ed on forcing health care workers into unions, ACC on SAG & AFTRA membership; EFCA Employee Free Choice Act eliminating secret unionization ballots; Post Office employees in ~~holding pens~~ "resource rooms" doing nothing because they can't be fired
@@ -2067,7 +2067,7 @@ Thank You Satan?
 133
 09/23/2009
 The Algae Car Saves Ohio
-0:00:00 ACC: *<static>* "Federal reserve says no rise in interest rates, everything is stable, all is well! Go back to your homes, watch television and enjoy life! Don't forget to shop!" (0:42:07)
+0:00:00 ACC: *(static)* "Federal reserve says no rise in interest rates, everything is stable, all is well! Go back to your homes, watch television and enjoy life! Don't forget to shop!" (0:42:07)
 0:00:43 ACC in New York City at "pain in the ass" W Times Square hotel with "goons", "salad bowl sink", JCD on salad bowl tidal wave, dark hallways; danger of *Adweek* "sucking advertiser dick" comments; Times Square pedestrian modifications, TKTS bleachers, Father Duffy Square; Clinton Global Initiative & United Nations chaos, Gaddafi's tent pitched on Trump property, fifty-babe guard detail
 0:14:16 Belated 5A5 Steak Lounge review, waiter with head cocked, "flavor shooter" with caviar, JCD's runny Béarnaise, Jason's Vineyard 2005 Cabernet, no cappuccino machine, "soft launch"
 0:22:19 Swine flu sales pitch: links between flu and heart attacks; UK Mental Health Act allows vaccine refusers to be sectioned; H3N9 canine flu now spreading; Massachusetts bill to allow police vaccination without warrant; Verichip stock up 186% on news of implantable virus detection patents, JCD: "*boom*, three dollars!", CEO's $1.45M, company founded on bodies of 9/11 firefighters, semi-anonymous staff
@@ -2373,7 +2373,7 @@ Podcast Award Nominees
 148
 11/15/2009
 Adam Gets Kicked Out
-0:00:00 JCD: *<laughing>* "I thought this was one of your sound effects, with Crackpot calling the kettle black!" (1:24:04)
+0:00:00 JCD: *(laughing)* "I thought this was one of your sound effects, with Crackpot calling the kettle black!" (1:24:04)
 0:00:39 ACC at La Quinta with waffle iron and "waffle goop"
 0:02:02 Producer Segment: Executive Producer manufacturer of MWG "90-rounder"
 0:04:23 ACC in Upstate New York, JCD on IBM move to Armonk to avoid nuclear strike, family gathering for ACC's father's birthday; Uncle Don's reaction to JCD's Kim Jong-il wine tasting bid, DVD care package for Supreme Leader's region-free player, JCD: "that's progress"
@@ -2819,7 +2819,7 @@ Relief From Haiti Relief
 169
 01/28/2010
 Shysters Show Up
-0:00:00 "Madame Speaker, the President of the United States!" *<cheers and boos>*
+0:00:00 "Madame Speaker, the President of the United States!" *(cheers and boos)*
 0:00:42 ACC "mimimum" in intro
 0:01:25 Producer Segment: knighting ceremony for Dame Tanya Weiman; ACC's "rig"
 0:09:17 Distraction of the Week: postponed State of the Union with iPad announcement and Paulson/Geithner grilling; low-resolution C-SPAN camera, speech posted by Hannity night before, women in red and yellow, Pelosi's "seal testicle" pearls and coordination with Biden's tie; "stinkeye" from Michelle for childhood obesity assignment; single "look", "let me be clear"; Afghanistan *combat* troops nuance; Obama takes swipe at Supreme Court over Citizens United
@@ -2933,7 +2933,7 @@ Zug Haiti Connection?
 174
 02/14/2010
 Gung Ho!! Fat Choy!
-0:00:00 JCD: *<Muttering about a stapler.>*
+0:00:00 JCD: *(Muttering about a stapler)*
 0:00:38 Happy Valentines & Chinese New Year, JCD: "*gung ho fat choy*"; ACC in Los Angeles "Hilltop Watchtower", "mimimum" *Manamana* jingle, Time Warner cable; JCD's keyboard in lap
 0:06:04 Producer Segment: PR Associates' name-drop to *Volkskrant* editor and new "in the morning"
 0:14:59 Eleven-year-old kills father's fiancée with Christmas shotgun; University of Alabama sociology professor kills three over not getting tenure, previous shotgunning of brother
@@ -3059,7 +3059,7 @@ HAARP-ing on Earthquakes
 179
 03/04/2010
 Douchebags
-0:00:00 JCD: *<falsetto>* "*Fabulous!!*" (0:07:42)
+0:00:00 JCD: *(falsetto)* "*Fabulous!!*" (0:07:42)
 0:00:37 Show 177's significant latency, ACC's Airport Express in Netherlands
 0:02:49 Producer Segment: **$333.33 EP level**; PR Associate & Palin "in the morning"
 0:23:51 Distraction of the Week: obscure airline pilot flying on expired license; kid directs air traffic at JFK, "this is what you get, guys, when the kids are out of school"; JCD on stories about kids getting high on parents' legal marijuana brownies to derail California legalization
@@ -3325,7 +3325,7 @@ Krazy Karzai Kums Klean
 190
 04/11/2010
 Haiti: Genocide By Neglect
-0:00:00 ACC: "Stating … Barack Obama is possibly insane." *<JCD laughter>* (1:46:52)
+0:00:00 ACC: "Stating … Barack Obama is possibly insane." *(JCD laughter)* (1:46:52)
 0:00:40 ACC awakened at 5:00 by "disturbance in the force" with half of Polish government dead
 0:02:17 Producer Segment; `adultfriendfinder.com` PR
 0:06:19 Polish Air Force Tu-154 "20-year-old plane" meme, December 2009 overhaul, ACC: Tupolev able to "land on gravel", "I'd give my left nut to have one of these", FAR radar assist, reported four landing attempts due to heavy fog, cloud base at 500 meters, short and right of runway, pre-impact explosions; 1943 Władysław Sikorski Gibraltar crash, President and PM "not the biggest of friends", Lech Kaczyński's twin brother, unpopular with EU because of Lisbon Treaty foot-dragging, defeated Donald Tusk's trip to Katyn massacre memorial in Russia; €10bn Nord Stream Pipeline bypassing Poland likened to 1939 Molotov-Ribbentrop pact
@@ -3398,7 +3398,7 @@ Smoke Gets In Your Eyes
 193
 04/22/2010
 Goldman Sachs and the Pedo Bear
-0:00:00 JCD: *<falsetto>* "Oh, I'm so scared, I don't wanna believe it's true!" (1:47:15)
+0:00:00 JCD: *(falsetto)* "Oh, I'm so scared, I don't wanna believe it's true!" (1:47:15)
 0:00:39 JCD's MIA trains, ACC's new router; special "The Deuce Club" for Show 200
 0:03:14 Producer Segment: ***No Agenda* artwork repository** proposal; PR Associate work
 0:10:28 $1800 bill for Micky's shipping container's CES Central Examination Station for DHS, unscreened containers from Afghanistan
@@ -3418,7 +3418,7 @@ Goldman Sachs and the Pedo Bear
 194
 04/25/2010
 Blood Trains
-0:00:00 JCD: *<goofy laughter>*
+0:00:00 JCD: *(goofy laughter)*
 0:00:37 Troy Rutter *Lindsay Lohan Moment* jingle by Sir Geoff Smith, "Twitter battle" with father
 0:03:22 Joy Behar's Theo van Gogh comment revisited, *South Park* threats from radical Muslim group founded by Israeli radical Joseph Cohen, media oblivious to Pedobear appearance
 0:08:39 Producer Segment: PR Associates on *Skeptic Zone* and `republicbroadcasting.org`
@@ -3514,7 +3514,7 @@ Things Could Get Complicated
 0:08:03 Producer Segment
 0:13:15 ACC neighborhood welcome party, JCD: "are you sure it wasn't a prelude to wife swapping?"
 0:14:15 Bill Clinton to PBS on moving Haiti's "seven thousand most vulnerable", coughing "tell" for "we're doing better" lie, meetings about how to spend big money coming soon, "I hope that soon we'll be able to start bringing investors back in", enabling US textile imports "won't cost any American jobs", "getting the tourism back up"; ACC's neighbors out Anderson Cooper as gay, camp manager Sean Penn: "the disaster is still on", Red Cross "out of the medical field for fifty years", Sanjay Gupta on "preventable stupid death" from diphtheria, ACC: "need some vaccines, that'll fix `em right up!" (ACCPPotD); origin of "ditty"
-0:26:08 Bill Maher: "brown people are probably going to … breed their way to power"; "labor underutilization" U6 numbers and recent college graduates, "small business" <25 definition
+0:26:08 Bill Maher: "brown people are probably going to … breed their way to power"; "labor underutilization" U6 numbers and recent college graduates, "small business" &lt;25 definition
 0:33:43 Flash Crash: *DH Unplugged* "fat finger" theory, hysterical Chicago trader on phone: "ninety handles, that's too much!"; 200k put options on June S&P ten minutes before, "trader zero" flown in with stolen high-frequency trading code, beta test of "financial earthquake machine", VST code patented by Max Keiser, sold to Cantor Fitzgerald before 9/11; new Supreme Court nominee Elena Kagan not disqualified by Goldman Sachs connection; Rep.[]Alan Grayson "you own the Red Roof Inn" comment; *Law & Order* orchestra hit
 0:49:36 And Now Back to Real News: *Extra* male cheating gene meme, "life changers" Pirro & Pinski
 0:53:45 Donation Segment
@@ -3739,7 +3739,7 @@ Two Ugandans One Cup
 206
 06/06/2010
 Cameras as Weapons
-0:00:00 JCD: *<falsetto>* "*A-maaa-zing!*" (1:07:59)
+0:00:00 JCD: *(falsetto)* "*A-maaa-zing!*" (1:07:59)
 0:00:39 No White House D-Day acknowledgment, ACC's grandfather's role in Normandy invasion; ACC *mea culpa* predicting UK fox attacking only one baby; porn star Stephen Hill falls to death after LAPD tasing, *Palin: Erection '08* Obama role, JCD: "they lost another Obama"
 0:06:52 Producer Segment: ACC triggers breakfasting Australian with Kevin Rudd
 0:12:15 ACC on Directors Guild of America screening of *Sex and the City 2*: "stay away, bad!"
@@ -3973,7 +3973,7 @@ Drunk in America
 216
 07/11/2010
 Doomsday is Tomorrow
-0:00:00 JCD: "There's wood in there, you're eating wood! *<guffaw>*" (1:27:45)
+0:00:00 JCD: "There's wood in there, you're eating wood! *(guffaw)*" (1:27:45)
 0:00:37 July fog in Northern California, "June gloom", JCD on 1972 loss of marine layer
 0:02:51 Dutch arguing over World Cup celebration rights; ACC and psychic octopus predict Spain win, JCD on cephalopod sensitivity to electricity; German goalkeeper Robert Enke "suicide"
 0:11:31 Producer Segment
@@ -4120,7 +4120,7 @@ Earle in the Gulf
 0:00:00 ACC: "*Just in time for summer, don't you wanna feel really good about your complexion, all you have to do is listen to the No Agenda Show! …*" (1:39:50)
 0:00:52 JCD befuddled by chatroom "human resources"; ACC streams *Computer America* appearance, caller "I woke up in the morning" creating Knight rings, constant "hard clock" interruptions
 0:07:52 Producer Segment
-0:14:08 `dvorak.org` makeover, `<blink>`, single-page conspiracy sites; `itanimulli.com` NSA redirect
+0:14:08 `dvorak.org` makeover, `&lt;blink&gt;`, single-page conspiracy sites; `itanimulli.com` NSA redirect
 0:18:11 PACT Prevent All Cigarette Trafficking law to outlaw sending tobacco by mail; White House seeking warrantless FBI internet snooping; JMD sick of Thom Hartmann propaganda; *Democracy Now* "dimwits": NYC "youth activist" shills protesting Arizona "anti-immigration" law; ACC on Micky's $1300 expedited service from DHS, protests continuing in spite of legal victory
 0:33:00 Michael Eric Dyson to *Face the Nation* on "African witch doctor" Obama birth certificate: "it's been proved that he is from earth"; Dutch documents and US passports rejected for alcohol purchases by vendor policies, JCD California driving test tips for ACC
 0:40:17 Anthony Weiner blows up in Congress over 9/11 first responder bill: "*the gentleman will observe regular order!*", Thom Hartmann: "kickin' Peter King's *butt*!"; `factcheck.org` "debunks" W-2 healthcare not "considered" taxable income; roster of Obama tax increases
@@ -5062,7 +5062,7 @@ AQ-USA
 262
 12/19/2010
 Mothra Will Save Us!
-0:00:00 JCD: *<falsetto>* "*I'm a fancy fancy Englishman!*" (1:18:24)
+0:00:00 JCD: *(falsetto)* "*I'm a fancy fancy Englishman!*" (1:18:24)
 0:00:38 In the morning to the "hams on the air"; *Meet the Press* `nolabels.org` unity movement, Seattle outlawing stickers on public property, JCD: "not left, not right, forward *ha-ha-ha*!"
 0:05:21 Producer Segment
 0:09:44 CIA station chief outed in Pakistan, 50 "suspected insurgents" droned; drone crash in Texas backyard, JCD: put stickers on it; Michelle Obama to *60 Minutes* in 2007: "he couldn't be a smoking president", Nicorette plug, "please, America, watch, keep an eye on him"
@@ -5142,7 +5142,7 @@ Moon Base on Mars
 0:21:26 Kids using new drug "bath salts" and smoking potpourri, Kansas University student struck after running into traffic, tachycardia cases in Louisiana, MDPV methylenedioxypyrovalerone
 0:28:02 ACC recommends Dutch *A Letter From Poland* YouTube video on Smolensk plane crash
 0:31:45 Haitian election dispute to be reviewed by OAS, CBC on "widespread allegations of fraud", "I saw ballot-stuffing … I saw ballots torn from the ballot boxes"; Haiti earthquake recap
-0:39:32 George Clooney Not On Our Watch partnership with Google to spy on Sudan via satellite, JCD's Google "oil near <country>", "comprehensive peace agreement" referendum on 1/11/11 cooked up in The Hague; Not On Our Watch celebrity roster, War Crimes and Atrocities director David Pressman; ACC on DJs for Darfour; Chinese expansionism; Network for Good money handlers; al-Qaeda in \{Darfour, Sudan\}; JCD on accelerating charity event cycle, ACC on credit card purchase percentages, "Saint" Bob Geldof and 1985 Live Aid, *We Are the World* three-year license, Phil Collins' Concorde; Clooney's "emergency and life-saving programs"
+0:39:32 George Clooney Not On Our Watch partnership with Google to spy on Sudan via satellite, JCD's Google "oil near &lt;country&gt;", "comprehensive peace agreement" referendum on 1/11/11 cooked up in The Hague; Not On Our Watch celebrity roster, War Crimes and Atrocities director David Pressman; ACC on DJs for Darfour; Chinese expansionism; Network for Good money handlers; al-Qaeda in \{Darfour, Sudan\}; JCD on accelerating charity event cycle, ACC on credit card purchase percentages, "Saint" Bob Geldof and 1985 Live Aid, *We Are the World* three-year license, Phil Collins' Concorde; Clooney's "emergency and life-saving programs"
 1:01:11 Donation Segment: ACC's MailSteward database
 1:11:08 Robert Gibbs: "probably about nine months" since Obama quit smoking, "he has done enormously well in quitting"; new Chantix ad with Boston-accented MILF, New Year resolution marketing, ACC on constipation from quitting cold turkey, "I pride myself on my pooping"; Sustenex ad "several discomforts with my digestive system", JCD: "basically a prune ad"
 1:24:59 Cryptome's John Young on WikiLeaks for end of show; NPR clarifies 1900 of promised 250k cables actually released; HaikuLeaks
@@ -5227,7 +5227,7 @@ Mavericks of Media
 269
 01/13/2011
 Time Warner Sucks
-0:00:00 Voice on phone: "*No, the next <inaudible> appointment is this Saturday.*" (2:05:32)
+0:00:00 Voice on phone: "*No, the next (inaudible) appointment is this Saturday.*" (2:05:32)
 0:00:51 ACC "battling Time Warner Cable" over connectivity issues, JCD: "this episode's brought to you by Comcast"; JCD on beef-buying PDF and need for chest freezer
 0:12:17 CVC's ticketless adventure on LA Metro resulting in $189 "bail", JCD: "welcome to California"
 0:16:26 Producer Segment
@@ -5371,7 +5371,7 @@ GaGa vs Bieber
 275
 02/03/2011
 The New Normal
-0:00:00 ACC: *<whoosh!>* "*Raw milk: it'll kill ya!*" (1:35:43)
+0:00:00 ACC: *(whoosh!)* "*Raw milk: it'll kill ya!*" (1:35:43)
 0:00:34 JCD: "I'm in Egypt, Adam!"; "nap and trade", iNap app; PR Associate Maynard asks Australian optometrist about "the big eyeball vodka shot fiasco"
 0:08:26 Mohamed ElBaradei a member of International Crisis Group, Henry Kissinger to Bloomberg reporter "standing like a hooker on the street corner": ElBaradei "will disappear from the scene", "there are other forces that have not been…", removal of Mubarak "only the first scene of the first act of a drama that has to be played out"; Omar Suleiman's annoying voice
 0:16:24 Producer Segment: Google "no agenda" SEO; Geoff Smith **`dvorak.org/na` jingle**
@@ -5380,7 +5380,7 @@ The New Normal
 0:36:51 Biodiversitée: Chicago paralyzed by winter storm; Union of Concerned Scientists' Brenda Ekwurzel answers MSNBC's "why the name?", "we are burning a lot of coal and oil", "turbocharging weather patterns", "new normal" meme, "we've sort of blown open the planet's freezer door", repeated "ironically" talking point; Punxsutawney Phil predicts early Spring
 0:48:19 Jim Rogers to CNBC on shortage of farmers and potential impact on food prices
 0:52:47 Shadow Puppet Theater: former Monsanto executive Michael Taylor deputy commissioner at FDA; JCD Googles "farmers in India suicide"; young Australian woman on nearly dying of aspartame poisoning, "clean bill of health" from EU, "most tested food additive in history"; CPAC Defender of the Constitution award for Donald Rumsfeld, ACC: "throw your shoe!"
-1:00:35 JCD calls for "experts on the payroll" jingle, Geoff Smith *<whoosh!>* and ***If You See Something, Say Something* jingle**
+1:00:35 JCD calls for "experts on the payroll" jingle, Geoff Smith *(whoosh!)* and ***If You See Something, Say Something* jingle**
 1:01:55 Donation Segment
 1:13:59 Videos of UFO above Temple Mount in Israel; Ask John Dvorak: Chuck Schumer "we have three branches of government: we have a House, we have a Senate, we have a President"
 1:17:24 *Law & Order: SVU* "we have a billionaire pervert flying in underage girls for sex"; Fox attacking GE over its 3% corporate tax; British middle class income tax potentially at 80%
@@ -5394,7 +5394,7 @@ The New Normal
 276
 02/06/2011
 Cleopatra Returns
-0:00:00 ACC: *<whoosh!>* "*No one has better information than Weather Central!*" (1:36:00)
+0:00:00 ACC: *(whoosh!)* "*No one has better information than Weather Central!*" (1:36:00)
 0:00:35 ACC's cheap tickets to San Francisco because of Super Bowl; *Daily Source Code* call for post-nap shoe-throwing revolution, "shoe" lyrics, JCD: "you know who else likes it, Sketchers"
 0:02:53 Egypt "rage and revolution" and Angelina Jolie's *Cleopatra* film; diplomat Frank Wisner thrown under bus; State Department brings down ambassador to Luxembourg and top Obama fundraiser Cynthia Stroum; NBC *President of the World: the Bill Clinton Phenomenon*
 0:11:44 Producer Segment; Ask Adam: Concorde ownership by the ultra-rich
@@ -5422,7 +5422,7 @@ Cleopatra Returns
 277
 02/10/2011
 Gingerbread Nation
-0:00:00 ACC: *<whoosh!>* "*Lobbyist gets whacked, next Geraldo!*" (1:50:59)
+0:00:00 ACC: *(whoosh!)* "*Lobbyist gets whacked, next Geraldo!*" (1:50:59)
 0:00:34 Gasoline up around $3.70; ACC's electrical anomaly affecting stream
 0:02:27 Lucy Napolitano just in time for Patriot Act vote: "in some ways the threat today may be at its most heightened state since the attacks nearly ten years ago", Rep.[]Bennie Thompson concerned about "anti-tax groups", Lucy "al-Qaeda associates"; Michael Leiter on AQAP *Inspire* magazine, "information technology architecture", ACC: "it's called Facebook"
 0:11:19 Napolitano on "lone wolf" threat, new naked body scanner software with "much more a kind of gingerbread man image", Grisham *The Gingerbread Man* movie; JCD on lack of real policing; ACC's Burbank Airport "slave aquarium" explosive boot scan after magnetometer alert
@@ -5543,7 +5543,7 @@ Escape from Madrid
 282
 02/27/2011
 GaGa & Little Boy
-0:00:00 ACC: *<whoosh!>* "Nuclear bomb kills nine million in Pakistan…!" (2:08:48)
+0:00:00 ACC: *(whoosh!)* "Nuclear bomb kills nine million in Pakistan…!" (2:08:48)
 0:00:47 Red skies in the morning; JCD ditches Rino the Bearded "Streamtacular" with Doug interview
 0:02:12 NPR *On the Media*'s Andy Carvin repeating Libya tweets as news, "*nobody* disputes" social media's effectiveness, "tirelessly, almost obsessively serving as a conduit in and out of … Libya"
 0:14:12 Gaddafi: al-Qaeda drugging rebels with US help, official: he's "nuts"; British Navy ship vs American "party boat" for evacuation; McCain brushes aside warnings from Robert Gates
@@ -6006,7 +6006,7 @@ Show 300!
 301
 05/05/2011
 Code 33
-0:00:00 ACC: *<heavy metal>* "*Timmy! Timmy! Go, go, Timmy!*" (1:59:08)
+0:00:00 ACC: *(heavy metal)* "*Timmy! Timmy! Go, go, Timmy!*" (1:59:08)
 0:00:39 Thanks to Military Industrial Intelligence Complex for Osama bin Laden assassination, Fox News "Usama" standard vs Osama/Obama goof compilation, "federal agents discovered Obama's secret location"; Hillary's War Room yawn misinterpreted as shock
 0:07:56 Producer Segment: promo on producer Ryan's Perth college radio show
 0:16:01 Bloodthirsty Rachel Maddow tweeting in delight over bin Laden assassination; ABC's animated re-enactment, "stealth Blackhawk helicopter" with "a little disk over the rotors", ACC: tail section "movie set", "bullcrap" side-by-side sound comparison
@@ -6205,7 +6205,7 @@ Wiener-Gate
 309
 06/02/2011
 Syria Be Next
-0:00:00 JCD: *<falsetto>* "*I'm offended by such usage!*" (2:24:43)
+0:00:00 JCD: *(falsetto)* "*I'm offended by such usage!*" (2:24:43)
 0:00:35 Aric the Shill's new human resource Henri the Shill, Mimi's menagerie unencumbered by goats; ABC on Canadian couple's five-month-old child "Storm" of no fixed gender, similar case in Sweden, ACC: promotion for Lady Gaga's *Born This Way* album
 0:09:29 Wolf Blitzer and Anderson Cooper finally jumping on Anthony Weiner story, new "certitude" vocabulary item, no technology press on Twitter hackability; Weiner wrangles with Bret Baier on tasking security firm with taking "hard look", sitting down for a "brief moment"; Blitzer: "are you protecting anyone?", Weiner: "yes, I'm protecting my wife", mention of Huma Abedin working for Hillary Clinton edited out, ACC: "techno-experts"
 0:21:11 Producer Segment: $33.33 podcast licenses; Hot Pockets Tour RV; Gary Johnson interview
@@ -6333,7 +6333,7 @@ Hide Your Forks
 314
 06/19/2011
 Qaeda CEO
-0:00:00 ACC: *<Maniacal laughter>* "*Sex sex sex sex sex! Sex sex sex sex!*" (2:08:52)
+0:00:00 ACC: *(Maniacal laughter)* "*Sex sex sex sex sex! Sex sex sex sex!*" (2:08:52)
 0:00:39 Happy Father's Day from `fatherhood.gov`, Republican follow-up to Obama message promoting Cargill, White House red nail polish and cheerleading with dad video
 0:06:25 Cute Russia Today reporter runs into cloud of Greek riot tear gas; another fires back at insulting *Times of London* "that's preposterous!" douchebag on basis of BBC's state funding
 0:12:36 CBC on "babies in incubators" story concocted by Hill+Knowlton to justify first Iraq war; Human Rights Council's flimsy evidence for mass rape revisited, CNN cell phone broomhandle sodomy video, "to be clear, we have been unable to verify its authenticity", JCD: "*wow, what a crock!*", Lucifer Clinton "troubled" right on schedule, "rape as a weapon of war" meme, Misrata Media Center spokeshole on keeping internet active "for the team of Facebook", former KTVU reporter Sara Sidner sent by CNN to India weeks before Mumbai hotel attack
@@ -6960,7 +6960,7 @@ Bunga Bunga
 339
 09/15/2011
 Cocked Pistol
-0:00:00 ACC: *<Echo>* "*Slaves of Europe: you have a choice …*" (1:25:07)
+0:00:00 ACC: *(echo)* "*Slaves of Europe: you have a choice …*" (1:25:07)
 0:00:49 JCD in Brazil for *feijoada* and speech at Futurecom with top-shelf booth bimbos, SD card Speed Class woes; ACC's glued-in RFID tooth, JCD: "*I'm now drilling through your brain!*"
 0:07:45 New meme from Joe O'Biden: "what they call a lone ranger, a lone actor"
 0:11:38 Obama making the rounds with speeches for nonexistent jobs bill, "*if you love me you gotta help me pass this bill!*" to North Carolinians, "this bill… these buildings look great!" at Ohio high school, scripted "*pass this bill!*" chant prepped by warm-up guy
@@ -7032,7 +7032,7 @@ Selling the Monet
 342
 09/25/2011
 Karma Kards
-0:00:00 *<Sucking sounds>*
+0:00:00 *(Sucking sounds)*
 0:00:34 Distraction of NASA Upper Atmosphere Research Satellite plummeting to earth
 0:03:01 Michael Moore to Keith Olbermann: "I can't speak for why the networks have not covered" Occupy Wall Street, push for civil disobedience, "if we don't provide jobs" shilling for Obama plan; Craigslist ride share postings; NYPD deploying pepper spray and orange netting
 0:13:08 Online Journalism Awards for BBC and "Chuck Norris of Twitter" Andy Carvin, JCD dodges story about and Norris' credit card; $40k for top OJA banquet package, $20k QR code
@@ -8194,7 +8194,7 @@ Apes on iPads
 389
 03/08/2012
 Camels Everywhere!
-0:00:00 ACC: *<Maniacal laughter>* JCD: "Jeez." (2:22:20)
+0:00:00 ACC: *(Maniacal laughter)* JCD: "Jeez." (2:22:20)
 0:00:35 Molly Wood staying at ACC's place, San Francisco douchebags arriving for SxSW
 0:04:03 Producers detecting aroma of bullcrap around "Phony Kony" 2012 viral video, Show 348 coverage of 100 US troops sent to Uganda revisited, major oil discovery, video voiceover: "that's where the American advisors come in"; Bill Clinton's buddy President Museveni's penchant for throwing rebels in concentration camps; George Clooney: "I'd like indicted war criminals to enjoy the same level of celebrity as me", child-abusing filmmaker Jason Russell, Invisible Children money from Humanity United Foundation and Oprah, film company run by Kristen Bell's boyfriend Jedidiah Jenkins; `kony2012.com` "Policymakers" section
 0:23:19 George Stephanopoulos' bizarre question about contraception for Mitt Romney and Rush Limbaugh's Sandra Fluke "slut" distraction; porn industry considering relocating from California to Arizona to avoid condom regulation, porn star Amy Brooke: "a construction worker has to wear a hard hat, okay, but this building he's building is still gonna look the same when it's done, okay?"; Obama's $35k fundraising dinner hosted by Pfizer lobbyist Sally Susman
@@ -8326,7 +8326,7 @@ Spying is Sharing
 472
 2012-12-23
 Coneheads in Mexico
-0:00:00 JCD: *<muffled>* "*Sneller! Sneller!*" (2:17:49)
+0:00:00 JCD: *(muffled)* "*Sneller! Sneller!*" (2:17:49)
 0:00:38 JCD in Washington being "attacked" by Fukushima dock; British "please don't eat me"; gloomy Dutch exile day 17, DJ Glass House charity, "biological" supermarkets
 0:10:45 NDAA amendment protecting citizens dropped from combined bill; Harry Reid: "the Senate's passage of H.R.4310 as amended be *vitiated*"; $421M Aegis weapon system upgrade for Japan
 0:18:42 Producer Segment
@@ -9866,7 +9866,7 @@ Assume the Position
 540
 08/18/2013
 Tools of Slaughter
-0:00:00 JCD: *<stoner voice>* "Hey, man, I'm in the demo!" (0:51:12)
+0:00:00 JCD: *(stoner voice)* "Hey, man, I'm in the demo!" (0:51:12)
 0:00:33 Jesselyn Radack *Salon* piece exposing Obama's lies about whistleblower protections applying to Snowden; NPR hit piece on *NYT*'s insane migration to corporate Gmail, "that protection is not complete"; YaCy peer-to-peer search; Gmail spamming its own promotions folder; Google outage "40% of internet traffic" meme, ACC: "it should be broken up like AT&T!"
 0:19:21 *McLaughlin Group*: "Chelsea Clinton is the new powerhouse taking over from her parents"; *No Agenda* Bill Clinton dead pool; Bill in Africa asked if he is up to "one more race"; JCD Red Book: rumors of Bill dying in the saddle with a hooker; flabbergasted John McLaughlin: "they can't keep drugs out of prisons??", fascist Pat Buchanan all-in on keeping prisons full, John McLaughlin: "the average addict commits eleven thousand crimes over a lifetime" (CotD)
 0:35:12 ACC's Silk Road drug buy, "mound of coke with the guy's logo", JCD: "Sinaloa or the FBI?"
@@ -10086,7 +10086,7 @@ Associative Propaganda
 550
 2013-09-22
 Cyber Insurance
-0:00:00 JCD: *<harmonica>*, "Hit it."
+0:00:00 JCD: *(harmonica)*, "Hit it."
 0:00:35 ACC in "nasal" mode; big delays in return flight; Emmys & Hollywood celebrities
 0:07:31 Kenyan producers' recent weirdness predictions, Westgate Mall attack, producer reports casualties underreported by government, al-Shabaab claims responsibility, Somalia part of picture, *NYT* photographer Tyler Hicks conveniently on scene; *No Agenda* tip: memorize the name of Muhammad's mother Aminah; deputy president William Ruto ditches International Criminal Court; CNN: "there can be the sense of watching people coming in who don't fit the profile of usual customers", ~~slave training~~ "lockdown procedures", JCD on baseball park security ring; Hicks also in Libya; JCD on Nairobi airport robberies, ACC Libya disappearance story
 0:26:46 Brilliant "Fragrance of Poverty" artwork; Aric the Shill's prepper trailer
@@ -10454,7 +10454,7 @@ Summer of Snowden
 565
 2013-11-14
 Spy in a Bag	
-0:00:00 JCD: *<harmonica>* "Hit it."
+0:00:00 JCD: *(harmonica)* "Hit it."
 0:00:36 Chilly in California and Texas
 0:02:15 Thom Hartmann's book *The Crash of 2016*, `lasthours.org`, "trillions of tons of Methane Hydrate", extinctions triggered by methane release, NASA's CARVE, JCD: "big giant blender!"
 0:12:13 Dinner with the O-bots: "Hillary is uniquely qualified to run our empire", Castro brothers
@@ -11421,7 +11421,7 @@ Prison Prep
 598
 2014-03-09
 Experiential Evidence
-0:00:00 ACC: "Hello-ah"  JCD: "Here I come!" *<clippety-clop>*  ACC: "It's a Clydesdale!"
+0:00:00 ACC: "Hello-ah"  JCD: "Here I come!" *(clippety-clop)*  ACC: "It's a Clydesdale!"
 0:00:57 SxSW: tweets, Ms.[]Micky wants to see Lady Gaga; ACC's Quercitin for mold allergy; being *au courant* a requirement for sending memos to NA; Twitter Google-bombing; Duvall, Redford aging: ACC: "Chapstick!"; JCD: "hey, there's a couple Nobel prize winners giving a talk -- Nah, no, Gaga!"
 0:14:08 Malaysian Airlines 370: three Boeing stories in a row, possible Airbus connection; ICEO system and stolen passports; Anwar Bin Ibrahim, Jen Psaki
 0:25:41 Drone poster Knight, all charges dropped
@@ -11975,7 +11975,7 @@ Binge Watch
 619
 2014-05-22
 Droves of Jihadis
-0:00:00 JCD: *<falsetto>* "When we're in trouble I expect help from the chatroom."
+0:00:00 JCD: *(falsetto)* "When we're in trouble I expect help from the chatroom."
 0:00:33 JCD in Ypsilanti, MI on Merit Network fiber, meetup at Rusty Bucket in Plymouth; University of Michigan professor J.[]Halderman's censorship resistance, encrypted proxiless protocol for redirecting traffic, RT hard to get in Japan
 0:07:36 JCD on Detroit desolation: "Turns out buying this stuff for a buck is easier said than done", Little Caesar's family owns most of downtown and the Tigers; square-mile Packard factory closed 1958, JCD: "she [Ms.[]Micky] would go crazy taking pictures"
 0:15:52 ACC's Tokyo Robot Restaurant experience: "pretty tall girl want to fight robot?"
@@ -12306,7 +12306,7 @@ Micro Propaganda
 632
 2014-07-06
 The Weed Mobile
-0:00:00 JCD: *<echo>* "Under the lights on Friday night: information competition, with double-A field dragsters going against funny cars!" (1:43:18)
+0:00:00 JCD: *(echo)* "Under the lights on Friday night: information competition, with double-A field dragsters going against funny cars!" (1:43:18)
 0:00:37 Netherlands over Costa Rica in exciting nil-nil game; top Brazilian players out, Brazilian girl to ACC: "otherwise there will be big fire"
 0:08:01 *Deutschland Blitzkrieg*: US spy in German intelligence agency arrested; Merkel in China; French LNG pipeline into Germany; 80-year war cycle; Russia-Austria South Stream deal
 0:19:28 Boeing, Pepsi, Ford, GM big in Russia; Shell to develop Yuzivska field on eminent domain
@@ -12957,7 +12957,7 @@ bio-hacking
 0:24:33 Holly Williams in Syria taking cover behind a chicken wire fence, "the only Kurdish armored vehicle we saw was a homemade one; it had been improvised from an old bulldozer"; McCain and Lieberman on Hannity, Lieberman advisor on Counter Extremism Project with Frances Townsend, possible Kagan connection, McCain on Obama's "BioB", "blame it on Bush"
 0:44:27 British Home Secretary on EDOs "extremism disruption orders" criminalizing membership, "tens of thousands of foreign fighters", "devise new methods to kill indiscriminately", EDO campaign promise; ISIS social media recruitment: "come to jihad, bro", jihadi mac & cheese
 0:58:02 Pentagon spokeshole Kirby on misplaced mass media optimism: "no one should be lulled into a false sense of security by accurate air strikes"; *60 Minutes* Obama interview: "this is not America against ISIL; this is America leading the international community to assist a country with whom we have a security partnership with", "the overwhelming majority of Muslims believe in climate change are peaceful", boots on the ground "Whack-a-mole", ISIL "folks", Clapper "meets the bus", "many of them are poor, many of them are illiterate"
-1:14:11 Obama: "we are the indispensable nation", "that's how we go, *<stammer>*, that's how we roll", ACC: "*that's how we rooooll, finally, yeah!*" (CotD); United 93 "let's roll"
+1:14:11 Obama: "we are the indispensable nation", "that's how we go, *(stammer)*, that's how we roll", ACC: "*that's how we rooooll, finally, yeah!*" (CotD); United 93 "let's roll"
 1:23:20 Producer Segment: *No Agenda* Karma app update; NA C-SPAN call-in
 1:43:37 Kurt Vonnegut Jr.'s *Harrison Bergeron* summary
 1:47:30 National \{Domestic Violence Awareness, Disability Employment Awareness, Breast Cancer Awareness, Substance Abuse Prevention, Arts & Humanities, Cybersecurity Awareness\} Month
@@ -13114,7 +13114,7 @@ Pupil Progression Plan
 664
 2014-10-26
 Boss Ass Look
-0:00:00 JCD *<drunk voice>*: "Hey glad to see ya. Hell yeah!"
+0:00:00 JCD *(drunk voice)*: "Hey glad to see ya. Hell yeah!"
 0:00:32 Seven-year anniversary cupcakes from Ms.[]Micky; Jack Bruce dead at 71; Henry Ford: "history is bunk"; daylight saving time in Europe, UTC leap seconds, ACC's "UTC watches?"
 0:07:18 Marysville, Washington shootings; KTLA violent news teasers; number 33 football jersey pictures; Russia Today on love triangle cousins; producer on Frybergs as a-holes; SWAT training held the day before; Initiative 594; more realistic than Sandy Hook
 0:18:15 Caliphate in Canada, sports militarism "boss ass look"; "somewhere Obama bin Laden is laughing", rumor of bin Laden's body brought back; Peter King: "I don't want to scare anybody, nobody should feel safe", "we should not be politically correct" for Muslim shakedown
@@ -18040,7 +18040,7 @@ New World Hackers
 872
 10/27/2016
 Kinetic Kill
-0:00:00 ACC: *<Screeching>*
+0:00:00 ACC: *(Screeching)*
 0:00:34 JCD swaps in Plato for Confucius; ninth anniversary; KTVU: tropical moisture "jet fuel"
 0:06:14 CVC's Roman Reigns action figure opened by TSA; JCD stories: Roger McGuinn's hole-punched guitar, JFK woman's two missing cases of Gaja; Wikipedia: ACC a Trump supporter
 0:12:04 Little Brexit effect on British economy, IMF admits "too pessimistic", predicts fastest growth; ACC can't edit his Wikipedia photo; Sheila Jackson Lee confuses Wikipedia for WikiLeaks
@@ -18075,7 +18075,7 @@ Poster Boys of Evil
 0:36:30 Jake Tapper asks Podesta about Tim Kaine "highest standards of integrity" clip about Comey
 0:39:18 Trump to Stephanopolous on regrets: "you would have loved not to have contributed to the Clinton Foundation, as an example, there are things you wish you didn't do, okay?" (CotD)
 0:40:32 Podesta baffled by evidence of Huma Judicial Watch perjury; Napolitano talks espionage; Hillary dodges trust question; Geraldo "tradition" meme, "there must be some there there"
-0:53:41 Aviation incidents at O'Hare, Fort Lauderdale, and Mike Pence's plane at La Guardia, ATC: "Eastern, stop, stop Eastern!", ACC: "everybody walks away, *<claps>* good landing"
+0:53:41 Aviation incidents at O'Hare, Fort Lauderdale, and Mike Pence's plane at La Guardia, ATC: "Eastern, stop, stop Eastern!", ACC: "everybody walks away, *(claps)* good landing"
 0:59:10 Red Book: Anthony Weiner suicide; Bill Clinton vs Anthony Weiner shootout scenario
 1:02:19 Producer Segment
 1:11:08 MD Green Party candidate removed from debate stage; Putin: "is the US banana republic?"; Pussy Riot back on NPR with *Make America Great Again*; RT: Assange called Russian spy, "the two poster boys of evil walking hand-in-hand to destroy the US"; Podesta phished
@@ -18447,7 +18447,7 @@ Fact Checkmate
 888
 12/22/2016
 Dutch Trump
-0:00:00 ACC: *<Bill Clinton voice>* "John, I've failed the ceremony!" (2:57:08)
+0:00:00 ACC: *(Bill Clinton voice)* "John, I've failed the ceremony!" (2:57:08)
 0:00:37 Happy Show 888; ACC back on *Infowars*, MTV "you know what you did, Kanye" 2017 video
 0:06:57 Bill O'Reilly on Electoral College and de-empowering "white establishment", Angela Rye: "Bill O'Reilly had it white, right"; Rye TSA video; *Friends*' Ross the modern Archie Bunker
 0:16:32 CNN election rundown: Bill Clinton on "bogus e-mail deal", Bill's 47%, Obama "antiquated" lead-in, JCD: "the media doesn't like the Electoral College because of advertising money"
@@ -19120,7 +19120,7 @@ Fack Base
 915
 03/26/2017
 One Belt One Road
-0:00:00 JCD: "Mmmm!", ACC: *<laughing>* "Yum!" (1:56:35)
+0:00:00 JCD: "Mmmm!", ACC: *(laughing)* "Yum!" (1:56:35)
 0:00:34 ACC's pronouns "Dave Dee, Dozy, Beaky, Mick & Tich"
 0:01:23 Ted Koppel on CBS *Sunday Morning*: "increasingly, we Americans occupy alternate universes"; *CBS This Morning* drops in stand-up segment with two-year-old's "dude, grow up"
 0:09:12 Breaking News: hunt for Joseph Kony ending, *Kony 2012* video producer freakout
@@ -19304,7 +19304,7 @@ Gut Punch
 923
 04/23/2017
 Terror Put
-0:00:00 ACC: "Hey, y'know what happend to me?" *<laughter>* (0:52:31)
+0:00:00 ACC: "Hey, y'know what happend to me?" *(laughter)* (0:52:31)
 0:00:33 Austin's KAZI Earth Day antics; Austin divorce lawyer Becky Beaver Facebag post on March for Science veers straight into anti-Comey politics; giggling girls with unicorn hats screaming for Bill Nye; CBS interviews "climate realist" Heartland Institute's Joe Bast, waves and floods B-roll, predictable Trump clip; CBS on climate change lawsuit by 21 schoolchildren, JCD: "*we own the children*", "Constitutional right to a healthy planet"; scientific reproducibility crisis
 0:18:55 Bill Nye twists US Constitution: Article 1 Section 8 "refers to promoting the progress of science and useful arts" ignoring copyright, slips in "engineering", "our numbers here today show the world that science is for all, science must shape policy!" Luciferized, "*save the world*"
 0:25:50 No French election results yet; San Francisco power outages, JCD's trip to wine shop in midst of outage, dog walkers' electronic locks on the fritz, Slack institutional central point of failure
@@ -19560,7 +19560,7 @@ Learn Russian!
 934
 06/01/2017
 Weaponized Tech
-0:00:00 JCD: *<Russian accent>* "Whooh, brewskis for everyone!" (0:49:48)
+0:00:00 JCD: *(Russian accent)* "Whooh, brewskis for everyone!" (0:49:48)
 0:00:35 More ACC address change adventures, United Airlines "verified by Visa" fail, AVS Address Verification System SmartyStreets, JCD on MSA Micro-Services Architecture "bill of goods"
 0:09:20 Kathy Griffin severed head stunt, Bill Maher firing parallel, unoffended "dingbat" on "people who are very hurt by this presidency"; Griffin "apology"; Trump ~~"coverage"~~ "covfefe" tweet
 0:17:30 Dimension B: Hillary at CodeCon with Kara Swisher and "Malt Wossberg", e-mail server "very responsible and not at all careless" vs Comey "I think she was extremely negligent", "the impeachment or… the driving out of office because he was about to be impeached, president" gaffe, 2016 election "the first time that you had the tech revolution really weaponized", "Obama 3.0" communication vs "falsehoods, fake news, call it what you will", "lies", Facebook news and "as we now know, the one thousand Russian agents" NLP, "million" Twitter bots
@@ -19815,7 +19815,7 @@ Jiggabits
 946
 07/13/2017
 High Falutin
-0:00:00 ACC: *<German>* "*Aufwachen … podcast*" (1:56:13)
+0:00:00 ACC: *(German)* "*Aufwachen … podcast*" (1:56:13)
 0:00:36 ACC in Florence Italy, streets festooned with wires, two days worth of sightseeing, "eight million tourists with selfie sticks", overmodulating tour guides, migrants selling selfie sticks; no one-way car rentals, Mistral Air 15kg bag limit; JCD story: temporarily removed laptop
 0:17:03 Media saturated with Donald Trump Jr.[]story, "full-on retard"; CBS backgrounder "category five hurricane", "connect the dots" meme; Charles Krauthammer Georgia & Ukraine fail
 0:30:45 Magnitsky Act, lawyer Natalia Veselnitskaya "advocate for a bunch of crooks back in the Russian government", CBS brings in Putin-hating Bill Browder; Lawrence O'Donnell "Donald Trump Jr.[]is an idiot"; Bob Baer & Tim Caine "treason"; Donald Jr.[]20-minute waste of time; "oppo research", Evan McMullin vs Anthony Shaffer on reporting rules, "walk-ins" mostly waste of time, Shaffer: "drop the propaganda!", "I don't know what universe you live in"
@@ -20014,7 +20014,7 @@ Rasiss
 955
 08/13/2017
 Outrage Addiction
-0:00:00 ACC: *<imitating angry Mandarin and Hindi>* (1:20:15)
+0:00:00 ACC: *(imitating angry Mandarin and Hindi)* (1:20:15)
 0:00:37 Google CEO urged to resign over memo, class-action suit, tenuous connection to press, "sketchy" female Googlers; "outrage addiction" dopamine; Jeffrey Lord fired for "*Sieg Heil*"
 0:10:55 Ana Navarro goes ballistic over Trump's Charlottesville comment, "you can't say that this is both sides of violence"; unnamed car attack suspect(s) in Dodge Charger, CBS conflating KKK & neo-Nazis with alt-right; organizer on last-minute rally cancellation, ACLU lawsuit
 0:26:02 Rep.[]Ruben Gallego: Gorka a "known Nazi", Trump comment "within minutes" of London attack, "very small, xenophobic sector of largely men … probably in their parents' basement"; Gorka's father fighting Hungarian communism; Facebag ranters predicting civil war; bystander on conflict "on the basis of a crayon color"; Mark Sanford: Trump "unleashed a demon"
@@ -20090,7 +20090,7 @@ Upstaged!
 958
 08/24/2017
 The Talking Stick!
-0:00:00 ACC: *<wind in background>* "*ISIS is actually coming across the border, John!*" (2:16:19)
+0:00:00 ACC: *(wind in background)* "*ISIS is actually coming across the border, John!*" (2:16:19)
 0:00:34 CVC and hot girlfriend visiting; *Tequila* "Antifa!" jingle, Sinatra-style *Pull Those Statues Down*; UTA statue removal, JCD: tear down Alamo; ESPN pulls Robert Lee; Scott Adams on Clinton-era "third term" martial law meme; Canadian teachers' union calling for expungement of "architect of genocide against indigenous peoples" John A.[]Macdonald, "all of our children need to be able to be safe, and feel inclusive"; Lincoln "sole purpose of restoring the Union"
 0:16:40 Mark Steyn on Antifa "identity politics minstrel show"; Clooneys donate $1M to SPLC
 0:20:00 A.C. Thompson on ProPublica "Documenting Hate" project, free articles vs "develop some businesses", "I have no idea" lie for caller largest donor question, condescending "my friends in the nerd side", tracking 3k "verified accounts", Trump tied to "rash of anti-immigrant sentiments", hate crime definition; JCD on recent increase in media use of "conflate"
@@ -20406,7 +20406,7 @@ Golf Bag Nuke
 971
 10/08/2017
 MADCOM
-0:00:00 ACC: *<incomprehensible mumbling>* (1:43:48)
+0:00:00 ACC: *(incomprehensible mumbling)* (1:43:48)
 0:00:37 San Francisco Fleet Week with Blue Angels; ACC's U-verse craps out due to overheating
 0:05:47 Media celebrating one-year Pussygate anniversary, UltraViolet group on National Mall; distraction from Harvey Weinstein, ABC "buttslam", Weinstein press release on 1960s culture, advice from Lisa Bloom, going after Trump & NRA; profile picture with Hillary Clinton
 0:16:11 Deconstruction of disproportionate number of black men killed by white cops; Megyn Kelly's lackluster new show takes on Weinstein, masturbating into potted plant in restaurant kitchen
@@ -21837,7 +21837,7 @@ Folding Pre-school
 1028
 04/26/2018
 Roscoe!
-0:00:00 ACC: *<Laughter>*
+0:00:00 ACC: *(Laughter)*
 0:00:33 San Francisco mayor's proposed $13M for cleanup, QR code stickers and poop on electric scooters; Royal Dutch Library *No Agenda* archive; ACC on the fall of Madame Tussaud's
 0:09:41 Trump-Macron Le Jules Verne dinner with €130k 30-liter Armand de Brignac Champagne, ACC on "poppin' bottles in da club"; Trump snubs California by serving Oregon wine; Macron to Congress: "Iran shall never possess any nuclear weapons … ne-ver", feeble applause antiwar stance; Iranian cryptocurrency ban and currency crash, Wes Clark Seven "finishing off Iran"
 0:27:17 Rouhani reacts to nuclear deal alteration; Bitcoin spike on eve of Syria bombing; Saint Louis Fed all-in on centralized cryptocurrency; KYC Know Your Customer registration
@@ -22549,7 +22549,7 @@ Q-Vision
 1057
 08/05/2018
 Heckler's Veto
-0:00:00 JCD: *<falsetto>* "*Leave me alooone!*" (0:44:26)
+0:00:00 JCD: *(falsetto)* "*Leave me alooone!*" (0:44:26)
 0:00:35 JCD irked by overuse of "binge"; ACC on *Mission: Impossible*'s implausible helicopter antics
 0:03:43 JCD retweeting James Woods; incoherent Sarah Jeong: white men the reason "so many things suck", ACC: "FilmGirl is better than this!"; First Amendment and "heckler's veto", Feiner v.[]New York; "the theory of garbage is very simple: the internet is full of garbage", ACC: "okay, we're done!", JCD: "why did the *New York Times* just hire Al Sharpton?"
 0:21:19 Candace Owens banned from Twitter for 12 hours for replacing Jeong's "white" with "Jewish", lame "taken out of context" excuse from *The Verge*; Valerie Solanas's 1967 *SCUM Manifesto*
@@ -22639,7 +22639,7 @@ Austin Beatniks
 1061
 08/19/2018
 Red Dot
-0:00:00 ACC: *<Panting>* "*Wake the neighbors, quick!*" (1:41:37)
+0:00:00 ACC: *(Panting)* "*Wake the neighbors, quick!*" (1:41:37)
 0:00:34 Trump Rotation "dog hater" explored by Brian Williams, *WaPo*'s Philip Rucker makes Hitler comparison; Al Sharpton bitches about Omarosa Manigault "dog" labels, "show some R-E-S-P-I-C-T" (CotD); "Reverend Al" witness protection iso; Sharpton moans about security clearance revocations; M5M "this is what dictators do" hysteria compilation
 0:14:07 Jack Beatty on "Trumpian authoritarian dictatorship"; Ray McGovern condemning Brennan
 0:19:24 CBS on White House drafting additional revocations, Brennan: Trump "drunk on power"; Brennan walking back "treasonous" comment; JCD on Snopes "unverified" Muslim conversion
@@ -22975,7 +22975,7 @@ Boo You
 1075
 10/07/2018
 CIA Paid Me
-0:00:00 JCD: *<echoing>* "*If you're a meth-head let us know!*" (1:44:05)
+0:00:00 JCD: *(echoing)* "*If you're a meth-head let us know!*" (1:44:05)
 0:00:36 JCD unearths his old Costco Blue Card
 0:02:32 Lisa Murkowski's unexpected Kavanaugh "present" vote; Schumer channels Obama with "vote!"; Senate gallery protestor: "*where's my representation??*", assault on representative government, JCD acquaintance moans about white privilege, *Harrison Bergeron*; Maria Bartiromo to Chuck Grassley on Soros-funded protestors; "*booo!* and "*we believe you!*" isos
 0:18:35 ACLU ad tying Kavanaugh to Clinton & Cosby; Sarah Silverman "fuck you" for Trump stand-up, JCD on anarchist rappers howling "*oh my God, people are stealing our music!*"; Susan Collins on Women's March opposing Trump's "*nomination of XX*"; "I trust SmartNews!" ad
@@ -23321,7 +23321,7 @@ Three Chambers
 1089
 11/25/2018
 Puppet Mouth
-0:00:00 JCD: *<falsetto>* "*Ohh, you've got to get one!*" (1:51:15)
+0:00:00 JCD: *(falsetto)* "*Ohh, you've got to get one!*" (1:51:15)
 0:00:34 CNN on "highly anticipated" NOAA climate report released "about a minute and forty seconds ago", "very specific according to regions", we're all gonna die from billions in losses and zika; CBS "we're getting out!" Trump iso, under-the-radar Black Friday release conspiracy theory
 0:09:47 ACC on French slaves rebelling against measures that are supposed to save them; CNN on Paris protests that "started off as a fuel protest a week ago", "generalized anger about the state of the economy" lie, diesel at $7 per gallon, "shame shame" tweet from Emmanuel Macron; CBS on Macron spinning carbon taxes as effort to "wean the country off fossil fuels"; Euronews man on the street: "are we sheep??", call for general strike; yellow emergency vests mandatory in France, spreading across Europe; JCD: general strikes illegal in US
 0:25:32 Global Compact for Migration overriding sovereign laws in Europe, part of Agenda 2030, "informal economy" hookers and blow provisions, goal to "enhance reception"; furor over Hillary Clinton's warning to *The Guardian* that unchecked migration fuels right-wing populism
@@ -23447,7 +23447,7 @@ Right Puberty
 1094
 12/13/2018
 Justice 4 Hillary
-0:00:00 ACC: *<Untransliteratable*> (1:38:31)
+0:00:00 ACC: *(Untransliteratable)* (1:38:31)
 0:00:35 Apple's proposed $1bn non-technology Austin campus; next stop for ACC "Dripping Springs"
 0:04:40 Showdown between Trump, Pelosi, and Schumer interpreted as win by each dimension, CBS on Trump's "attempt at joke" calling the border wall easy, Pelosi's "Trump shutdown", douchebag Schumer: "when the President brags that he won North Dakota and Indiana, he's in real trouble", Trump irks Pelosi with "it's not easy for her to talk right now", "I am proud to shut down the government for border security", Pelosi's "tinkle contest" and "manhood thing" insults from anonymous sources, Jeff Glor "just remarkable" iso; chaotic BBC talking points mix; JCD proposes "Mexico's going to pay for it" talking point, ACC: "electrify the fence"
 0:17:27 MP Lloyd Russell-Moyle tossed out for seizing ceremonial mace, "*ordah, put it back, no no!*"
@@ -24360,7 +24360,7 @@ False meme-ification
 1133
 04/28/2019
 No Apology
-0:00:00 JCD: *<stoner voice>* "*The dope has been burnin' too hot!*" (2:15:57)
+0:00:00 JCD: *(stoner voice)* "*The dope has been burnin' too hot!*" (2:15:57)
 0:00:30 Pervasive and increasingly annoying "*it's true!*" for end of show
 0:01:17 White House Correspondents' Dinner "a total dud", "comedian" Ron Chernow bombs, cheers for lawyer George Lehner, president Olivier Knox of Sirius XM and Yahoo News propagates "enemies of the people" lie, tearful son asking "is Donald Trump going to put you in prison?"
 0:14:50 ACC at Starlight Music Series in College Station sampling sorghum vinaigrette; ACC's ability to predict a person's predilection for beef vs fish on the wedding menu
@@ -24402,7 +24402,7 @@ Opinion People
 1135
 05/05/2019
 Miss Lawyer USA
-0:00:00 ACC: "Are they hiring people on voice any more at NPR or are they just hiring anybody?" JCD: *<falsetto>* "*I don't know!*" (1:21:09)
+0:00:00 ACC: "Are they hiring people on voice any more at NPR or are they just hiring anybody?" JCD: *(falsetto)* "*I don't know!*" (1:21:09)
 0:00:37 JCD's ululation for Cinco de Mayo and grandson Theodore's second birthday, ACC: "what does he call you?", JCD: "*ahh!*", EU Day and fourth anniversary of ACC-TtK first date
 0:06:07 Trio of bizarre techno-expert e-mails pushing Steve Pieczenik's position on Venezuelan coup that "you should repeat to your viewers"; Juan Guaidó spokeshole Vanessa Neumann downplays recent setbacks to BBC: Maduro "won't step aside to let the Constitution happen"
 0:24:18 California Sen.[]Holly Mitchell pushes for SB-188 "natural hair" bill; Lake County Florida teen Nicole Orr asked to change her "diverse" hair style to adhere to school dress code
@@ -24754,7 +24754,7 @@ Couple of Reds
 1150
 06/27/2019
 Gender Justice
-0:00:00 JCD: *<Dramatic gasps>* (0:36:48)
+0:00:00 JCD: *(dramatic gasps)* (0:36:48)
 0:00:36 ACC's Comedor bug dinner with former New York banker
 0:04:23 Sympathy for audio engineer at Democrat debate dog and pony show; ACC's O-bot dinner as origin of Castro win prediction, lack of height equalization; NBC panel of uptalking millennials irked at Beto O'Rourke's gratuitous Spanish, consensus on Castro win, "awesome!"
 0:17:05 Tulsi Gabbard buttslams Tim Ryan over his gung-ho attitude toward Afghanistan: "as a soldier I will tell you that answer is unacceptable", correction to claim that Taliban "started flyin' planes into our buildings" on 9/11; condescending Spanish use, idiotic Hollywood tweets, immigration debate forced by Trump, Jay Inslee's shit-eating grin; next up: Biden, Bernie, and Mayor Pete; "spook novelty" Buttigieg botching South Bend police shooting
@@ -24957,7 +24957,7 @@ Taking a Mueller
 1159
 07/28/2019
 Showly
-0:00:00 JCD: *<falsetto>* "*Can I get in your car?*" (1:30:16)
+0:00:00 JCD: *(falsetto)* "*Can I get in your car?*" (1:30:16)
 0:00:31 Six-Week Cycle: Jeff Pegues on arrest of 33-year-old Delowar Mohammed Hossain for planning to join Taliban in order to "take a frickin' machine gun and just shoot everybody"
 0:07:20 Stephanie Ruhle accidentally reveals truth of "Robert Mueller's *testiphony*"; Mike Huckabee: "the movie turned out to be *Weekend at Bernie's*"; Joe diGenova identifies Andrew Weissman as head honcho, Mueller's "ignominious finale showed him asleep at the hearing"
 0:13:23 Norah O'Donnell smiling for human interest stories; CBS on Democrats filing suit for grand jury testimony to feed impeachment push, "tough questions" for Pelosi on Ocasio-Cortez dispute, JCD: "*what tough questions??*", "the President called Democrats *clowns* for even pursuing it"; Trump "arrested and jailed" meme; Donny Deutsch flubs "when they go high, w… when they go low, we gotta do whatever we have to do!", lame "unindicted criminal Trump" nickname; compilation of Joe Scarborough ranting about "Moscow Mitch" McConnell
@@ -25280,7 +25280,7 @@ Vinyl Vote
 1174
 09/19/2019
 Soros Jugend
-0:00:00 ACC: *<whisper>* "*Dark mode is here!*" (1:57:19)
+0:00:00 ACC: *(whisper)* "*Dark mode is here!*" (1:57:19)
 0:00:32 JCD surveying grey cars on the freeway; JCD suggests ACC "uncheck a million boxes" to tweak haywire Twitter algorithms; D-STAR REF033 C revival, "we need our own CubeSat!"
 0:09:42 Guy Verhofstadt channels Hitler for Liberal Democrat conference: "the world order of tomorrow is not a world order based on nation states or countries, it's a world order that is based on empires"; prorogation goes before UK Supreme Court "dude at a low desk"
 0:23:33 CBS on government pinning Saudi Aramco refinery drone attack on Iran, Mike Pence: "we're locked and loaded"; Shep Smith: "what we really need … is directed energy defense"; Steve Pieczenik asserts Mohammad bin Salman hoax to drive up price in Saudi Aramco IPO; bullcrap "dependency on Saudi oil" meme; Pieczenik predicts Trump hotel in Tehran

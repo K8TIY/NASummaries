@@ -150,6 +150,8 @@ def latexEscape(s):
   s = re.sub(r'__(.+?)__', r'\\cjk{\1}', s)
   s = re.sub(r'____', r'\\underline{\\hspace{2em}}', s)
   s = re.sub(r'\\&ast;', '*', s)
+  s = re.sub(r'\\&lt;', '<', s)
+  s = re.sub(r'\\&gt;', '>', s)
   s = re.sub(r'\((B?CotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(((ACC|JCD)PPotD)\)', r'({\\color{red}\1})', s)
   s = re.sub(r'\(TCS\)', r'({\\color{red}TCS})', s)
