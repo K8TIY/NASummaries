@@ -34,7 +34,7 @@ def latexHeader(f):
 \fancyhead[LO,RE]{}
 \renewcommand{\headrulewidth}{0pt}
 """)
-  else: f.write(r'\documentclass{report}')
+  else: f.write("\\documentclass{report}\n")
   f.write(r"""\usepackage{tikz}
 \usepackage{graphicx}
 \usepackage{fontspec}
@@ -83,20 +83,20 @@ def latexSection(f,lines,shownum,showdate,samepage,reedit):
   title = lines[2]
   if reedit and lines[3] == 'Reedited':
     title = title + u' \u2713'
-  f.write("\\section[%s]{%s \\small{(%s)}" % (latexEscape(title),latexEscape(title),showdate))
+  f.write("\\section[%s]{%s \\small{(%s)}\n" % (latexEscape(title),latexEscape(title),showdate))
   if art == True and pic is not None:
     if lines[3] == 'Artwork':
       filler = pic
     else:
       if not samepage:
-        f.write("\\begin{tikzpicture}[remember picture,overlay]"+
-                "\\node[xshift=4cm,yshift=-2.3cm] at (current page.north west)"+
-                "{\\includegraphics[width=3cm,height=3cm,keepaspectratio]{"+pic+"}};"+
+        f.write("\\begin{tikzpicture}[remember picture,overlay]\n"+
+                "\\node[xshift=4cm,yshift=-2.3cm] at (current page.north west)\n"+
+                "{\\includegraphics[width=3cm,height=3cm,keepaspectratio]{"+pic+"}};\n"+
                 "\\end{tikzpicture}\n")
       else:
-        f.write("\\begin{tikzpicture}[remember picture,overlay]"+
-                "\\node[xshift=-4.6cm,yshift=-2.3cm] at (current page.north east)"+
-                "{\\includegraphics[width=3cm,height=3cm,keepaspectratio]{"+pic+"}};"+
+        f.write("\\begin{tikzpicture}[remember picture,overlay]\n"+
+                "\\node[xshift=-4.6cm,yshift=-2.3cm] at (current page.north east)\n"+
+                "{\\includegraphics[width=3cm,height=3cm,keepaspectratio]{"+pic+"}};\n"+
                 "\\end{tikzpicture}\n")
   f.write("}\n")
   f.write("\\begin{itemize}\n")
@@ -228,6 +228,7 @@ def HTMLEscape(s):
   s = re.sub(r'\d+@\d:\d\d:\d\d', lambda m: playerURL(m.group(),'html'), s)
   s = re.sub(r'\((\d:\d\d:\d\d)\)', r'(<code>\1</code>)', s)
   s = re.sub(r'<frac>(.+?)/(.+?)</frac>', r'<sup>\1</sup>&frasl;<sub>\2</sub>', s)
+  s = re.sub(r'--', r'&mdash;', s)
   news = ''
   oq = False
   for i in xrange(0,len(s)):
