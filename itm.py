@@ -138,6 +138,7 @@ def latexEscape(s):
   s = re.sub(r'\[\]', r'\\ ', s)
   s = re.sub(r'\[', r'{\\lbrack}', s)
   s = re.sub(r'\]', r'{\\rbrack}', s)
+  s = re.sub(u'([\u0250-\u02FF]+)', r'\\doulos{\1}', s)
   s = re.sub(u'([\u0400-\u052F]+)', r'\\doulos{\1}', s)
   s = re.sub(u'([\u0370-\u03FF]+)', r'\\lgrande{\1}', s)
   s = re.sub(u'([\u0590-\u05FF]+)', r'\\lgrande{\1}', s)
