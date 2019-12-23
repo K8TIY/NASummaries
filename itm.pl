@@ -333,8 +333,14 @@ sub GetAlbumArt
                 ' Gecko/20100401 Firefox/3.6.3" '. $url;
       print BLUE "$cmd\n" if $opt_verbose;
       my $html = `$cmd`;
-      if ($html =~ m!(/assets/artwork/episode/.+?/.+?\.png)!)
+      if ($html =~ m/acceptedartwork(.+?)<\/div>/si)
       {
+        print "Got a snippet:\n$1\n=================\n";
+        my $snippet = $1;
+        if ($snippet =~ m!<img src="(.+?\.png)"!)
+        {
+          print "Got img url $1\n";
+        }
         $arturl = 'https://noagendaartgenerator.com/'. $1;
       }
     }
