@@ -335,7 +335,6 @@ sub GetAlbumArt
       my $html = `$cmd`;
       if ($html =~ m/acceptedartwork(.+?)<\/div>/si)
       {
-        print "Got a snippet:\n$1\n=================\n";
         my $snippet = $1;
         if ($snippet =~ m!<img src="(.+?\.png)"!)
         {
