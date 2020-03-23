@@ -575,7 +575,7 @@ END
 \usepackage{marginnote}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
-\newcommand{\emoji}[1]{{\fontspec[Scale=0.9]{Meiryo}#1}}
+\newcommand{\emoji}[1]{{\fontspec[Scale=0.9]{Hiragino Sans W1}#1}}
 \newcommand{\cjk}[1]{{\fontspec[Scale=0.9]{Kaiti TC}#1}}
 \newcommand{\asymbol}[1]{{\fontspec[Scale=0.9]{Apple Symbols}#1}}
 \newcommand{\lgrande}[1]{{\fontspec[Scale=0.9]{Lucida Grande}#1}}
