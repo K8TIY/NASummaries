@@ -692,6 +692,7 @@ sub LatexEscape
   $s =~ s/\[\]/\\ /g;
   $s =~ s/\[/{\\lbrack}/g;
   $s =~ s/\]/{\\rbrack}/g;
+  $s =~ s/([\N{U+0180}-\N{U+024F}]+)/\\doulos{$1}/g;
   $s =~ s/([\N{U+0250}-\N{U+02FF}]+)/\\doulos{$1}/g;
   $s =~ s/([\N{U+0400}-\N{U+052F}]+)/\\doulos{$1}/g;
   $s =~ s/([\N{U+0370}-\N{U+03FF}]+)/\\lgrande{$1}/g;
