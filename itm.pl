@@ -321,7 +321,7 @@ sub GetAlbumArt
                 ' Gecko/20100401 Firefox/3.6.3" --compressed '. $url;
       print BLUE "$cmd\n" if $opt_verbose;
       my $html = `$cmd`;
-      if ($html =~ m!(http://.+?/enc/.+?-art-big.png)!)
+      if ($html =~ m!(https?://.+?/enc/.+?-art-big.png)!)
       {
         $arturl = $1;
       }
