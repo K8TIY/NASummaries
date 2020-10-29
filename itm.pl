@@ -685,7 +685,7 @@ sub LatexEscape
   $s =~ s/~~~(.+?)~~~/\\censor{abcdefg}/g;
   $s =~ s/~~(.+?)~~/\\sout{$1}/g;
   $s =~ s/(\d+@\d:\d\d:\d\d)/PlayerURL($1, 'latex')/ge;
-  $s =~ s/(\d:\d\d:\d\d)/\\scmono{$1}/g;
+  $s =~ s/\((\d:\d\d:\d\d)\)/(\\scmono{$1})/g;
   $s =~ s/\x60\x60(.+?)\x60\x60/\\scmono{$1}/g;
   $s =~ s/`(.+?)`/\\texttt{$1}/g;
   $s =~ s/\[\[(\[*.+?\]*)\]\]/\\doulos{$1}/g;
