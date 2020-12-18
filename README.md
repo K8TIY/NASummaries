@@ -3,29 +3,38 @@ NASummaries
 
 Hosted at [callclooney.org](http://callclooney.org)
 
-Summaries of No Agenda podcasts, and formatting tools for them
+Book-length summaries of *No Agenda* podcast (also known as The Best Podcast
+in the Universe), and formatting tools for them.
 
-This project is "competing" with two other related-but-different
-projects: [No Agenda Player](https://www.noagendaplayer.com/) and
-the resurrection of [Read No Agenda](http://readnoagenda.com) at
-[Fanscribed](https://www.fanscribed.com/podcasts/3-no-agenda/).
-Both are excellent projects, and I hope to contribute to the
-latter. In fact, I considered doing my own series of transcripts
-as a way of exploring the history of No Agenda. But then I tried
-to do it, and found out that's *real* work!
+Origin of the Project
+--------
+
+I began listening to *No Agenda* toward the beginning of 2013 on the
+recommendation of a now-man-overboard coworker. This was in the days of
+the FBI Six-Week Cycle, out-of-control TSA shenanigans, and Constitution-hating
+Democrat gun-grabbers crawling out of the woodwork in the aftermath
+of Sandy Hook.
+
+I was inspired in 2014, at the mention of -- on Show 518, I believe --
+summaries of the very earliest shows by KD "Bubba" Martin,
+to consider doing my own series of transcripts
+as a way of exploring the history of *No Agenda*. An early pilot project
+convinced that such task would be insurmountable via solo effort, after
+three hours of work on Show 10. So I decided to shoot for
+a bronze medal instead.
 
 This project aims to be a resource that primarily answers the
 question: "When did John and Adam play that great clip about
 *[insert topic here]*?"
 
-I will attempt to keep these current with new shows, and eventually
-to do summaries back to the first one. Suggestions and corrections
-will of course be welcomed.
+Suggestions and corrections will of course be welcomed. I often fail to get
+the timestamp for the opening one-liner, so anyone who can cough one of those
+up will be heartily congratulated.
 
 Licensing
 --------
 
-*I hereby place the source code, data, and all derivatives in the public domain.*
+*I hereby place the source code in the public domain.*
 
 Philosophy
 --------
@@ -48,7 +57,7 @@ enforcing them. They are:
    respectively.
 4. I try to separate related but distinct sections with a semicolon,
    within a timestamp section.
-5. Compilation and interview shows will tend to show only macroscopic structure.
+5. Compilation shows will tend to show only macroscopic structure.
 6. I try to keep these to exactly one page in general, with exceptions
    for oddball outliers, extremely information- and/or comedy-dense
    material (2016 election mayhem, for example) and the oldest shows.
@@ -79,7 +88,7 @@ Will This Work Ever be Available in Hardcopy?
 ---------------------------------------------
 
 I intend to self-publish this eventually, after the early shows are finished
-and I have a straight run of Shows 1-1000 (and beyond).
+and I have a straight run of Shows 1-1300 (and beyond).
 
 Thanks To:
 ----------

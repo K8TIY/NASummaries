@@ -12,7 +12,7 @@ use File::Copy;
 use HTML::Entities;
 
 my $usage = <<END;
-USAGE: $0 [-hnpv] [-m MAIL [-m MAIL2...]] [-x SYS]
+USAGE: $0 [-abdfghHilNrtuv] [-n SHOW] [-V vol]
 
 Reads NASummaries.txt, produce derivative HTML and/or LaTeX files,
   and optionally upload them to a webserver.
@@ -24,19 +24,20 @@ Reads NASummaries.txt, produce derivative HTML and/or LaTeX files,
     -g, --git           Commit and push to repo
     -h, --help          Print this summary and exit
     -H, --HTML          Create HTML
-    -i, --input         Read from argument instead of NASummaries.txt
+    -i, --input FILE    Read from FILE instead of NASummaries.txt
     -l, --latex         Create LaTeX
-    -n, --number        Use this number as the Show number in the git commit
+    -n, --number NUM    Use NUM as the Show number in the git commit
     -N, --noop          Do not execute rsync or git that would touch a remote site
     -r, --reedit        Indicate reedits in the LaTeX
     -t, --title         Suppress the title page
     -u, --upload        rsync to callclooney.org
     -v, --verbose       Print upload and git commands before executing them
+    -V, --volume VOL    Write only PDF volume VOL. May be repeated.
 END
 
 my ($opt_art, $opt_book, $opt_delete, $opt_frontmatter, $opt_git, $opt_help,
     $opt_HTML, $opt_input, $opt_latex, $opt_number, $opt_noop, $opt_reedit,
-    $opt_title, $opt_upload, $opt_verbose);
+    $opt_title, $opt_upload, $opt_verbose, @opt_volumes);
 
 Getopt::Long::Configure ('bundling');
 die 'Terminating' unless GetOptions('a|art' => \$opt_art,
@@ -53,13 +54,52 @@ die 'Terminating' unless GetOptions('a|art' => \$opt_art,
            'r|reedit' => \$opt_reedit,
            't|title' => \$opt_title,
            'u|upload' => \$opt_upload,
-           'v|verbose+' => \$opt_verbose);
+           'v|verbose+' => \$opt_verbose,
+           'V|volume:s@'  => \@opt_volumes);
 
 print "Verbosity $opt_verbose\n" if $opt_verbose;
 die "$usage\n\n" if $opt_help;
+my $volume_map = {};
+$volume_map->{$_} = 1 for keys @opt_volumes;
+
+# Colors at https://mirrors.rit.edu/CTAN/macros/latex/contrib/xcolor/xcolor.pdf page 38
+my $VOLUMES = [{'name' => '',
+                'darkColor' => 'OliveGreen',
+                'color' => 'Green',
+                'start' => 1},
+                {'name' => '1',
+                'darkColor' => 'Maroon',
+                'color' => 'Red',
+                'start' => 1,
+                'end'   => 300},
+                {'name' => '2',
+                'darkColor' => 'Maroon',
+                'color' => 'Red',
+                'start' => 301,
+                'end'   => 600},
+                {'name' => '3',
+                'darkColor' => 'Orange',
+                'color' => 'RedOrange',
+                'start' => 601,
+                'end'   => 900},
+                {'name' => '4',
+                'darkColor' => 'NavyBlue',
+                'color' => 'Cerulean',
+                'start' => 901,
+                'end'   => 1200},
+                {'name' => '5',
+                'darkColor' => 'Purple',
+                'color' => 'Thistle',
+                'start' => 1201}
+              ];
 
 my $maxShowNumber = 0;
 my $summaries = ReadSummaries($opt_input);
+$VOLUMES->[$_]->{'number'} = $VOLUMES->[$_]->{'name'} for (0 .. scalar @$VOLUMES - 1);
+$VOLUMES->[0]->{'number'} = 0;
+$VOLUMES->[0]->{'end'} = $maxShowNumber;
+$VOLUMES->[-1]->{'end'} = $maxShowNumber;
+
 my $latexFile;
 InitialSetup();
 if ($opt_HTML)
@@ -72,72 +112,82 @@ if ($opt_HTML)
   }
   WriteSitemap();
 }
-my $latexFileName = 'NASummaries.tex';
+
 if ($opt_latex)
 {
-  open $latexFile, '>:encoding(UTF-8)', $latexFileName;
-  LatexHeader();
-  my $nobreak = 0;
-  foreach my $summary (@$summaries)
+  foreach my $volume (@$VOLUMES)
   {
-    GetAlbumArt($summary);
-    LatexSection($summary, $nobreak);
-    $nobreak = ($summary->{'nobreak'})? 1:0;
-  }
-  print $latexFile '\end{document}'. "\n";
-  close $latexFile;
-  my $cmd = "xelatex -output-directory=na -halt-on-error $latexFileName";
-  print BLUE "$cmd\n" if $opt_verbose;
-  my $output = `$cmd`;
-  if ($?)
-  {
-    print BOLD RED "$output\n";
-    exit($?);
-  }
-  if ($opt_art)
-  {
-    $output =`$cmd`;
-    if ($?)
-    {
-      print BOLD RED "$output\n";
-      exit($?);
-    }
-  }
-  unless ($opt_title)
-  {
-    $cmd = 'xelatex -halt-on-error Title.tex';
-    print BLUE "$cmd\n" if $opt_verbose;
-    $output = `$cmd`;
-    if ($?)
-    {
-      print BOLD RED "$output\n";
-      exit($?);
-    }
-    $cmd = 'gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite'.
-           ' -sOutputFile=na/NASummariesTitled.pdf'.
-           ' Title.pdf na/NASummaries.pdf';
-    print BLUE "$cmd\n" if $opt_verbose;
-    `$cmd`;
-    File::Copy::copy('na/NASummariesTitled.pdf', 'na/NASummaries.pdf');
-  }
-  $cmd = 'gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE'.
-         ' -dQUIET -dBATCH -sOutputFile=na/NASummariesSmall.pdf'.
-         ' na/NASummaries.pdf';
-  print BLUE "$cmd\n" if $opt_verbose;
-  #`$cmd`;
-  #rename('na/NASummariesSmall.pdf', 'na/NASummaries.pdf');
-  if ($opt_delete)
-  {
-    unlink $latexFileName;
-    unlink 'na/NASummaries.aux';
-    unlink 'na/NASummaries.log';
-    unlink 'na/NASummaries.out';
-    unlink 'na/NASummaries.idx';
-    unlink 'na/NASummaries.ilg';
-    unlink 'na/NASummaries.ind';
-    unlink 'Title.log';
-    unlink 'Title.aux';
-  }
+    next if scalar keys %$volume_map && !defined $volume_map->{$volume->{'number'}};
+    my $latexFileBase = 'NASummaries' . $volume->{'name'};
+    my $titleFileBase = 'Title' . $volume->{'name'};
+    my $latexFileName = $latexFileBase .  '.tex';
+    my $indexFileName = $latexFileBase .  '.idx';
+		unless ($opt_title)
+		{
+			MakeLatexTitlePDF($volume);
+		}
+		open $latexFile, '>:encoding(UTF-8)', $latexFileName;
+		LatexHeader($volume);
+		my $nobreak = 0;
+		foreach my $summary (@$summaries)
+		{
+			GetAlbumArt($summary);
+			LatexSection($summary, $volume, $nobreak);
+			$nobreak = ($summary->{'nobreak'})? 1:0;
+		}
+		print $latexFile '\printindex' . "\n" . '\end{document}'. "\n";
+		close $latexFile;
+		my $cmd = "xelatex -output-directory=na -halt-on-error $latexFileName";
+		print BLUE "$cmd\n" if $opt_verbose;
+		my $output = `$cmd`;
+		if ($?)
+		{
+			print BOLD RED "$output\n";
+			exit($?);
+		}
+		my $idxcmd = "makeindex -q na/$indexFileName";
+		print BLUE "$idxcmd\n" if $opt_verbose;
+		$output = `$idxcmd`;
+		if ($?)
+		{
+			print BOLD RED "$output\n";
+			exit($?);
+		}
+		if ($opt_art)
+		{
+		  print BLUE "$cmd\n" if $opt_verbose;
+			$output =`$cmd`;
+			if ($?)
+			{
+				print BOLD RED "$output\n";
+				exit($?);
+			}
+		}
+		#$cmd = 'gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE'.
+		#			 ' -dQUIET -dBATCH -sOutputFile=na/NASummariesSmall.pdf'.
+		#			 ' na/NASummaries.pdf';
+		#print BLUE "$cmd\n" if $opt_verbose;
+		#`$cmd`;
+		#rename('na/NASummariesSmall.pdf', 'na/NASummaries.pdf');
+		if ($opt_delete)
+		{
+		  # FIXME: some of these are in the na dir and some are in the base dir.
+		  my $unlink = {};
+			$unlink->{$latexFileName} = 1;
+			my $suffixes = ['tex', 'aux', 'log', 'out', 'idx', 'ilg', 'ind'];
+			$unlink->{'na/' . $latexFileBase . '.' . $_} = 1 for @$suffixes;
+			$unlink->{$titleFileBase . '.' . $_} = 1 for @$suffixes;
+			foreach my $file (sort keys %$unlink)
+			{
+				if (-f $file)
+				{
+					print "Unlinking $file\n" if $opt_verbose;
+					unlink $file;
+				}
+			}
+		}
+		last if defined $opt_input;
+	}
 }
 Git() if $opt_git;
 Upload() if $opt_upload;
@@ -161,7 +211,7 @@ sub ReadSummaries
   my $summaries = <$in>;
   close $in;
   my @summaries = split m/\n\n+/, $summaries;
-  @summaries = reverse @summaries;
+  @summaries = reverse @summaries unless $opt_book;
   foreach my $summary (@summaries)
   {
     my $i = 0;
@@ -231,15 +281,23 @@ sub WriteIndexHTML
   my $html = HTMLHeader('No Agenda Show Summaries');
   print $index $html. "\n";
   $html = <<'END';
-<h1>No Agenda Show Summaries
-  <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="https://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0"/>
-  </a>
-</h1>
+<h1>No Agenda Show Summaries</h1>
 <h4>Shut up, slave!</h4>
 <hr/>
+<h3>PDF Files</h3>
 END
   print $index $html;
+  foreach my $volume (@$VOLUMES)
+  {
+    my $filename = 'NASummaries' . $volume->{'name'} . '.pdf';
+    my  $start = $volume->{'start'};
+    my $end = $volume->{'end'};
+    my $name = ($volume->{'name'})? "Volume $volume->{'name'}" : 'Full PDF';
+    $html = sprintf '<a href="%s"><strong><img alt="PDF" src="pdf-icon.png" width="20" height="20"/>   %s (Shows %d-%d)</strong></a><br/>',
+            $filename, $name, $start, $end;
+    print $index $html. "\n";
+  }
+  print $index "<hr/>\n<h3>HTML</h3>\n";
   foreach my $summary (@$summaries)
   {
     $html = sprintf '<a href="%s"><strong>%s</strong> (%s) <i>%s</i></a><br/>',
@@ -544,15 +602,20 @@ sub ShowNotesURL
 
 sub LatexHeader
 {
+  my $volume = shift;
+
   if ($opt_book)
   {
     print $latexFile <<'END';
 \documentclass[twoside]{book}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[LO,RE]{}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
 \renewcommand{\headrulewidth}{0pt}
 END
   }
@@ -571,8 +634,13 @@ END
 \usepackage[colorlinks=true]{hyperref}
 \setlist{nolistsep}
 \setlist{noitemsep}
+\usepackage{makeidx}
+\usepackage{showidx}
 \usepackage{dblfloatfix}
 \usepackage{marginnote}
+\usepackage{pdfpages}
+\usepackage{multicol}
+\usepackage{xltxtra}
 \newcommand{\mono}[1]{{\fontspec{Courier}#1}}
 \newcommand{\scmono}[1]{{\fontspec{Source Code Pro}#1}}
 \newcommand{\emoji}[1]{{\fontspec[Scale=0.9]{Hiragino Sans W1}#1}}
@@ -588,26 +656,36 @@ END
 %\titleformat{\section}[display]{\large}{\thetitle}{1em}{#1\space\xrfill[0.6ex]{0.4pt}}
 \renewcommand*\thesection{\arabic{section}}
 \newcommand{\doulos}[1]{{\fontspec{Doulos SIL}#1}}
+\makeindex
 \begin{document}
 END
-  if ($opt_book && !$opt_frontmatter)
+  if ($opt_book && (!$opt_title || !$opt_frontmatter))
   {
-    print $latexFile '\include{Frontmatter}'. "\n". '\mainmatter'. "\n";
+    print $latexFile '\frontmatter'. "\n";
   }
-  elsif (!$opt_frontmatter)
+  unless ($opt_title)
   {
-    print $latexFile '\textit{The text of this document and associated software'.
-                     ' are hereby placed in the public domain. All image copyrights'.
-                     ' belong to their respective owners.}'. "\n". '\newpage'. "\n";
+    my $pdfName = 'Title' . $volume->{'name'} . '.pdf';
+    print $latexFile '\includepdf{' . $pdfName . '}'. "\n";
+  }
+  unless ($opt_frontmatter)
+  {
+    print $latexFile '\include{Frontmatter}'. "\n";
+  }
+  if ($opt_book && (!$opt_title || !$opt_frontmatter))
+  {
+    print $latexFile '\mainmatter'. "\n";
   }
 }
 
 sub LatexSection
 {
-  my $summary = shift;
+  my $summary  = shift;
+  my $volume   = shift;
   my $samepage = shift;
 
   my $n = $summary->{'number'};
+  return if $n < $volume->{'start'} or $n > $volume->{'end'};
   print $latexFile sprintf '\renewcommand{\thesection}{%s}%s', $n, "\n";
   my $pic = 'na/art/'. AlbumArtFilename($summary);
   $pic = undef unless -f $pic;
@@ -680,7 +758,8 @@ sub LatexEscape
 
   $s =~ s/\s\s+/\\\\/g;
   $s =~ s/([#%&\$])/\\$1/g;
-  $s =~ s/\*\*(.+?)\*\*/\\textbf{$1}/g;
+  #$s =~ s/\*\*(.+?)\*\*/\\textbf{$1}/g;
+  $s =~ s/\*\*(.+?\*?)\*\*/Indexify($1)/eg;
   $s =~ s/\*(.+?)\*/\\textit{$1}/g;
   $s =~ s/~~~(.+?)~~~/\\censor{abcdefg}/g;
   $s =~ s/~~(.+?)~~/\\sout{$1}/g;
@@ -736,7 +815,19 @@ sub LatexEscape
   $s = $new;
   $s =~ s/\\('+)/\$$1\$/g;
   $s =~ s/\\&rdquo;/"/g;
+  $s =~ s/IDXQUOTE/"/g;
   return $s;
+}
+
+sub Indexify
+{
+  my $s = shift;
+  my $index = '\textbf{' . $s . '}';
+  $s =~ s/"/IDXQUOTE"/g;
+  $s =~ s/!/IDXQUOTE!/g;
+  $index .= '\index{' . $s . '|textbf}';
+  #print "$index ($s)\n";
+  return $index;
 }
 
 sub Git
@@ -756,3 +847,119 @@ sub Upload
   print BLUE "$cmd\n" if $opt_verbose;
   `$cmd` unless $opt_noop;
 }
+
+
+sub MakeLatexTitlePDF
+{
+  my $volume = shift;
+
+  my $start = $volume->{'start'} || 1;
+  my $end = $volume->{'end'};
+  my $volumeName = ($volume->{'name'})? "Volume $volume->{name}: " : '';
+  my $subtitle = $volumeName. "Shows $start-$end";
+  my $latexTitleFileName = 'Title' . $volume->{'name'} . '.tex';
+  open $latexFile, '>:encoding(UTF-8)', $latexTitleFileName;
+  my $content = <<'END';
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This template has been done collecting multiple entries from:
+% http://tex.stackexchange.com
+%
+% Author:
+% Graciano Bay
+%
+% License:
+% CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{report}
+\usepackage{fontspec}
+\usepackage[margin=1.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{calligra}
+\usepackage{tikz}
+\usetikzlibrary{matrix,fit,chains,calc,scopes}            
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{pgfornament}
+\newcommand{\doulos}[1]{{\fontspec{Doulos SIL}#1}}
+
+
+\tcbset{
+    Baystyle/.style={
+        sharp corners,
+        enhanced,
+        boxrule=6pt,
+        colframe=__DARK_COLOR__,
+        height=\textheight,
+        width=\textwidth,
+        borderline={8pt}{-11pt}{},
+    }
+}
+
+\pagestyle{empty}
+\begin{document}
+\centering
+    \begin{tcolorbox}[Baystyle,]
+        {\begin{center}
+        \vspace*{0.14\textheight}
+        \fontsize{45}{45}\doulos{The Complete Book of Everything}\\      
+        \vspace*{0.018\textheight}
+        \fontsize{25}{25}\calligra Summaries of The No Agenda Show\\
+        %\vspace*{0.018\textheight}
+        \vspace*{0.03\textheight}
+        \fontsize{15}{15}\doulos{__VOLUME__}\\  
+        \vspace*{0.04\textheight}
+        \pgfornament[color=__MAIN_COLOR__,width=6cm]{86}\\
+        \vspace*{0.09\textheight}
+        {\fontsize{18}{18}\calligra Edited by\\}
+        \fontsize{28}{28}\doulos{Sir Fudgefountain}\\
+        \vspace*{0.1\textheight}
+        \centering
+        \begin{tikzpicture}[
+        start chain=main going right,
+          ]
+             \node[on chain,align=center,draw=none] (a1){{\fontsize{12}{12}\calligra Illustrations by} \\
+             {\Large \doulos{The Human Resources}}
+             }; 
+             { [start branch=A going below]
+             \node[on chain,align=center,draw=none,scale=0.01](d1){};
+             \node[on chain,align=center,draw=none,](d2){\Huge \doulos{Shut Up, Slave!}};
+             %\node[on chain,align=center,draw=none,scale=0.01](d3){};
+             }
+             \node[on chain,align=center,draw=none] (a2){\hspace{-0.5em}\pgfornament[color=__MAIN_COLOR__,width=2.8cm]{69}};
+             { [start branch=B going below]
+             \node[on chain,align=center,draw=none,scale=0.01](s1){};
+             \node[on chain,align=center,draw=none,](s2){};
+             \node[on chain,align=center,draw=none,scale=0.01](s3){}; 
+             }
+             \node[on chain,align=center,draw=none] (a3){{\fontsize{12}{12}\calligra Final Review by} \\
+             {\Large \doulos{Mark Pugner}}
+             };          
+             { [start branch=C going below]
+             \node[on chain,align=center,draw=none,scale=0.01](e1){};
+             \node[on chain,align=center,draw=none,](e2){\Huge \doulos{In the Morning!}};
+             %\node[on chain,align=center,draw=none,scale=0.01](e3){}; 
+        }
+        %\hspace{-0.5em}\draw[black] (s2.north) -- (s2.south);
+        \end{tikzpicture}
+            \end{center}}
+    \end{tcolorbox}
+\end{document}
+END
+  
+  $content =~ s/__DARK_COLOR__/$volume->{darkColor}/g;
+  $content =~ s/__MAIN_COLOR__/$volume->{color}/g;
+  $content =~ s/__VOLUME__/$subtitle/g;
+  print $latexFile $content . "\n";
+  close $latexFile;
+  my $cmd = 'xelatex -halt-on-error ' . $latexTitleFileName;
+	print BLUE "$cmd\n" if $opt_verbose;
+	my $output = `$cmd`;
+	if ($?)
+	{
+		print BOLD RED "$output\n";
+		exit($?);
+	}
+}
+
