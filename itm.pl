@@ -163,6 +163,8 @@ if ($opt_latex)
 				exit($?);
 			}
 		}
+		# Not sure if this is worth the time. If reinstated, needs to be
+		# updated to support multiple volumes.
 		#$cmd = 'gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE'.
 		#			 ' -dQUIET -dBATCH -sOutputFile=na/NASummariesSmall.pdf'.
 		#			 ' na/NASummaries.pdf';
@@ -171,12 +173,12 @@ if ($opt_latex)
 		#rename('na/NASummariesSmall.pdf', 'na/NASummaries.pdf');
 		if ($opt_delete)
 		{
-		  # FIXME: some of these are in the na dir and some are in the base dir.
 		  my $unlink = {};
 			$unlink->{$latexFileName} = 1;
 			my $suffixes = ['tex', 'aux', 'log', 'out', 'idx', 'ilg', 'ind'];
 			$unlink->{'na/' . $latexFileBase . '.' . $_} = 1 for @$suffixes;
 			$unlink->{$titleFileBase . '.' . $_} = 1 for @$suffixes;
+			$unlink->{$titleFileBase . '.pdf'} = 1;
 			foreach my $file (sort keys %$unlink)
 			{
 				if (-f $file)
@@ -635,7 +637,7 @@ END
 \setlist{nolistsep}
 \setlist{noitemsep}
 \usepackage{makeidx}
-\usepackage{showidx}
+%\usepackage{showidx}
 \usepackage{dblfloatfix}
 \usepackage{marginnote}
 \usepackage{pdfpages}
