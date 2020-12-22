@@ -25,6 +25,7 @@ Reads NASummaries.txt, produce derivative HTML and/or LaTeX files,
     -h, --help          Print this summary and exit
     -H, --HTML          Create HTML
     -i, --input FILE    Read from FILE instead of NASummaries.txt
+    -I  --no-index      Suppress LaTeX index
     -l, --latex         Create LaTeX
     -n, --number NUM    Use NUM as the Show number in the git commit
     -N, --noop          Do not execute rsync or git that would touch a remote site
@@ -36,8 +37,8 @@ Reads NASummaries.txt, produce derivative HTML and/or LaTeX files,
 END
 
 my ($opt_art, $opt_book, $opt_delete, $opt_frontmatter, $opt_git, $opt_help,
-    $opt_HTML, $opt_input, $opt_latex, $opt_number, $opt_noop, $opt_reedit,
-    $opt_title, $opt_upload, $opt_verbose, @opt_volumes);
+    $opt_HTML, $opt_input, $opt_index, $opt_latex, $opt_number, $opt_noop,
+    $opt_reedit, $opt_title, $opt_upload, $opt_verbose, @opt_volumes);
 
 Getopt::Long::Configure ('bundling');
 die 'Terminating' unless GetOptions('a|art' => \$opt_art,
@@ -48,6 +49,7 @@ die 'Terminating' unless GetOptions('a|art' => \$opt_art,
            'h|?' => \$opt_help,
            'H|HTML' => \$opt_HTML,
            'i|input:s' => \$opt_input,
+           'I|no-index' => \$opt_index,
            'l|latex' => \$opt_latex,
            'n|number:i' => \$opt_number,
            'N|noop' => \$opt_noop,
@@ -145,13 +147,16 @@ if ($opt_latex)
 			print BOLD RED "$output\n";
 			exit($?);
 		}
-		my $idxcmd = "makeindex -q na/$indexFileName";
-		print BLUE "$idxcmd\n" if $opt_verbose;
-		$output = `$idxcmd`;
-		if ($?)
+		if (!$opt_index)
 		{
-			print BOLD RED "$output\n";
-			exit($?);
+		  my $idxcmd = "makeindex -q na/$indexFileName";
+		  print BLUE "$idxcmd\n" if $opt_verbose;
+		  $output = `$idxcmd`;
+			if ($?)
+			{
+				print BOLD RED "$output\n";
+				exit($?);
+			}
 		}
 		if ($opt_art)
 		{
