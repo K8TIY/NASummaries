@@ -62,7 +62,8 @@ die 'Terminating' unless GetOptions('a|art' => \$opt_art,
 print "Verbosity $opt_verbose\n" if $opt_verbose;
 die "$usage\n\n" if $opt_help;
 my $volume_map = {};
-$volume_map->{$_} = 1 for keys @opt_volumes;
+$volume_map->{$_} = 1 for @opt_volumes;
+
 
 # Colors at https://mirrors.rit.edu/CTAN/macros/latex/contrib/xcolor/xcolor.pdf page 38
 my $VOLUMES = [{'name' => '',
@@ -480,8 +481,8 @@ sub HTMLEscape
   $s =~ s/'/&rsquo;/g;
   $s =~ s/\[\]/ /g;
   $s =~ s/\[\[(\[*.+?\]*)\]\]/$1/g;
-  $s =~ s/\\{/{/g;
-  $s =~ s/\\}/}/g;
+  $s =~ s/\\\{/{/g;
+  $s =~ s/\\\}/}/g;
   #$s =~ s/\\(\'+)/$1/g
   $s =~ s/__(.+?)__/$1/g;
   $s =~ s/(\d+@\d:\d\d:\d\d)/PlayerURL($1, 'html')/ge;
@@ -642,7 +643,6 @@ END
 \setlist{nolistsep}
 \setlist{noitemsep}
 \usepackage{makeidx}
-%\usepackage{showidx}
 \usepackage{dblfloatfix}
 \usepackage{marginnote}
 \usepackage{pdfpages}
