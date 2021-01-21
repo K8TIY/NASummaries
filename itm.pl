@@ -34,11 +34,14 @@ Reads NASummaries.txt, produce derivative HTML and/or LaTeX files,
     -u, --upload        rsync to callclooney.org
     -v, --verbose       Print upload and git commands before executing them
     -V, --volume VOL    Write only PDF volume VOL. May be repeated.
+    -w, --warn          Display AppleScript warning before attempting rsync
+                        to keep ssh from timing out
 END
 
 my ($opt_art, $opt_book, $opt_delete, $opt_frontmatter, $opt_git, $opt_help,
     $opt_HTML, $opt_input, $opt_index, $opt_latex, $opt_number, $opt_noop,
-    $opt_reedit, $opt_title, $opt_upload, $opt_verbose, @opt_volumes);
+    $opt_reedit, $opt_title, $opt_upload, $opt_verbose, @opt_volumes,
+    $opt_warn);
 
 Getopt::Long::Configure ('bundling');
 die 'Terminating' unless GetOptions('a|art' => \$opt_art,
@@ -57,7 +60,8 @@ die 'Terminating' unless GetOptions('a|art' => \$opt_art,
            't|title' => \$opt_title,
            'u|upload' => \$opt_upload,
            'v|verbose+' => \$opt_verbose,
-           'V|volume:s@'  => \@opt_volumes);
+           'V|volume:s@'  => \@opt_volumes,
+           'w|warn'       => \$opt_warn);
 
 print "Verbosity $opt_verbose\n" if $opt_verbose;
 die "$usage\n\n" if $opt_help;
@@ -850,6 +854,10 @@ sub Git
 
 sub Upload
 {
+  if ($opt_warn)
+  {
+    UploadAlert('Confirm ready to run upload.');
+  }
   my $cmd = 'rsync -azrlv --exclude=".DS_Store" -e ssh na/ blugs@blugs.com:blugs.com/na';
   print BLUE "$cmd\n" if $opt_verbose;
   `$cmd` unless $opt_noop;
@@ -970,3 +978,15 @@ END
 	}
 }
 
+sub UploadAlert
+{
+  my $text = shift;
+
+  my $cmd = <<END;
+    tell app "System Events"
+      display dialog "$text" buttons {"OK"} default button 1 with icon caution
+      return
+    end tell
+END
+  system 'osascript', map { ('-e', $_) } split(m/\n/, $cmd);
+}
