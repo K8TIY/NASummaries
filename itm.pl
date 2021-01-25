@@ -19,6 +19,7 @@ Reads NASummaries.txt, produce derivative HTML and/or LaTeX files,
 
     -a, --art           Include album art in PDF and HTML
     -b, --book          Use LaTeX book class instead of report
+    -c, --comment COM   Use COM as the git commit comment
     -d, --delete        Delete LaTeX files after rendering PDF
     -f, --frontmatter   Suppress the frontmatter
     -g, --git           Commit and push to repo
@@ -38,14 +39,15 @@ Reads NASummaries.txt, produce derivative HTML and/or LaTeX files,
                         to keep ssh from timing out
 END
 
-my ($opt_art, $opt_book, $opt_delete, $opt_frontmatter, $opt_git, $opt_help,
-    $opt_HTML, $opt_input, $opt_index, $opt_latex, $opt_number, $opt_noop,
-    $opt_reedit, $opt_title, $opt_upload, $opt_verbose, @opt_volumes,
-    $opt_warn);
+my ($opt_art, $opt_book, $opt_commit_comment, $opt_delete, $opt_frontmatter,
+    $opt_git, $opt_help, $opt_HTML, $opt_input, $opt_index, $opt_latex,
+    $opt_number, $opt_noop, $opt_reedit, $opt_title, $opt_upload, $opt_verbose,
+    @opt_volumes, $opt_warn);
 
 Getopt::Long::Configure ('bundling');
 die 'Terminating' unless GetOptions('a|art' => \$opt_art,
            'b|book' => \$opt_book,
+           'c|comment:s' => \$opt_commit_comment,
            'd|delete' => \$opt_delete,
            'f|frontmatter' => \$opt_frontmatter,
            'g|git' => \$opt_git,
@@ -843,8 +845,13 @@ sub Indexify
 
 sub Git
 {
-  my $n = (defined $opt_number)? $opt_number : $maxShowNumber;
-  my $cmd = "git commit -m 'Show $n.' NASummaries.txt";
+  my $comment = $opt_commit_comment;
+  if (!$comment)
+  {
+    my $n = (defined $opt_number)? $opt_number : $maxShowNumber;
+    $comment = "Show $n.";
+  }
+  my $cmd = "git commit -m '$comment' NASummaries.txt";
   print BLUE "$cmd\n" if $opt_verbose;
   `$cmd` unless $opt_noop;
   $cmd = 'git push origin master';
