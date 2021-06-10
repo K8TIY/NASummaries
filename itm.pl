@@ -393,7 +393,7 @@ sub GetAlbumArt
                 ' Gecko/20100401 Firefox/3.6.3" --compressed '. $url;
       print BLUE "$cmd\n" if $opt_verbose;
       my $html = `$cmd`;
-      if ($html =~ m!(https?://.+?/enc/.+?-art-big(-copy)?.png)!)
+      if ($html =~ m!(https?://.+?/enc/.+?-art-big(-copy)?\.(png|jpg))!)
       {
         $arturl = $1;
       }
@@ -415,10 +415,25 @@ sub GetAlbumArt
         $arturl = 'https://noagendaartgenerator.com/'. $1;
       }
     }
+    die sprintf "Can't extract album art URL for $filename" unless defined $arturl;
     my $cmd = 'curl '. $arturl. ' -o na/art/'. $filename;
     print BLUE "$cmd\n" if $opt_verbose;
     print `$cmd`;
     die sprintf "Can't get album art at %s", defined ($arturl)? $arturl : '<undef>' unless -f 'na/art/'. $filename;
+    my $filetype = `file na/art/$filename`;
+    if ($filetype =~ m/JPEG\simage\sdata/i)
+    {
+      my $jpg = 'na/art/' . $filename . '.jpg';
+      my $cmd = "mv na/art/$filename $jpg";
+      print BLUE "$cmd\n";
+      `$cmd`;
+      $cmd = "convert $jpg na/art/$filename";
+      print BLUE "$cmd\n";
+      `$cmd`;
+      $cmd = "rm $jpg";
+      print BLUE "$cmd\n";
+      `$cmd`;
+    }
   }
 }
 
