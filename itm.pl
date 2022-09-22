@@ -351,10 +351,8 @@ sub WriteHTMLPage
   {
     my @parts = split m/\s+/, $line, 2;
     my $line = HTMLEscape($parts[1]);
-    my $urltime = $parts[0];
-    $urltime =~ s/:/-/g;
-    my $label = sprintf '<a href="https://www.noagendaplayer.com/listen/%s/%s" target="_blank">%s</a>',
-                        $n, $urltime, $parts[0];
+    my $label = sprintf '<a href="https://www.noagendashow.net/listen/%s?t=%s" target="_blank">%s</a>',
+                        $n, $parts[0], $parts[0];
     print $page sprintf '<tr><td style="padding-right:5px;vertical-align:top;"><code>%s</code></td><td>%s</td></tr>',
                         $label, $line;
     print $page "\n";
@@ -544,6 +542,7 @@ sub HTMLEscape
   return $s
 }
 
+# https://www.noagendashow.net/listen/1395?t=01:11:05
 sub PlayerURL
 {
   my $s   = shift;
@@ -552,17 +551,15 @@ sub PlayerURL
   my $label = $s;
   my @parts = split /\s*@\s*/, $s, 2;
   my $shownum = $parts[0];
-  my $urltime = $parts[1];
-  $urltime =~ s/:/-/g;
   if ($fmt eq 'latex')
   {
-    $label = sprintf "\\href{https://www.noagendaplayer.com/listen/%s/%s}{\\scmono{$s}}",
-                     $shownum, $urltime;
+    $label = sprintf "\\href{https://www.noagendashow.net/listen/%s?t=%s}{\\scmono{$s}}",
+                     $shownum, $parts[1];
   }
   else
   {
-    $label = sprintf "<a href='https://www.noagendaplayer.com/listen/%s/%s' target='_blank'><code>$s</code></a>",
-                     $shownum, $urltime;
+    $label = sprintf "<a href='https://www.noagendashow.net/listen/%s?t=%s' target='_blank'><code>$s</code></a>",
+                     $shownum, $parts[1];
   }
   return $label;
 }
@@ -572,6 +569,7 @@ sub HTMLHeader
   my $title = shift;
   my $showNumber = shift;
 
+  # FIXME: get rid of this Google crap
   my $googleDiv = <<'END';
 <div>
   <script type="text/javascript">
@@ -766,9 +764,7 @@ END
   {
     my @parts = split m/\s+/, $line, 2;
     my $label = sprintf '\scmono{%s}', $parts[0];
-    my $urltime = $parts[0];
-    $urltime =~ s/:/-/g;
-    $label = sprintf '\href{https://www.noagendaplayer.com/listen/%s/%s}{%s}', $n, $urltime, $label;
+    $label = sprintf '\href{https://www.noagendashow.net/listen/%s?t=%s}{%s}', $n, $parts[0], $label;
     print $latexFile sprintf "\\item[%s]%s\n", $label, LatexEscape($parts[1]);
   }
   print $latexFile "\\end{itemize}\n";
