@@ -82,8 +82,8 @@ my $VOLUMES = [{'name' => '',
                 'start' => 1,
                 'end'   => 300},
                 {'name' => '2',
-                'darkColor' => 'Maroon',
-                'color' => 'Red',
+                'darkColor' => 'Brown',
+                'color' => 'Chocolate',
                 'start' => 301,
                 'end'   => 600},
                 {'name' => '3',
@@ -99,7 +99,12 @@ my $VOLUMES = [{'name' => '',
                 {'name' => '5',
                 'darkColor' => 'Purple',
                 'color' => 'Thistle',
-                'start' => 1201}
+                'start' => 1201,
+                'end'   => 1500},
+                {'name' => '6',
+                'darkColor' => 'DarkSlateGrey',
+                'color' => 'LightSlateGrey',
+                'start' => 1501}
               ];
 
 my $maxShowNumber = 0;
@@ -393,7 +398,9 @@ sub GetAlbumArt
                 ' Gecko/20100401 Firefox/3.6.3" --compressed '. $url;
       print BLUE "$cmd\n" if $opt_verbose;
       my $html = `$cmd`;
-      if ($html =~ m!(https?://.+?/enc/.+?-art-big(-copy)?\.(png|jpg))!)
+      #print "$html\n";
+      #https://noagendaassets.com/enc/1633636868.958_na-1388-big.png
+      if ($html =~ m!(https?://.+?/enc/.+?-big(-copy|-feed)?\.(png|jpg))!)
       {
         $arturl = $1;
       }
