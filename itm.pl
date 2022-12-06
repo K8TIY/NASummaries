@@ -101,10 +101,10 @@ my $VOLUMES = [{'name' => '',
                 'color' => 'Thistle',
                 'start' => 1201,
                 'end'   => 1500},
-                {'name' => '6',
-                'darkColor' => 'DarkSlateGrey',
-                'color' => 'LightSlateGrey',
-                'start' => 1501}
+                #{'name' => '6',
+                #'darkColor' => 'DarkSlateGrey',
+                #'color' => 'LightSlateGrey',
+                #'start' => 1501}
               ];
 
 my $maxShowNumber = 0;
